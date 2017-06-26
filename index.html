@@ -49,11 +49,12 @@
         <a class="nav-link" href="/about">About</a>
       </li>
     </ul>
-    <ul class="nav">
+    <a onclick="locate();" class="btn btn-outline-info" role="button" aria-pressed="true"><img src="http://www.iconsfind.com/wp-content/uploads/2013/11/Maps-and-Geolocation-Define-location.ico" width="20" /></a>
+    <!--<ul class="nav">
       <form class="form-inline justify-content-end", id="locsearch">
         <input class="form-control" type="text" placeholder="Search Map">
       </form>
-    </ul>
+    </ul>-->
   </div>
 </nav>
 
@@ -64,6 +65,61 @@
 <link href="https://cdn.mapkit.io/v1/infobox.css" rel="stylesheet">
 
 <script>
+
+function locate() {
+
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(function(position) {
+      var pos = {
+        lat: position.coords.latitude,
+        lng: position.coords.longitude
+      };
+
+      map.setCenter(pos);
+      map.setZoom(14);
+      var locations1 = [
+        {
+          marker: "https://i.imgur.com/DnoLNQk.png",
+          lat: position.coords.latitude,
+          lng: position.coords.longitude,
+          iw: {
+            address: true,
+            desc: true,
+            email: true,
+            enable: true,
+            int_tel: false,
+            open: true,
+            open_hours: true,
+            photo: true,
+            tel: false,
+            title: true,
+            web: true
+          }
+        }
+      ];;
+
+      for (i = 0; i < locations1.length; i++) {
+        // vv Icon scaling
+        var icon = {
+          url: locations1[i].marker, // url
+          scaledSize: new google.maps.Size(18, 18)
+        }; // scaled size
+        // ^^ Icon scaling
+        marker = new google.maps.Marker({
+          icon: icon,
+          position: new google.maps.LatLng(
+            position.coords.latitude,
+            position.coords.longitude
+          ),
+          map: map,
+          title: "You"
+        });
+        markersArray.push(marker);
+      }
+    })
+  }
+
+}
 
 var locations = [
   // Pool: https://i.imgur.com/hWD3v5O.png
@@ -618,8 +674,7 @@ var locations = [
 
 
     // GEOLOCATION START
-
-    // Try HTML5 geolocation.
+    /*
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(function(position) {
         var pos = {
@@ -668,9 +723,9 @@ var locations = [
           });
           markersArray.push(marker);
         }
-      });
-      // GEOLOCATION END
-    }
+      })
+    }*/
+    // GEOLOCATION END
   }
 </script>
 
