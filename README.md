@@ -2,12 +2,13 @@
 ATX Recreation Webapp
 
 Simple, mobile first map and calendar of Austin Texas for Parks and Recreation department displaying:
-
-Museums
-Parks
-Pools
-Rec Centers
-Playgrounds
-Fields
-Splash Pads
-Trail Entrances or Exits
+  - Museums
+  - Parks
+  - Pools
+  - Rec Centers
+  - Playgrounds
+  - Fields
+  - Splash Pads
+  - Trail Entrances or Exits
+  
+  Original Django: https://github.com/trentpiercy/atxrec
