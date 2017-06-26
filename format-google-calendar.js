@@ -250,7 +250,7 @@ var formatGoogleCalendar = (function() {
         }
 
         if (config.sameDayTimes && !moreDaysEvent && !isAllDayEvent) {
-            formattedTime = '</br><h5>' + getFormattedTime(dateStart) + ' - ' + getFormattedTime(dateEnd) + '</h5>';
+            formattedTime = '</br><b>' + getFormattedTime(dateStart) + ' - ' + getFormattedTime(dateEnd) + '</b>';
         }
 
         //month day, year time-time
