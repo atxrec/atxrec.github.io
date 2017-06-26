@@ -10,5 +10,5 @@ Simple, mobile first map and calendar of Austin Texas for Parks and Recreation d
   - Fields
   - Splash Pads
   - Trail Entrances or Exits
-  
-  Original Django: https://github.com/trentpiercy/atxrec
+
+Original Django: https://github.com/trentpiercy/atxrec
