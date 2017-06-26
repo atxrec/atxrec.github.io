@@ -1,0 +1,132 @@
+<!-- Made by 2017 Get Ready CTM Interns in 2 weeks -->
+<!-- Trent Piercy, Aaron Crisler, Joel, Seun and Omari Thomas -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <title>ATX Recreations Map</title>
+
+    <link rel="icon" href="https://i.imgur.com/Sq7ZWl4.png">
+
+    <style>
+    #map {
+      height: 100%;
+    }
+
+    body, html {
+      height: calc(100% - 27px);
+    }
+
+    .navbar {
+        margin-bottom: 0px;
+        height: auto;
+        background-color: #F2F3F4;
+    }
+
+    #card1 {
+      margin-bottom: 8px;
+    }
+
+    .card {
+      padding: 0px;
+    }
+
+    #locsearch {
+      width: 78px;
+    }
+
+    #calendar {
+      padding-top: 8px;
+      width: auto;
+      height: auto;
+      background-color: #F8F9F9;
+      padding-bottom: 12px;
+      font-size: 15px;
+    }
+
+    #navbar {
+      font-size: 90%;
+    }
+
+    #collapseOne {
+      font-size: 100%;
+    }
+
+    #about {
+      font-size: 15px;
+      padding-top: 10px;
+      padding-bottom: 1px;
+      background-color: #F8F9F9;
+    }
+
+    </style>
+  </head>
+  <body>
+
+
+
+<nav class="navbar navbar-light", id="navbar">
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="/">Map</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="atxrec-build/calendar.html">Calendar</a>
+    </li>
+    <li class="nav-item ">
+      <a class="nav-link active" href="#">About</a>
+    </li>
+  </ul>
+</nav>
+
+<!--
+class="js-selected-navigation-item selected reponav-item"
+class="js-selected-navigation-item reponav-item"
+-->
+
+<div class="container-fluid", id="about">
+    <h6>Simple, mobile first map and calendar of Austin Texas Parks and Recreation department</h6><p>Add to homescreen for easy access</p>
+
+    <div id="accordion" role="tablist" aria-multiselectable="true">
+      <div class="card">
+        <div class="card-header" role="tab" id="headingOne">
+          <h6 class="mb-0">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Map Legend
+            </a>
+          </h6>
+        </div>
+
+        <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+          <div class="card-block">
+            <img src=https://i.imgur.com/Q657jYI.png width="32" height="32"/>- Museum<br/>
+            <img src=https://i.imgur.com/Sq7ZWl4.png width="32" height="32"/>- Park<br/>
+            <img src=https://i.imgur.com/hWD3v5O.png width="32" height="32"/>- Pool<br/>
+            <img src=https://i.imgur.com/SMUpvya.png width="32" height="32"/>- Rec Center<br/>
+            <img src=https://i.imgur.com/umsvfED.png width="32" height="32"/>- Playground<br/>
+            <img src=https://i.imgur.com/5n8TP5Y.png width="32" height="32"/>- Field<br/>
+            <img src=https://i.imgur.com/tO61iV6.png width="32" height="32"/>- Splash Pad<br/>
+            <img src=https://i.imgur.com/K7MTLyv.png width="32" height="32"/>- Trail Entrance or Exit
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <br/><p>Email <a href="mailto:atxrecmap@gmail.com">atxrecmap@gmail.com</a> with any unmapped locations or suggestions.<br/><br/><a href="https://github.com/trentpiercy/atxrec">Github Source</a></p>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+
+
+  </body>
+</html>

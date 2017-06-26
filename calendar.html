@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <title>ATX Recreations Map</title>
+
+    <link rel="icon" href="https://i.imgur.com/Sq7ZWl4.png">
+
+    <style>
+    #map {
+      height: 100%;
+    }
+
+    body, html {
+      height: calc(100% - 27px);
+    }
+
+    .navbar {
+        margin-bottom: 0px;
+        height: auto;
+        background-color: #F2F3F4;
+    }
+
+    #card1 {
+      margin-bottom: 8px;
+    }
+
+    .card {
+      padding: 0px;
+    }
+
+    #locsearch {
+      width: 78px;
+    }
+
+    #calendar {
+      padding-top: 8px;
+      width: auto;
+      height: auto;
+      background-color: #F8F9F9;
+      padding-bottom: 12px;
+      font-size: 15px;
+    }
+
+    #navbar {
+      font-size: 90%;
+    }
+
+    #collapseOne {
+      font-size: 100%;
+    }
+
+    #about {
+      font-size: 15px;
+      padding-top: 10px;
+      padding-bottom: 1px;
+      background-color: #F8F9F9;
+    }
+
+    </style>
+  </head>
+  <body>
+
+
+
+<!-- FormatGoogleCalendar Javascript file -->
+<script type="text/javascript" src="format-google-calendar.js"></script>
+
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<nav class="navbar navbar-light", id="navbar">
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="/atxrec-build/">Map</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" href="#">Calendar</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/about">About</a>
+    </li>
+  </ul>
+</nav>
+
+<div class="container-fluid", id="calendar">
+
+  <div id="accordion" role="tablist" aria-multiselectable="true">
+    <div class="card", id="card1">
+      <div class="card-header" role="tab" id="headingOne">
+        <h6 class="mb-0">
+          <a data-toggle="collapse" data-parent="#accordion1" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Upcoming Events</a>
+        </h6>
+      </div>
+
+      <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+        <div class="card-block">
+          <p id="events-upcoming"></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" role="tab" id="headingTwo">
+        <h6 class="mb-0">
+          <a data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">Past Events</a>
+        </h6>
+      </div>
+
+      <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+        <div class="card-block">
+          <p id="events-past"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br/>
+  <p>Calendar Source - <a href="https://calendar.google.com/calendar/embed?src=bkbg3tpo2hkiv0coca0fc6s3ds%40group.calendar.google.com&ctz=America/Chicago">ATX Parks and Rec Events</a></p>
+</div>
+
+<!--<div class="container-fluid", id="calendar">
+  <script type="text/javascript">
+    var body_space_int = (window.innerHeight-100);
+    body_space = body_space_int.toString();
+    document.write('<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23F8F9F9&amp;src=bkbg3tpo2hkiv0coca0fc6s3ds%40group.calendar.google.com&amp;color=%23F8F9F9&amp;ctz=America%2FChicago" style="border-width:0" width="100%" height=' + body_space + 'frameborder="0">');
+  </script>
+</div>-->
+
+<script>
+formatGoogleCalendar.init({
+        calendarUrl: 'https://www.googleapis.com/calendar/v3/calendars/bkbg3tpo2hkiv0coca0fc6s3ds%40group.calendar.google.com/events?key=AIzaSyA8GUJpzCpqy_rXBs8slLThmErnqjieBn4',
+        past: true,
+        upcoming: true,
+        sameDayTimes: true,
+        dayNames: true,
+        pastTopN: -1,
+        upcomingTopN: 3,
+        recurringEvents: false,
+        itemsTagName: 'p',
+        upcomingSelector: '#events-upcoming',
+        pastSelector: '#events-past',
+        upcomingHeading: '',
+        pastHeading: '',
+        format: ['<h4>', '*date*', '</h4>', '<h6>', '*summary*', '</h6>', ' — ', '*description*', ' at ', '<p>','*location*','</p>']
+});
+</script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+
+
+  </body>
+</html>
