@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta charset="utf-8">
 
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#F2F3F4">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#F2F3F4">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#F2F3F4">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
     <title>ATX Recreations Map</title>
@@ -58,7 +65,7 @@
       <form class="form-inline justify-content-end", id="locsearch">
         <input class="form-control" type="text" placeholder="Search">
       </form>
-      <a onclick="initLocate()" class="btn btn-outline-info" role="button" aria-pressed="true"><img src="https://www.iconsfind.com/wp-content/uploads/2013/11/Maps-and-Geolocation-Define-location.ico" width="20"/></a>
+      <button type="button" onclick="initLocate()" class="btn btn-outline-info"><img src="https://www.iconsfind.com/wp-content/uploads/2013/11/Maps-and-Geolocation-Define-location.ico" width="20"/></button>
     </ul>
   </div>
 </nav>
