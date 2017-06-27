@@ -12,7 +12,7 @@ function InfoBox(opt_opts) {
     opt_opts.boxStyle || {}), (this.closeBoxMargin_ =
     opt_opts.closeBoxMargin || "2px"), (this.closeBoxURL_ =
     opt_opts.closeBoxURL ||
-    "http://www.google.com/intl/en_us/mapfiles/close.gif"), "" ===
+    "https://www.google.com/intl/en_us/mapfiles/close.gif"), "" ===
     opt_opts.closeBoxURL && (this.closeBoxURL_ = ""), (this.infoBoxClearance_ =
     opt_opts.infoBoxClearance || new google.maps.Size(1, 1)), void 0 ===
     opt_opts.visible &&
@@ -102,7 +102,7 @@ function InfoBox(opt_opts) {
   var img = "";
   return "" !== this.closeBoxURL_ &&
     (img =
-      '<md-button class="md-icon-button infoBox-close" aria-label="More"><img src="http://cdn.mapkit.io/v1/icons/close.svg"/></md-button>'), img;
+      '<md-button class="md-icon-button infoBox-close" aria-label="More"><img src="https://cdn.mapkit.io/v1/icons/close.svg"/></md-button>'), img;
 }), (InfoBox.prototype.addClickHandler_ = function() {
   var closeBox;
   "" !== this.closeBoxURL_
