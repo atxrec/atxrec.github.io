@@ -102,7 +102,7 @@ function InfoBox(opt_opts) {
   var img = "";
   return "" !== this.closeBoxURL_ &&
     (img =
-      '<md-button class="md-icon-button infoBox-close" aria-label="More"><img src="close.svg"/></md-button>'), img;
+      '<md-button class="md-icon-button infoBox-close" aria-label="More"><img src="https://cdn.mapkit.io/v1/icons/close.svg"/></md-button>'), img;
 }), (InfoBox.prototype.addClickHandler_ = function() {
   var closeBox;
   "" !== this.closeBoxURL_
