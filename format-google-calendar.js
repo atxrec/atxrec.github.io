@@ -148,9 +148,12 @@ var formatGoogleCalendar = (function() {
             summary = result.summary || '',
             description = result.description || '',
             location = result.location || '',
-            htmlLink = result.htmlLink,
+            dateStart_url = (result.start.dateTime || result.start.date).replace(/[-]/g,'').replace('05:00','').replace(/[:]/g,''),
+            dateEnd_url = (result.end.dateTime || result.end.date).replace(/[-]/g,'').replace('05:00','').replace(/[:]/g,''),
+            htmlLink = 'https://calendar.google.com/calendar/event?action=TEMPLATE&hl=en&ctz=America%2FChicago&text=' + encodeURIComponent(summary) + '&dates=' + encodeURIComponent(dateStart_url+'/'+dateEnd_url) + '&location=' + encodeURIComponent(location) + '&details=' + encodeURIComponent(description),
             i;
 
+            console.log(htmlLink);
         for (i = 0; i < format.length; i++) {
 
             format[i] = format[i].toString();
@@ -164,7 +167,7 @@ var formatGoogleCalendar = (function() {
             } else if (format[i] === '*location*') {
                 output = output.concat('<span class="location">' + location + '</span>');
             } else if (format[i] === '*htmlLink*') {
-                output = output.concat('<a href=' + htmlLink + '>Add to your Calendar!</a>');
+                output = output.concat('<a href=' + htmlLink + '>Add to Your Calendar!</a>');
             } else {
                 if ((format[i + 1] === '*location*' && location !== '') ||
                     (format[i + 1] === '*summary*' && summary !== '') ||

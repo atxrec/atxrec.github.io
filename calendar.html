@@ -126,7 +126,7 @@ formatGoogleCalendar.init({
         sameDayTimes: true,
         dayNames: true,
         pastTopN: -1,
-        upcomingTopN: 3,
+        upcomingTopN: 100,
         recurringEvents: false,
         itemsTagName: 'p',
         upcomingSelector: '#events-upcoming',
@@ -134,7 +134,7 @@ formatGoogleCalendar.init({
         upcomingHeading: '',
         pastHeading: '',
         //format: ['<h4>', '*summary*', '</h4><b>', '*date*', '</b></br>', '*description*', ' at ', '<p>','*location*', '</br><a href=', '*htmlLink*', '>Add to your Calendar</a></p>']
-        format: ['<h4>', '*summary*', '</h4><b>', '*date*', '</b></br>', '*description*', ' at ', '<p>','*location*', '</br>', '*htmlLink*', '</p>']
+        format: ['<h4>', '*summary*', '</h4><b>', '*date*', '</b></br>', '*description*', '<p>','*location*', '</br>', '*htmlLink*', '</p>']
 });
 </script>
 
