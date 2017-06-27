@@ -148,6 +148,7 @@ var formatGoogleCalendar = (function() {
             summary = result.summary || '',
             description = result.description || '',
             location = result.location || '',
+            htmlLink = result.htmlLink,
             i;
 
         for (i = 0; i < format.length; i++) {
@@ -162,11 +163,14 @@ var formatGoogleCalendar = (function() {
                 output = output.concat('<span class="description">' + description + '</span>');
             } else if (format[i] === '*location*') {
                 output = output.concat('<span class="location">' + location + '</span>');
+            } else if (format[i] === '*htmlLink*') {
+                output = output.concat('<a href=' + htmlLink + '>Add to your Calendar!</a>');
             } else {
                 if ((format[i + 1] === '*location*' && location !== '') ||
                     (format[i + 1] === '*summary*' && summary !== '') ||
                     (format[i + 1] === '*date*' && dateFormatted !== '') ||
-                    (format[i + 1] === '*description*' && description !== '')) {
+                    (format[i + 1] === '*description*' && description !== '') ||
+                    (format[i + 1] === '*htmlLink*' && htmlLink !== '')) {
 
                     output = output.concat(format[i]);
                 }
@@ -304,7 +308,7 @@ var formatGoogleCalendar = (function() {
     };
 
     //Check differences between dates and format them
-    var getFormattedDate = function(dateStart, dateEnd, moreDaysEvent, isAllDayEvent, dayNames) {
+    var getFormattedDate = function(dateStart, dateEnd, moreDaysEvent, isAllDayEvent, dayNames, htmlLink) {
         var formattedDate = '';
 
         if (dateStart[0] === dateEnd[0]) {
@@ -346,6 +350,7 @@ var formatGoogleCalendar = (function() {
         }
 
         return formattedDate;
+        return htmlLink;
     };
 
     var getFormattedTime = function (date) {
