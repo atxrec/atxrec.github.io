@@ -153,7 +153,6 @@ var formatGoogleCalendar = (function() {
             htmlLink = 'https://calendar.google.com/calendar/event?action=TEMPLATE&hl=en&ctz=America%2FChicago&text=' + encodeURIComponent(summary) + '&dates=' + encodeURIComponent(dateStart_url+'/'+dateEnd_url) + '&location=' + encodeURIComponent(location) + '&details=' + encodeURIComponent(description),
             i;
 
-            console.log(htmlLink);
         for (i = 0; i < format.length; i++) {
 
             format[i] = format[i].toString();
