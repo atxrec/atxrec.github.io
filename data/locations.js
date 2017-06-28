@@ -1187,7 +1187,7 @@ var locations = [
       { day: "Saturday", hours: "10am4pm" },
       { day: "Sunday", hours: "15pm" }
     ],
-    marker: "https://i.imgur.com/Sq7ZWl4.png",
+    marker: "https://i.imgur.com/SMUpvya.png",
     iw: {
       address: true,
       desc: true,
@@ -2858,7 +2858,7 @@ var locations = [
     lng: -97.69216210000002,
     vicinity: "901 Vasquez St, Austin, TX 78741, United States",
     open_hours: [],
-    marker: "https://i.imgur.com/Sq7ZWl4.png",
+    marker: "https://i.imgur.com/5n8TP5Y.png",
     iw: {
       address: true,
       desc: true,
@@ -4480,7 +4480,7 @@ var locations = [
     lng: -97.75194099999999,
     vicinity: "2913 Northland Dr, Austin, TX 78757, United States",
     open_hours: [],
-    marker: "https://i.imgur.com/Sq7ZWl4.png",
+    marker: "https://i.imgur.com/SMUpvya.png",
     iw: {
       address: true,
       desc: true,
