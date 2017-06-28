@@ -93,7 +93,6 @@ var locations = [
     desc:
       "Winding park with city vistas, a night-lit fountain, a pond, walking paths & other features.",
     tel: "(512) 974-6700",
-    marker: "https://i.imgur.com/Sq7ZWl4.png",
     email: "",
     web:
       "https://www.google.com/maps/place/Butler+Park/@30.2615294,-97.7546749,18.25z/data=!4m5!3m4!1s0x8644b51b0fce85b3:0x7ee2d130cb0014de!8m2!3d30.2613863!4d-97.754175",
@@ -112,6 +111,7 @@ var locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:6392" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:6393" }
     ],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -1674,6 +1674,7 @@ var locations = [
       { day: "Saturday", hours: "10am–8pm", $$hashKey: "object:440" },
       { day: "Sunday", hours: "10am–8pm", $$hashKey: "object:441" }
     ],
+    marker: "https://i.imgur.com/hWD3v5O.png",
     iw: {
       address: true,
       desc: true,
@@ -1751,6 +1752,7 @@ var locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:1397" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:1398" }
     ],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -1828,6 +1830,7 @@ var locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:1904" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:1905" }
     ],
+    marker: "https://i.imgur.com/K7MTLyv.png",
     iw: {
       address: true,
       desc: true,
@@ -1866,6 +1869,7 @@ var locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:2148" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:2149" }
     ],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -1943,6 +1947,7 @@ var locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:2675" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:2676" }
     ],
+    marker: "https://i.imgur.com/K7MTLyv.png",
     iw: {
       address: true,
       desc: true,
@@ -1981,6 +1986,7 @@ var locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:2951" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:2952" }
     ],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -2019,6 +2025,7 @@ var locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:3267" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:3268" }
     ],
+    marker: "https://i.imgur.com/4JjAp9F.png",
     iw: {
       address: true,
       desc: true,
@@ -2057,6 +2064,7 @@ var locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:3609" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:3610" }
     ],
+    marker: "https://i.imgur.com/K7MTLyv.png",
     iw: {
       address: true,
       desc: true,
@@ -2133,6 +2141,7 @@ var locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:4182" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:4183" }
     ],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -2171,6 +2180,7 @@ var locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:4397" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:4398" }
     ],
+    marker: "https://i.imgur.com/4JjAp9F.png",
     iw: {
       address: true,
       desc: true,
@@ -2209,6 +2219,7 @@ var locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:4640" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:4641" }
     ],
+    marker: "https://i.imgur.com/K7MTLyv.png",
     iw: {
       address: true,
       desc: true,
@@ -2247,6 +2258,7 @@ var locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:4922" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:4923" }
     ],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -2316,6 +2328,7 @@ var locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:5342" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:5343" }
     ],
+    marker: "https://i.imgur.com/K7MTLyv.png",
     iw: {
       address: true,
       desc: true,
@@ -2354,6 +2367,7 @@ var locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:5618" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:5619" }
     ],
+    marker: "https://i.imgur.com/K7MTLyv.png",
     iw: {
       address: true,
       desc: true,
@@ -2431,6 +2445,7 @@ var locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:6114" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:6115" }
     ],
+    marker: "https://i.imgur.com/K7MTLyv.png",
     iw: {
       address: true,
       desc: true,
@@ -2469,6 +2484,7 @@ var locations = [
       { day: "Saturday", hours: "Closed", $$hashKey: "object:6382" },
       { day: "Sunday", hours: "Closed", $$hashKey: "object:6383" }
     ],
+    marker: "https://i.imgur.com/SMUpvya.png",
     iw: {
       address: true,
       desc: true,
@@ -2507,36 +2523,7 @@ var locations = [
       { day: "Saturday", hours: "5am–1:30am", $$hashKey: "object:6699" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:6700" }
     ],
-    iw: {
-      address: true,
-      desc: true,
-      email: true,
-      enable: true,
-      int_tel: false,
-      open: true,
-      open_hours: true,
-      photo: true,
-      tel: true,
-      title: true,
-      web: true
-    }
-  },
-  {
-    title: "Plummers Cemetery",
-    address: "Austin, TX 78721, USA",
-    desc: "",
-    tel: "",
-    int_tel: "",
-    email: "",
-    web:
-      "https://www.google.com/maps/place/Plummers+Cemetery/@30.2771103,-97.6907467,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b67293b8d217:0x53669ef3a49577c4!8m2!3d30.2771103!4d-97.688558",
-    web_formatted: "Open in Google Maps",
-    open: "",
-    time: "",
-    lat: 30.2771103,
-    lng: -97.688558,
-    vicinity: "Austin",
-    open_hours: "",
+    marker: "https://i.imgur.com/4JjAp9F.png",
     iw: {
       address: true,
       desc: true,
@@ -2614,6 +2601,7 @@ var locations = [
       { day: "Saturday", hours: "6am–10pm", $$hashKey: "object:7479" },
       { day: "Sunday", hours: "6am–10pm", $$hashKey: "object:7480" }
     ],
+    marker: "https://i.imgur.com/K7MTLyv.png",
     iw: {
       address: true,
       desc: true,
@@ -2652,6 +2640,7 @@ var locations = [
       { day: "Saturday", hours: "7am–7pm", $$hashKey: "object:7795" },
       { day: "Sunday", hours: "7am–7pm", $$hashKey: "object:7796" }
     ],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -2768,6 +2757,7 @@ var locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:9036" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:9037" }
     ],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -2930,6 +2920,7 @@ var locations = [
     lng: -97.69434669999998,
     vicinity: "3851 Manor Road, Austin",
     open_hours: "",
+    marker: "https://i.imgur.com/4JjAp9F.png",
     iw: {
       address: true,
       desc: true,
@@ -3030,7 +3021,7 @@ var locations = [
     lng: -97.80054100000001,
     vicinity: "10003 S 1st St, Austin, TX 78748, United States",
     open_hours: [],
-    marker: "https://i.imgur.com/Sq7ZWl4.png",
+    marker: "https://i.imgur.com/K7MTLyv.png",
     iw: {
       address: true,
       desc: true,
@@ -3092,6 +3083,7 @@ var locations = [
     lng: -97.80260349999998,
     vicinity: "10520 S 1st St, Austin, TX 78748, United States",
     open_hours: "",
+    marker: "https://i.imgur.com/K7MTLyv.png",
     iw: {
       address: true,
       desc: true,
@@ -3208,6 +3200,7 @@ var locations = [
       { day: "Saturday", hours: "Closed", $$hashKey: "object:5496" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:5497" }
     ],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -3316,6 +3309,7 @@ var locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:6350" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:6351" }
     ],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -3509,7 +3503,7 @@ var locations = [
     lng: -97.73590739999997,
     vicinity: "6605 E William Cannon Dr, Austin, TX 78744, United States",
     open_hours: [],
-    marker: "https://i.imgur.com/Sq7ZWl4.png",
+    marker: "https://i.imgur.com/K7MTLyv.png",
     iw: {
       address: true,
       desc: true,
@@ -3641,6 +3635,7 @@ var locations = [
     lng: -97.7651879,
     vicinity: "3900 Dry Creek Drive, Austin",
     open_hours: "",
+    marker: "https://i.imgur.com/K7MTLyv.png",
     iw: {
       address: true,
       desc: true,
@@ -3718,6 +3713,7 @@ var locations = [
       { day: "Saturday", hours: "5am–1am", $$hashKey: "object:10323" },
       { day: "Sunday", hours: "5am–12am", $$hashKey: "object:10324" }
     ],
+    marker: "https://i.imgur.com/K7MTLyv.png",
     iw: {
       address: true,
       desc: true,
@@ -3841,7 +3837,7 @@ var locations = [
     lng: -97.80078309999999,
     vicinity: "3755 S Capital of Texas Hwy, Austin, TX 78704, United States",
     open_hours: [],
-    marker: "https://i.imgur.com/Sq7ZWl4.png",
+    marker: "https://i.imgur.com/K7MTLyv.png",
     iw: {
       address: true,
       desc: true,
@@ -3880,6 +3876,7 @@ var locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:11864" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:11865" }
     ],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -3980,6 +3977,7 @@ var locations = [
       { day: "Saturday", hours: "8am–8pm", $$hashKey: "object:12633" },
       { day: "Sunday", hours: "8am–8pm", $$hashKey: "object:12634" }
     ],
+    marker: "https://i.imgur.com/4JjAp9F.png",
     iw: {
       address: true,
       desc: true,
@@ -4103,7 +4101,7 @@ var locations = [
     lng: -97.86468739999998,
     vicinity: "7910 Beckett Rd, Austin, TX 78749, United States",
     open_hours: [],
-    marker: "https://i.imgur.com/Sq7ZWl4.png",
+    marker: "https://i.imgur.com/K7MTLyv.png",
     iw: {
       address: true,
       desc: true,
@@ -4134,7 +4132,7 @@ var locations = [
     lng: -97.80078309999999,
     vicinity: "3755 S Capital of Texas Hwy, Austin, TX 78704, United States",
     open_hours: [],
-    marker: "https://i.imgur.com/Sq7ZWl4.png",
+    marker: "https://i.imgur.com/K7MTLyv.png",
     iw: {
       address: true,
       desc: true,
@@ -4196,6 +4194,7 @@ var locations = [
     lng: -97.72460460000002,
     vicinity: "811 E 41st St, Austin, TX 78751, United States",
     open_hours: "",
+    marker: "https://i.imgur.com/4JjAp9F.png",
     iw: {
       address: true,
       desc: true,
@@ -4226,7 +4225,7 @@ var locations = [
     lng: -97.89597309999999,
     vicinity: "6801 La Crosse Ave, Austin, TX 78739, United States",
     open_hours: [],
-    marker: "https://i.imgur.com/Sq7ZWl4.png",
+    marker: "https://i.imgur.com/K7MTLyv.png",
     iw: {
       address: true,
       desc: true,
@@ -4419,6 +4418,7 @@ var locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:6843" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:6844" }
     ],
+    marker: "https://i.imgur.com/K7MTLyv.png",
     iw: {
       address: true,
       desc: true,
@@ -4798,6 +4798,7 @@ var locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:5387" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:5388" }
     ],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -5007,6 +5008,7 @@ var locations = [
       { day: "Saturday", hours: "11am–8pm", $$hashKey: "object:760" },
       { day: "Sunday", hours: "11am–8pm", $$hashKey: "object:761" }
     ],
+    marker: "https://i.imgur.com/hWD3v5O.png",
     iw: {
       address: true,
       desc: true,
@@ -5045,6 +5047,7 @@ var locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:1081" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:1082" }
     ],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -5075,6 +5078,7 @@ var locations = [
     lng: -97.71527879999996,
     vicinity: "700 Crestland Drive West, Austin",
     open_hours: "",
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -5144,6 +5148,7 @@ var locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:1837" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:1838" }
     ],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -5182,6 +5187,7 @@ var locations = [
       { day: "Saturday", hours: "10am–4pm", $$hashKey: "object:2158" },
       { day: "Sunday", hours: "Closed", $$hashKey: "object:2159" }
     ],
+    marker: "https://i.imgur.com/Q657jYI.png",
     iw: {
       address: true,
       desc: true,
@@ -5257,6 +5263,7 @@ var locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:2652" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:2653" }
     ],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -5294,6 +5301,7 @@ var locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:2973" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:2974" }
     ],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -5331,6 +5339,7 @@ var locations = [
       { day: "Saturday", hours: "10am–8pm", $$hashKey: "object:3294" },
       { day: "Sunday", hours: "10am–8pm", $$hashKey: "object:3295" }
     ],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -5368,6 +5377,7 @@ var locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:3585" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:3586" }
     ],
+    marker: "https://i.imgur.com/4JjAp9F.png",
     iw: {
       address: true,
       desc: true,
@@ -5443,6 +5453,7 @@ var locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:4227" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:4228" }
     ],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -5510,6 +5521,7 @@ var locations = [
     lng: -97.70015209999997,
     vicinity: "1000 West Rundberg Lane, Austin",
     open_hours: "",
+    marker: "https://i.imgur.com/SMUpvya.png",
     iw: {
       address: true,
       desc: true,
@@ -5585,6 +5597,7 @@ var locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:5399" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:5400" }
     ],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -5701,6 +5714,7 @@ var locations = [
       { day: "Saturday", hours: "6am–7pm", $$hashKey: "object:6317" },
       { day: "Sunday", hours: "6am–7pm", $$hashKey: "object:6318" }
     ],
+    marker: "https://i.imgur.com/4JjAp9F.png",
     iw: {
       address: true,
       desc: true,
@@ -5739,6 +5753,7 @@ var locations = [
       { day: "Saturday", hours: "Closed", $$hashKey: "object:6566" },
       { day: "Sunday", hours: "Closed", $$hashKey: "object:6567" }
     ],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -6010,6 +6025,7 @@ var locations = [
     lng: -97.74752690000003,
     vicinity: "Austin",
     open_hours: "",
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -6040,6 +6056,7 @@ var locations = [
     lng: -97.6670191,
     vicinity: "5100 E 51st St, Austin",
     open_hours: "",
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -6109,6 +6126,7 @@ var locations = [
       { day: "Saturday", hours: "5am10pm", $$hashKey: "object:2998" },
       { day: "Sunday", hours: "5am10pm", $$hashKey: "object:2999" }
     ],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -6225,6 +6243,7 @@ var locations = [
       { day: "Saturday", hours: "5am10pm", $$hashKey: "object:3791" },
       { day: "Sunday", hours: "5am10pm", $$hashKey: "object:3792" }
     ],
+    marker: "https://i.imgur.com/K7MTLyv.png",
     iw: {
       address: true,
       desc: true,
