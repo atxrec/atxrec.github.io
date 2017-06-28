@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#c1f0c1">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#c1f0c1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <title>ATX Recreations Map</title>
+
+    <link rel="icon" href="https://i.imgur.com/Sq7ZWl4.png">
+
+    <style>
+
+    body, html {
+      height: calc(100% - 27px);
+    }
+
+    .navbar {
+        margin-bottom: 0px;
+        height: auto;
+        background-color: #F2F3F4;
+    }
+
+    #calendar {
+      padding-top: 8px;
+      width: auto;
+      height: auto;
+      background-color: #F8F9F9;
+      padding-bottom: 12px;
+      font-size: 15px;
+    }
+
+    #card1 {
+      margin-bottom: 8px;
+    }
+
+    .card-block {
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
+
+    #navbar {
+      font-size: 90%;
+    }
+
+    </style>
+  </head>
+  <body>
+
+
+
+<!-- FormatGoogleCalendar Javascript file -->
+<script type="text/javascript" src="format-google-calendar.js"></script>
+
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<nav class="navbar navbar-light", id="navbar">
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="/">Map</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" href="#">Calendar</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/about">About</a>
+    </li>
+  </ul>
+</nav>
+
+<div class="container-fluid", id="calendar">
+
+  <div id="accordion" role="tablist" aria-multiselectable="true">
+    <div class="card", id="card1">
+      <div class="card-header" role="tab" id="headingOne">
+        <h6 class="mb-0">
+          <a data-toggle="collapse" data-parent="#accordion1" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Upcoming Events</a>
+        </h6>
+      </div>
+
+      <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+        <div class="card-block">
+          <p id="events-upcoming"></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" role="tab" id="headingTwo">
+        <h6 class="mb-0">
+          <a data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">Past Events</a>
+        </h6>
+      </div>
+
+      <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+        <div class="card-block">
+          <p id="events-past"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br/>
+  <p>Calendar Source - <a href="https://calendar.google.com/calendar/embed?src=bkbg3tpo2hkiv0coca0fc6s3ds%40group.calendar.google.com&ctz=America/Chicago" target="_blank">ATX Parks and Rec Events</a></p>
+</div>
+
+<script>
+formatGoogleCalendar.init({
+        calendarUrl: 'https://www.googleapis.com/calendar/v3/calendars/bkbg3tpo2hkiv0coca0fc6s3ds%40group.calendar.google.com/events?key=AIzaSyA8GUJpzCpqy_rXBs8slLThmErnqjieBn4',
+        past: true,
+        upcoming: true,
+        sameDayTimes: true,
+        dayNames: true,
+        pastTopN: -1,
+        upcomingTopN: 100,
+        recurringEvents: false,
+        itemsTagName: 'p',
+        upcomingSelector: '#events-upcoming',
+        pastSelector: '#events-past',
+        upcomingHeading: '',
+        pastHeading: '',
+        format: ['<h4>', '*summary*', '</h4><b>', '*date*', '</b></br>', '*description*', '<p>','*location*', '</br>', '*htmlLink*', '</p>']
+});
+</script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+
+
+  </body>
+</html>

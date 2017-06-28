@@ -625,59 +625,6 @@ var locations = [
         bindInfoWindow(marker, map, locations[i]);
       };
     };
-    // GEOLOCATION START
-    /*
-    if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(function(position) {
-        var pos = {
-          lat: position.coords.latitude,
-          lng: position.coords.longitude
-        };
-
-        map.setCenter(pos);
-        map.setZoom(14);
-        var locations1 = [
-          {
-            marker: "https://i.imgur.com/DnoLNQk.png",
-            lat: position.coords.latitude,
-            lng: position.coords.longitude,
-            iw: {
-              address: true,
-              desc: true,
-              email: true,
-              enable: true,
-              int_tel: false,
-              open: true,
-              open_hours: true,
-              photo: true,
-              tel: false,
-              title: true,
-              web: true
-            }
-          }
-        ];;
-
-        for (i = 0; i < locations1.length; i++) {
-          // vv Icon scaling
-          var icon = {
-            url: locations1[i].marker, // url
-            scaledSize: new google.maps.Size(18, 18)
-          }; // scaled size
-          // ^^ Icon scaling
-          marker = new google.maps.Marker({
-            icon: icon,
-            position: new google.maps.LatLng(
-              position.coords.latitude,
-              position.coords.longitude
-            ),
-            map: map,
-            title: "You"
-          });
-          markersArray.push(marker);
-        }
-      })
-    }*/
-    // GEOLOCATION END
   }
 
   function initLocate() {
