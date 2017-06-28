@@ -1,12 +1,3 @@
-// Pool: https://i.imgur.com/hWD3v5O.png
-// Park: https://i.imgur.com/Sq7ZWl4.png
-// Splash: https://i.imgur.com/tO61iV6.png
-// Museum: https://i.imgur.com/Q657jYI.png
-// Playground: https://i.imgur.com/umsvfED.png
-// Trail: https://i.imgur.com/K7MTLyv.png
-// Field: https://i.imgur.com/5n8TP5Y.png
-// Rec Center: https://i.imgur.com/SMUpvya.png
-
 var locations = [
   {
     title: "Austin Recreation Center",
@@ -221,7 +212,7 @@ var locations = [
     lat: 30.2522166,
     lng: -97.7182153,
     vicinity: "2407 Canterbury Street, Austin",
-    open_hours: "",
+    open_hours: [],
     marker: "https://i.imgur.com/tO61iV6.png",
     iw: {
       address: true,
@@ -442,7 +433,7 @@ var locations = [
     lat: 30.2054576,
     lng: -97.78819759999999,
     vicinity: "Austin",
-    open_hours: "",
+    open_hours: [],
     marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
@@ -510,7 +501,7 @@ var locations = [
     lat: 30.22992619999999,
     lng: -97.84332060000002,
     vicinity: "Austin",
-    open_hours: "",
+    open_hours: [],
     marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
@@ -1110,7 +1101,7 @@ var locations = [
     lat: 30.3361716,
     lng: -97.7135781,
     vicinity: "401 West Saint Johns Avenue, Austin",
-    open_hours: "",
+    open_hours: [],
     marker: "https://i.imgur.com/5n8TP5Y.png",
     iw: {
       address: true,
@@ -1368,7 +1359,7 @@ var locations = [
     lat: 30.3396177,
     lng: -97.7113761,
     vicinity: "7501 Meadowview Lane, Austin",
-    open_hours: "",
+    open_hours: [],
     marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
@@ -2288,7 +2279,7 @@ var locations = [
     lat: 30.2776483,
     lng: -97.6732935,
     vicinity: "3901 Tannehill Lane, Austin",
-    open_hours: "",
+    open_hours: [],
     marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
@@ -2919,7 +2910,7 @@ var locations = [
     lat: 30.2894513,
     lng: -97.69434669999998,
     vicinity: "3851 Manor Road, Austin",
-    open_hours: "",
+    open_hours: [],
     marker: "https://i.imgur.com/4JjAp9F.png",
     iw: {
       address: true,
@@ -3082,7 +3073,7 @@ var locations = [
     lat: 30.1491464,
     lng: -97.80260349999998,
     vicinity: "10520 S 1st St, Austin, TX 78748, United States",
-    open_hours: "",
+    open_hours: [],
     marker: "https://i.imgur.com/K7MTLyv.png",
     iw: {
       address: true,
@@ -3634,7 +3625,7 @@ var locations = [
     lat: 30.347218,
     lng: -97.7651879,
     vicinity: "3900 Dry Creek Drive, Austin",
-    open_hours: "",
+    open_hours: [],
     marker: "https://i.imgur.com/K7MTLyv.png",
     iw: {
       address: true,
@@ -4193,7 +4184,7 @@ var locations = [
     lat: 30.299039,
     lng: -97.72460460000002,
     vicinity: "811 E 41st St, Austin, TX 78751, United States",
-    open_hours: "",
+    open_hours: [],
     marker: "https://i.imgur.com/4JjAp9F.png",
     iw: {
       address: true,
@@ -5077,7 +5068,7 @@ var locations = [
     lat: 30.341536,
     lng: -97.71527879999996,
     vicinity: "700 Crestland Drive West, Austin",
-    open_hours: "",
+    open_hours: [],
     marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
@@ -5108,7 +5099,7 @@ var locations = [
     lat: 30.2434653,
     lng: -97.72001849999998,
     vicinity: "2525 South Lakeshore Boulevard, Austin",
-    open_hours: "",
+    open_hours: [],
     marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
@@ -5520,7 +5511,7 @@ var locations = [
     lat: 30.36494579999999,
     lng: -97.70015209999997,
     vicinity: "1000 West Rundberg Lane, Austin",
-    open_hours: "",
+    open_hours: [],
     marker: "https://i.imgur.com/SMUpvya.png",
     iw: {
       address: true,
@@ -5783,7 +5774,7 @@ var locations = [
     lat: 30.35275000000001,
     lng: -97.73606869999998,
     vicinity: "Pineleaf Place, Austin",
-    open_hours: "",
+    open_hours: [],
     marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
@@ -5853,7 +5844,7 @@ var locations = [
     lat: 30.3447116,
     lng: -97.70954130000001,
     vicinity: "520 Northway Drive, Austin",
-    open_hours: "",
+    open_hours: [],
     marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
@@ -6024,7 +6015,7 @@ var locations = [
     lat: 30.2640463,
     lng: -97.74752690000003,
     vicinity: "Austin",
-    open_hours: "",
+    open_hours: [],
     marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
@@ -6055,7 +6046,7 @@ var locations = [
     lat: 30.298976,
     lng: -97.6670191,
     vicinity: "5100 E 51st St, Austin",
-    open_hours: "",
+    open_hours: [],
     marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
@@ -6304,7 +6295,7 @@ var locations = [
     lat: 30.2737382,
     lng: -97.7360031,
     vicinity: "500 E 12th St, Austin, TX 78701, United States",
-    open_hours: "",
+    open_hours: [],
     marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
@@ -6335,7 +6326,7 @@ var locations = [
     lat: 30.3469004,
     lng: -97.69866939999997,
     vicinity: "500 E Powell Ln, Austin, TX 78703, United States",
-    open_hours: "",
+    open_hours: [],
     marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
