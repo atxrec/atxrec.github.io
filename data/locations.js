@@ -1,3 +1,12 @@
+// Pool: https://i.imgur.com/hWD3v5O.png
+// Park: https://i.imgur.com/Sq7ZWl4.png
+// Splash: https://i.imgur.com/tO61iV6.png
+// Museum: https://i.imgur.com/Q657jYI.png
+// Playground: https://i.imgur.com/umsvfED.png
+// Trail: https://i.imgur.com/K7MTLyv.png
+// Field: https://i.imgur.com/5n8TP5Y.png
+// Rec Center: https://i.imgur.com/SMUpvya.png
+
 locations = [
   {
     title: "Springwoods Neighborhood Park",
@@ -7,7 +16,7 @@ locations = [
     int_tel: "+1 512-974-6797",
     email: "",
     web: "",
-    web_formatted: "",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "1001",
     lat: 30.4506415,
@@ -51,7 +60,7 @@ locations = [
     int_tel: "+1 512-974-6700",
     email: "",
     web: "",
-    web_formatted: "",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
     lat: 30.2679131,
@@ -68,7 +77,7 @@ locations = [
     ],
     marker: {
       url:
-        "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png",
+        "https://i.imgur.com/Sq7ZWl4.png",
       scaledSize: { width: 25, height: 42, f: "px", b: "px" },
       origin: { x: 0, y: 0 },
       anchor: { x: 12, y: 42 }
@@ -95,7 +104,7 @@ locations = [
     int_tel: "+1 512-974-6700",
     email: "",
     web: "",
-    web_formatted: "",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
     lat: 30.2470744,
@@ -112,7 +121,7 @@ locations = [
     ],
     marker: {
       url:
-        "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png",
+        "https://i.imgur.com/Sq7ZWl4.png",
       scaledSize: { width: 25, height: 42, f: "px", b: "px" },
       origin: { x: 0, y: 0 },
       anchor: { x: 12, y: 42 }
@@ -139,7 +148,7 @@ locations = [
     int_tel: "+1 512-974-6700",
     email: "",
     web: "",
-    web_formatted: "",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
     lat: 30.241392,
@@ -156,7 +165,7 @@ locations = [
     ],
     marker: {
       url:
-        "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png",
+        "https://i.imgur.com/Sq7ZWl4.png",
       scaledSize: { width: 25, height: 42, f: "px", b: "px" },
       origin: { x: 0, y: 0 },
       anchor: { x: 12, y: 42 }
@@ -183,7 +192,7 @@ locations = [
     int_tel: "",
     email: "",
     web: "",
-    web_formatted: "",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.2054576,
@@ -192,7 +201,7 @@ locations = [
     open_hours: "",
     marker: {
       url:
-        "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png",
+        "https://i.imgur.com/Sq7ZWl4.png",
       scaledSize: { width: 25, height: 42, f: "px", b: "px" },
       origin: { x: 0, y: 0 },
       anchor: { x: 12, y: 42 }
@@ -219,7 +228,7 @@ locations = [
     int_tel: "+1 512-974-9331",
     email: "",
     web: "",
-    web_formatted: "",
+    web_formatted: "Open in Google Maps",
     open: "Closed",
     time: "1001",
     lat: 30.3601434,
@@ -236,7 +245,7 @@ locations = [
     ],
     marker: {
       url:
-        "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png",
+        "https://i.imgur.com/Sq7ZWl4.png",
       scaledSize: { width: 25, height: 42, f: "px", b: "px" },
       origin: { x: 0, y: 0 },
       anchor: { x: 12, y: 42 }
@@ -263,7 +272,7 @@ locations = [
     int_tel: "",
     email: "",
     web: "",
-    web_formatted: "",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.22992619999999,
@@ -272,7 +281,7 @@ locations = [
     open_hours: "",
     marker: {
       url:
-        "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png",
+        "https://i.imgur.com/Sq7ZWl4.png",
       scaledSize: { width: 25, height: 42, f: "px", b: "px" },
       origin: { x: 0, y: 0 },
       anchor: { x: 12, y: 42 }
@@ -299,7 +308,7 @@ locations = [
     int_tel: "+1 512-478-6268",
     email: "",
     web: "",
-    web_formatted: "",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
     lat: 30.2878295,
@@ -316,7 +325,7 @@ locations = [
     ],
     marker: {
       url:
-        "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png",
+        "https://i.imgur.com/Sq7ZWl4.png",
       scaledSize: { width: 25, height: 42, f: "px", b: "px" },
       origin: { x: 0, y: 0 },
       anchor: { x: 12, y: 42 }
@@ -343,7 +352,7 @@ locations = [
     int_tel: "+1 512-974-6700",
     email: "",
     web: "",
-    web_formatted: "",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
     lat: 30.3488089,
@@ -360,7 +369,7 @@ locations = [
     ],
     marker: {
       url:
-        "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png",
+        "https://i.imgur.com/Sq7ZWl4.png",
       scaledSize: { width: 25, height: 42, f: "px", b: "px" },
       origin: { x: 0, y: 0 },
       anchor: { x: 12, y: 42 }
@@ -387,7 +396,7 @@ locations = [
     int_tel: "+1 512-974-6700",
     email: "",
     web: "",
-    web_formatted: "",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
     lat: 30.2760612,
@@ -404,7 +413,7 @@ locations = [
     ],
     marker: {
       url:
-        "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png",
+        "https://i.imgur.com/Sq7ZWl4.png",
       scaledSize: { width: 25, height: 42, f: "px", b: "px" },
       origin: { x: 0, y: 0 },
       anchor: { x: 12, y: 42 }
@@ -431,7 +440,7 @@ locations = [
     int_tel: "",
     email: "",
     web: "",
-    web_formatted: "",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.2534036,
@@ -440,7 +449,7 @@ locations = [
     open_hours: "",
     marker: {
       url:
-        "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png",
+        "https://i.imgur.com/Sq7ZWl4.png",
       scaledSize: { width: 25, height: 42, f: "px", b: "px" },
       origin: { x: 0, y: 0 },
       anchor: { x: 12, y: 42 }
@@ -467,7 +476,7 @@ locations = [
     int_tel: "",
     email: "",
     web: "",
-    web_formatted: "",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.2632806,
@@ -476,7 +485,7 @@ locations = [
     open_hours: "",
     marker: {
       url:
-        "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png",
+        "https://i.imgur.com/Sq7ZWl4.png",
       scaledSize: { width: 25, height: 42, f: "px", b: "px" },
       origin: { x: 0, y: 0 },
       anchor: { x: 12, y: 42 }
@@ -503,7 +512,7 @@ locations = [
     int_tel: "+1 512-445-5582",
     email: "",
     web: "",
-    web_formatted: "",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
     lat: 30.2631148,
@@ -520,7 +529,7 @@ locations = [
     ],
     marker: {
       url:
-        "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png",
+        "https://i.imgur.com/Sq7ZWl4.png",
       scaledSize: { width: 25, height: 42, f: "px", b: "px" },
       origin: { x: 0, y: 0 },
       anchor: { x: 12, y: 42 }
@@ -547,7 +556,7 @@ locations = [
     int_tel: "+1 800-926-2282",
     email: "",
     web: "",
-    web_formatted: "",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
     lat: 30.3647596,
@@ -564,7 +573,7 @@ locations = [
     ],
     marker: {
       url:
-        "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png",
+        "https://i.imgur.com/Sq7ZWl4.png",
       scaledSize: { width: 25, height: 42, f: "px", b: "px" },
       origin: { x: 0, y: 0 },
       anchor: { x: 12, y: 42 }
@@ -591,7 +600,7 @@ locations = [
     int_tel: "+1 512-974-6700",
     email: "",
     web: "",
-    web_formatted: "",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
     lat: 30.2724204,
@@ -608,7 +617,7 @@ locations = [
     ],
     marker: {
       url:
-        "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png",
+        "https://i.imgur.com/Sq7ZWl4.png",
       scaledSize: { width: 25, height: 42, f: "px", b: "px" },
       origin: { x: 0, y: 0 },
       anchor: { x: 12, y: 42 }
@@ -635,7 +644,7 @@ locations = [
     int_tel: "+1 512-974-6700",
     email: "",
     web: "",
-    web_formatted: "",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
     lat: 30.1815027,
@@ -652,7 +661,7 @@ locations = [
     ],
     marker: {
       url:
-        "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png",
+        "https://i.imgur.com/Sq7ZWl4.png",
       scaledSize: { width: 25, height: 42, f: "px", b: "px" },
       origin: { x: 0, y: 0 },
       anchor: { x: 12, y: 42 }
@@ -679,7 +688,7 @@ locations = [
     int_tel: "+1 512-974-6700",
     email: "",
     web: "",
-    web_formatted: "",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
     lat: 30.2261435,
@@ -696,7 +705,7 @@ locations = [
     ],
     marker: {
       url:
-        "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png",
+        "https://i.imgur.com/Sq7ZWl4.png",
       scaledSize: { width: 25, height: 42, f: "px", b: "px" },
       origin: { x: 0, y: 0 },
       anchor: { x: 12, y: 42 }
@@ -723,7 +732,7 @@ locations = [
     int_tel: "+1 512-974-6700",
     email: "",
     web: "",
-    web_formatted: "",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
     lat: 30.2365598,
@@ -740,7 +749,7 @@ locations = [
     ],
     marker: {
       url:
-        "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png",
+        "https://i.imgur.com/Sq7ZWl4.png",
       scaledSize: { width: 25, height: 42, f: "px", b: "px" },
       origin: { x: 0, y: 0 },
       anchor: { x: 12, y: 42 }
@@ -767,7 +776,7 @@ locations = [
     int_tel: "+1 512-974-6700",
     email: "",
     web: "",
-    web_formatted: "",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
     lat: 30.3577007,
@@ -784,7 +793,7 @@ locations = [
     ],
     marker: {
       url:
-        "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png",
+        "https://i.imgur.com/Sq7ZWl4.png",
       scaledSize: { width: 25, height: 42, f: "px", b: "px" },
       origin: { x: 0, y: 0 },
       anchor: { x: 12, y: 42 }
@@ -811,7 +820,7 @@ locations = [
     int_tel: "+1 512-974-6700",
     email: "",
     web: "",
-    web_formatted: "",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
     lat: 30.2695263,
@@ -828,7 +837,7 @@ locations = [
     ],
     marker: {
       url:
-        "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png",
+        "https://i.imgur.com/Sq7ZWl4.png",
       scaledSize: { width: 25, height: 42, f: "px", b: "px" },
       origin: { x: 0, y: 0 },
       anchor: { x: 12, y: 42 }
@@ -855,7 +864,7 @@ locations = [
     int_tel: "+1 512-974-6700",
     email: "",
     web: "",
-    web_formatted: "",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
     lat: 30.2849907,
@@ -872,7 +881,7 @@ locations = [
     ],
     marker: {
       url:
-        "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png",
+        "https://i.imgur.com/Sq7ZWl4.png",
       scaledSize: { width: 25, height: 42, f: "px", b: "px" },
       origin: { x: 0, y: 0 },
       anchor: { x: 12, y: 42 }
@@ -899,7 +908,7 @@ locations = [
     int_tel: "+1 512-974-6700",
     email: "",
     web: "",
-    web_formatted: "",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
     lat: 30.4761621,
@@ -916,7 +925,7 @@ locations = [
     ],
     marker: {
       url:
-        "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png",
+        "https://i.imgur.com/Sq7ZWl4.png",
       scaledSize: { width: 25, height: 42, f: "px", b: "px" },
       origin: { x: 0, y: 0 },
       anchor: { x: 12, y: 42 }
@@ -943,7 +952,7 @@ locations = [
     int_tel: "+1 512-974-4926",
     email: "",
     web: "",
-    web_formatted: "",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
     lat: 30.2700376,
@@ -960,7 +969,7 @@ locations = [
     ],
     marker: {
       url:
-        "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png",
+        "https://i.imgur.com/Sq7ZWl4.png",
       scaledSize: { width: 25, height: 42, f: "px", b: "px" },
       origin: { x: 0, y: 0 },
       anchor: { x: 12, y: 42 }
@@ -987,7 +996,7 @@ locations = [
     int_tel: "+1 512-974-6797",
     email: "",
     web: "",
-    web_formatted: "",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
     lat: 30.3709786,
@@ -1004,7 +1013,7 @@ locations = [
     ],
     marker: {
       url:
-        "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png",
+        "https://i.imgur.com/Sq7ZWl4.png",
       scaledSize: { width: 25, height: 42, f: "px", b: "px" },
       origin: { x: 0, y: 0 },
       anchor: { x: 12, y: 42 }
@@ -1031,7 +1040,7 @@ locations = [
     int_tel: "",
     email: "",
     web: "",
-    web_formatted: "",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.3361716,
@@ -1040,7 +1049,7 @@ locations = [
     open_hours: "",
     marker: {
       url:
-        "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png",
+        "https://i.imgur.com/Sq7ZWl4.png",
       scaledSize: { width: 25, height: 42, f: "px", b: "px" },
       origin: { x: 0, y: 0 },
       anchor: { x: 12, y: 42 }
@@ -1067,7 +1076,7 @@ locations = [
     int_tel: "+1 512-974-6700",
     email: "",
     web: "",
-    web_formatted: "",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
     lat: 30.2776371,
@@ -1084,7 +1093,7 @@ locations = [
     ],
     marker: {
       url:
-        "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png",
+        "https://i.imgur.com/Sq7ZWl4.png",
       scaledSize: { width: 25, height: 42, f: "px", b: "px" },
       origin: { x: 0, y: 0 },
       anchor: { x: 12, y: 42 }
@@ -1111,7 +1120,7 @@ locations = [
     int_tel: "+1 512-339-0016",
     email: "",
     web: "",
-    web_formatted: "",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
     lat: 30.35178689999999,
@@ -1128,7 +1137,7 @@ locations = [
     ],
     marker: {
       url:
-        "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png",
+        "https://i.imgur.com/Sq7ZWl4.png",
       scaledSize: { width: 25, height: 42, f: "px", b: "px" },
       origin: { x: 0, y: 0 },
       anchor: { x: 12, y: 42 }
@@ -1155,7 +1164,7 @@ locations = [
     int_tel: "+1 512-974-6700",
     email: "",
     web: "",
-    web_formatted: "",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
     lat: 30.2820917,
@@ -1172,7 +1181,7 @@ locations = [
     ],
     marker: {
       url:
-        "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png",
+        "https://i.imgur.com/Sq7ZWl4.png",
       scaledSize: { width: 25, height: 42, f: "px", b: "px" },
       origin: { x: 0, y: 0 },
       anchor: { x: 12, y: 42 }
@@ -1199,7 +1208,7 @@ locations = [
     int_tel: "+1 512-974-6700",
     email: "",
     web: "",
-    web_formatted: "",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
     lat: 30.1966571,
@@ -1216,7 +1225,7 @@ locations = [
     ],
     marker: {
       url:
-        "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png",
+        "https://i.imgur.com/Sq7ZWl4.png",
       scaledSize: { width: 25, height: 42, f: "px", b: "px" },
       origin: { x: 0, y: 0 },
       anchor: { x: 12, y: 42 }
@@ -1243,7 +1252,7 @@ locations = [
     int_tel: "+1 512-974-9461",
     email: "",
     web: "",
-    web_formatted: "",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
     lat: 30.1985326,
@@ -1260,7 +1269,7 @@ locations = [
     ],
     marker: {
       url:
-        "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png",
+        "https://i.imgur.com/Sq7ZWl4.png",
       scaledSize: { width: 25, height: 42, f: "px", b: "px" },
       origin: { x: 0, y: 0 },
       anchor: { x: 12, y: 42 }
@@ -1287,7 +1296,7 @@ locations = [
     int_tel: "+1 512-974-9500",
     email: "",
     web: "",
-    web_formatted: "",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
     lat: 30.2434653,
@@ -1304,7 +1313,7 @@ locations = [
     ],
     marker: {
       url:
-        "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png",
+        "https://i.imgur.com/Sq7ZWl4.png",
       scaledSize: { width: 25, height: 42, f: "px", b: "px" },
       origin: { x: 0, y: 0 },
       anchor: { x: 12, y: 42 }
@@ -1331,7 +1340,7 @@ locations = [
     int_tel: "+1 512-974-6700",
     email: "",
     web: "",
-    web_formatted: "",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
     lat: 30.2580377,
@@ -1348,7 +1357,7 @@ locations = [
     ],
     marker: {
       url:
-        "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png",
+        "https://i.imgur.com/Sq7ZWl4.png",
       scaledSize: { width: 25, height: 42, f: "px", b: "px" },
       origin: { x: 0, y: 0 },
       anchor: { x: 12, y: 42 }
@@ -1375,7 +1384,7 @@ locations = [
     int_tel: "",
     email: "",
     web: "",
-    web_formatted: "",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.3396177,
@@ -1384,7 +1393,7 @@ locations = [
     open_hours: "",
     marker: {
       url:
-        "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png",
+        "https://i.imgur.com/Sq7ZWl4.png",
       scaledSize: { width: 25, height: 42, f: "px", b: "px" },
       origin: { x: 0, y: 0 },
       anchor: { x: 12, y: 42 }
@@ -1411,7 +1420,7 @@ locations = [
     int_tel: "+1 512-974-6700",
     email: "",
     web: "",
-    web_formatted: "",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
     lat: 30.2514455,
@@ -1428,7 +1437,7 @@ locations = [
     ],
     marker: {
       url:
-        "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png",
+        "https://i.imgur.com/Sq7ZWl4.png",
       scaledSize: { width: 25, height: 42, f: "px", b: "px" },
       origin: { x: 0, y: 0 },
       anchor: { x: 12, y: 42 }
@@ -1455,7 +1464,7 @@ locations = [
     int_tel: "+1 512-974-6700",
     email: "",
     web: "",
-    web_formatted: "",
+    web_formatted: "Open in Google Maps",
     open: "Closed",
     time: "1001",
     lat: 30.2676623,
@@ -1472,7 +1481,7 @@ locations = [
     ],
     marker: {
       url:
-        "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png",
+        "https://i.imgur.com/Sq7ZWl4.png",
       scaledSize: { width: 25, height: 42, f: "px", b: "px" },
       origin: { x: 0, y: 0 },
       anchor: { x: 12, y: 42 }
@@ -1499,7 +1508,7 @@ locations = [
     int_tel: "+1 512-974-6700",
     email: "",
     web: "",
-    web_formatted: "",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
     lat: 30.4132985,
@@ -1516,7 +1525,7 @@ locations = [
     ],
     marker: {
       url:
-        "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png",
+        "https://i.imgur.com/Sq7ZWl4.png",
       scaledSize: { width: 25, height: 42, f: "px", b: "px" },
       origin: { x: 0, y: 0 },
       anchor: { x: 12, y: 42 }
@@ -1543,7 +1552,7 @@ locations = [
     int_tel: "+1 512-974-1300",
     email: "",
     web: "",
-    web_formatted: "",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
     lat: 30.27212219999999,
@@ -1560,7 +1569,7 @@ locations = [
     ],
     marker: {
       url:
-        "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png",
+        "https://i.imgur.com/Sq7ZWl4.png",
       scaledSize: { width: 25, height: 42, f: "px", b: "px" },
       origin: { x: 0, y: 0 },
       anchor: { x: 12, y: 42 }
@@ -1587,7 +1596,7 @@ locations = [
     int_tel: "+1 512-974-6700",
     email: "",
     web: "",
-    web_formatted: "",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
     lat: 30.304663,
@@ -1604,7 +1613,7 @@ locations = [
     ],
     marker: {
       url:
-        "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png",
+        "https://i.imgur.com/Sq7ZWl4.png",
       scaledSize: { width: 25, height: 42, f: "px", b: "px" },
       origin: { x: 0, y: 0 },
       anchor: { x: 12, y: 42 }
@@ -1631,7 +1640,7 @@ locations = [
     int_tel: "+1 512-974-1625",
     email: "",
     web: "",
-    web_formatted: "",
+    web_formatted: "Open in Google Maps",
     open: "Closed",
     time: "1001",
     lat: 30.306649,
@@ -1648,7 +1657,7 @@ locations = [
     ],
     marker: {
       url:
-        "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png",
+        "https://i.imgur.com/Sq7ZWl4.png",
       scaledSize: { width: 25, height: 42, f: "px", b: "px" },
       origin: { x: 0, y: 0 },
       anchor: { x: 12, y: 42 }
@@ -1675,7 +1684,7 @@ locations = [
     int_tel: "+1 512-974-6700",
     email: "",
     web: "",
-    web_formatted: "",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
     lat: 30.1813666,
@@ -1692,7 +1701,7 @@ locations = [
     ],
     marker: {
       url:
-        "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png",
+        "https://i.imgur.com/Sq7ZWl4.png",
       scaledSize: { width: 25, height: 42, f: "px", b: "px" },
       origin: { x: 0, y: 0 },
       anchor: { x: 12, y: 42 }
@@ -1720,7 +1729,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Murchison+Pool/@30.3540973,-97.7607661,17z/data=!3m1!4b1!4m5!3m4!1s0x8644cb177c6a405f:0xe6de6caed7b01430!8m2!3d30.3540973!4d-97.7585774?q=murchison+pool&um=1&ie=UTF-8&sa=X&ved=0ahUKEwjEhqmS4eDUAhVL0YMKHb6OBy8Q_AUICigB",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1014",
     lat: 30.35409729999999,
@@ -1758,7 +1767,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Westenfield+Neighborhood+Park/@30.2867175,-97.7669066,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b55d4804e4c9:0xa025d6db6b091fd7!8m2!3d30.2867175!4d-97.7647179",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1014",
     lat: 30.2867175,
@@ -1796,7 +1805,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Zilker+Nature+Preserve/@30.2697355,-97.7811016,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b53791e2d6d9:0x15a901ea4cafcbdb!8m2!3d30.2697355!4d-97.7789129",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1014",
     lat: 30.2697355,
@@ -1834,7 +1843,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Tarrytown+Neighborhood+Park/@30.2968831,-97.7623643,17z/data=!3m1!4b1!4m5!3m4!1s0x8644ccd5af0ddf3b:0x72a3182c1990aedf!8m2!3d30.2968831!4d-97.7601756",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1014",
     lat: 30.2968831,
@@ -1872,7 +1881,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Williamson+Creek+Central+Greenbelt/@30.2136051,-97.7804972,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b4ae5fe379e1:0xe081635b3506819f!8m2!3d30.2136051!4d-97.7783085",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1014",
     lat: 30.2136051,
@@ -1910,7 +1919,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Veterans+Pocket+Park/@30.2764924,-97.7735621,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b547a0a8491f:0x58db9b2fb57c7e03!8m2!3d30.2764924!4d-97.7713734",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1014",
     lat: 30.2764924,
@@ -1948,7 +1957,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Pecan+Springs+School+Park/@30.3021277,-97.6784287,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b620036bfd87:0x12ae90bc85419f3f!8m2!3d30.3021277!4d-97.67624",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1014",
     lat: 30.3021277,
@@ -1986,7 +1995,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/South+Boggy+Creek+Greenbelt/@30.1805528,-97.782687,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b349d1166e21:0x64cfc6e32870c382!8m2!3d30.1805528!4d-97.7804983",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1014",
     lat: 30.18055279999999,
@@ -2024,7 +2033,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Onion+Creek+Wildlife+Sanctuary/@30.1867768,-97.6170723,17z/data=!3m1!4b1!4m5!3m4!1s0x8644ce23d0204b6b:0x447fcb96ac9ae911!8m2!3d30.1867768!4d-97.6148836",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1014",
     lat: 30.1867768,
@@ -2062,7 +2071,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Walsh+Boat+Landing/@30.2970251,-97.7857531,17z/data=!3m1!4b1!4m5!3m4!1s0x8644caaa979797e5:0x2f0106edaa298fbe!8m2!3d30.2970251!4d-97.7835644",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1014",
     lat: 30.2970251,
@@ -2100,7 +2109,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Waller+Creek+Greenbelt/@30.2660136,-97.7380435,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b5a5e3f64cef:0xcc26e2e293218e3b!8m2!3d30.2660136!4d-97.7358548",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1014",
     lat: 30.2660136,
@@ -2138,7 +2147,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Zilker+Metropolitan+Park/@30.2669624,-97.775048,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b53a1df2e44f:0x62182a199b2e5fad!8m2!3d30.2669624!4d-97.7728593",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1014",
     lat: 30.2669624,
@@ -2175,7 +2184,7 @@ locations = [
     int_tel: "+1 512-974-6700",
     email: "",
     web: "",
-    web_formatted: "",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1014",
     lat: 30.4011179,
@@ -2192,7 +2201,7 @@ locations = [
     ],
     marker: {
       url:
-        "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png",
+        "https://i.imgur.com/Sq7ZWl4.png",
       scaledSize: { width: 25, height: 42, f: "px", b: "px" },
       origin: { x: 0, y: 0 },
       anchor: { x: 12, y: 42 }
@@ -2220,7 +2229,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Waller+Beach+at+Town+Lake+Metropolitan+Park/@30.2542635,-97.7409187,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b5ab241dae45:0x22218bb023c61a5!8m2!3d30.2542635!4d-97.73873",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1014",
     lat: 30.2542635,
@@ -2258,7 +2267,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Walnut+Creek+Sports+Complex/@30.312718,-97.6409786,17z/data=!3m1!4b1!4m5!3m4!1s0x8644c8251e737ce1:0x9b618f740dca2891!8m2!3d30.312718!4d-97.6387899",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1014",
     lat: 30.312718,
@@ -2296,7 +2305,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/West+Bouldin+Creek+Greenbelt/@30.25512,-97.7620667,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b51d6534630d:0x776fbd97afc529d3!8m2!3d30.25512!4d-97.759878",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1014",
     lat: 30.25512,
@@ -2334,7 +2343,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Roy+G.+Guerrero+Colorado+River+Metropolitan+Park/@30.2445724,-97.7025747,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b428eb1766bb:0x23c83e3661ef14ac!8m2!3d30.2445724!4d-97.700386",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1014",
     lat: 30.2445724,
@@ -2372,7 +2381,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Norman+School+Park/@30.2445677,-97.7354056,13z/data=!4m8!1m2!2m1!1sNorman+School+Park!3m4!1s0x8644b6405a74af89:0x5ac040b728323839!8m2!3d30.2776483!4d-97.6732935",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.2776483,
@@ -2402,7 +2411,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/North+Cat+Mountain+Greenbelt/@30.365129,-97.7818757,17z/data=!3m1!4b1!4m5!3m4!1s0x8644cb36009ea781:0xaf51008daa6ee5e0!8m2!3d30.365129!4d-97.779687",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1014",
     lat: 30.365129,
@@ -2440,7 +2449,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Wells+Creek+Greenbelt/@30.4204633,-97.686068,17z/data=!3m1!4b1!4m5!3m4!1s0x8644ce96ee2c240d:0x484b0afdb4271874!8m2!3d30.4204633!4d-97.6838793",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1014",
     lat: 30.42046329999999,
@@ -2478,7 +2487,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Hill+School+Park/@30.3758811,-97.7520815,17z/data=!3m1!4b1!4m5!3m4!1s0x8644cb7054e88c73:0xe11037815747a662!8m2!3d30.3758811!4d-97.7498928",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1014",
     lat: 30.37588109999999,
@@ -2516,7 +2525,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/The+Circle+ROW+Greenbelt/@30.2511123,-97.7487819,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b4fe73427fd1:0x97451ab2e79a3dd4!8m2!3d30.2511123!4d-97.7465932",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1014",
     lat: 30.25111230000001,
@@ -2554,7 +2563,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/South+Austin+Senior+Activity+Center/@30.2333387,-97.786785,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b4cca8f652ed:0x34377534111f29c1!8m2!3d30.2333387!4d-97.7845963",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1014",
     lat: 30.2333387,
@@ -2592,7 +2601,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Heath+Eiland+and+Morgan+Moss+BMX+Skate+Park,/@30.2769981,-97.751572,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b5731fdce0a1:0x9053860545c20273!8m2!3d30.2769981!4d-97.7493833",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1014",
     lat: 30.2769981,
@@ -2630,7 +2639,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Plummers+Cemetery/@30.2771103,-97.6907467,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b67293b8d217:0x53669ef3a49577c4!8m2!3d30.2771103!4d-97.688558",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.2771103,
@@ -2660,7 +2669,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Grand+Meadow+Neighborhood+Park/@30.156798,-97.7449322,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b25588fa0125:0x4a3cc64d3da8e1ac!8m2!3d30.156798!4d-97.7427435",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1014",
     lat: 30.156798,
@@ -2698,7 +2707,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Upper+Bull+Creek+Greenbelt/@30.4007584,-97.7858002,17z/data=!3m1!4b1!4m5!3m4!1s0x8644ccb32ce87c81:0x172253b75d814d04!8m2!3d30.4007584!4d-97.7836115",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1014",
     lat: 30.4007584,
@@ -2736,7 +2745,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Blunn+Creek+Nature+Preserve/@30.2317585,-97.7505586,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b4f3840d69df:0x2be00dc5fab3f698!8m2!3d30.2317585!4d-97.7483699",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1014",
     lat: 30.2317585,
@@ -2774,7 +2783,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Little+Stacy+Neighborhood+Park/@30.2482218,-97.7456353,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b4ff30f0ca23:0x9be684af1d717f09!8m2!3d30.2482218!4d-97.7434466",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1014",
     lat: 30.2482218,
@@ -2812,7 +2821,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Oakview+Neighborhood+Park/@30.417601,-97.771341,17z/data=!3m1!4b1!4m5!3m4!1s0x8644ccc6aa129f61:0x1917c9f31542ef00!8m2!3d30.417601!4d-97.7691523",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1014",
     lat: 30.41760099999999,
@@ -2850,7 +2859,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Red+Bud+Isle/@30.2908201,-97.7890274,17z/data=!3m1!4b1!4m5!3m4!1s0x865b4aac90d190c3:0xc4add3ec4062dcdf!8m2!3d30.2908201!4d-97.7868387",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1014",
     lat: 30.2908201,
@@ -2888,7 +2897,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Houston+School+Park/@30.1966384,-97.75778,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b36516ebcab1:0xfd4bdc470002d8fe!8m2!3d30.1966384!4d-97.7555913",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1014",
     lat: 30.1966384,
@@ -2926,7 +2935,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Gracywoods+Neighborhood+Park/@30.4035576,-97.6964149,16.16z/data=!4m12!1m6!3m5!1s0x8644cea7d94c9e9d:0xe9028e535b6ae3ed!2sGracywoods+Neighborhood+Park!8m2!3d30.4048608!4d-97.6963611!3m4!1s0x8644cea7d94c9e9d:0xe9028e535b6ae3ed!8m2!3d30.4048608!4d-97.6963611",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.4048608,
@@ -2956,7 +2965,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Montopolis+Practice+Fields/@30.2327342,-97.6943561,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b6a20806b223:0x614e2e01cd1e8aab!8m2!3d30.2327296!4d-97.6921621",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.2327296,
@@ -2986,7 +2995,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Mabel+Davis+District+Park/@30.2203576,-97.74263,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b462eb8140c3:0xb1e744b2aae11e06!8m2!3d30.220353!4d-97.740436",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.22035299999999,
@@ -3016,7 +3025,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Morris+Williams+Golf+Course/@30.2894559,-97.6965407,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b60804f01093:0x59e4f88323adaa8a!8m2!3d30.2894513!4d-97.6943467",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.2894513,
@@ -3046,7 +3055,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Palm+Plaza+Pocket+Park/@30.2820675,-97.7600774,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b56eba62d1b9:0x2da601520c5e2b60!8m2!3d30.2820629!4d-97.7578834",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.2820629,
@@ -3076,7 +3085,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Pillow+School+Park/@30.3686294,-97.7362258,17z/data=!3m1!4b1!4m5!3m4!1s0x8644cb980cc66f71:0x7ecb9664fa913042!8m2!3d30.3686248!4d-97.7340318",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1034",
     lat: 30.36862480000001,
@@ -3114,7 +3123,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Southpark+Meadows+Greenbelt/@30.1701385,-97.7992959,15z/data=!4m8!1m2!2m1!1sSouth+Park+Meadows+Greenbelt!3m4!1s0x865b4cd8c4660561:0xa492ac383b4dc0cf!8m2!3d30.1596877!4d-97.800541",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.1596877,
@@ -3144,7 +3153,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Ricky+Guerrero+Park/@30.2475217,-97.7671241,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b4de41b333f7:0x6e09288a112f5913!8m2!3d30.2475171!4d-97.7649301",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.2475171,
@@ -3174,7 +3183,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Slaughter+Creek+at+Twin+Oaks+Greenbelt/@30.149151,-97.8047975,17z/data=!3m1!4b1!4m5!3m4!1s0x865b4d23991a3879:0xd010c566eb83a03e!8m2!3d30.1491464!4d-97.8026035",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.1491464,
@@ -3204,7 +3213,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Southland+Oaks+Neighborhood+Park/@30.1614499,-97.8666171,17z/data=!3m1!4b1!4m5!3m4!1s0x865b4c2ef1675ebb:0x3d43b3ce1d67209b!8m2!3d30.1614453!4d-97.8644231",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1034",
     lat: 30.1614453,
@@ -3242,7 +3251,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Oak+Springs+School+Park/@30.2715585,-97.7060198,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b5dbfd4b8115:0xcc17f7e8853f45e7!8m2!3d30.2715539!4d-97.7038258",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1034",
     lat: 30.2715539,
@@ -3280,7 +3289,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Pease+District+Park/@30.2844604,-97.7562671,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b56fd724adbd:0xfec3224ab1ee6b59!8m2!3d30.2844558!4d-97.7540731",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1034",
     lat: 30.2844558,
@@ -3318,7 +3327,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Sir+Svante+Palm+Neighborhood+Park/@30.2845945,-97.824296,12z/data=!4m8!1m2!2m1!1sSir+Swante+Palm+Neighborhood+Park!3m4!1s0x8644c93f6834bb95:0x7ecd1289d0244e0e!8m2!3d30.3757576!4d-97.6756714",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.3757576,
@@ -3348,7 +3357,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Reilly+School+Park/@30.3272182,-97.7219697,17z/data=!3m1!4b1!4m5!3m4!1s0x8644ca3f60b0d2f9:0x1c8ec74977cec81e!8m2!3d30.3272136!4d-97.7197757",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1034",
     lat: 30.3272136,
@@ -3386,7 +3395,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Manuel+And+Robert+Donley+Pocket+Park/@30.2503469,-97.7239212,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b44a5d187661:0x1e233cdff9fb2988!8m2!3d30.2503423!4d-97.7217272",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1034",
     lat: 30.2503423,
@@ -3424,7 +3433,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Lott+Park/@30.2362684,-97.8135492,13z/data=!4m8!1m2!2m1!1sLott+Pocket+Park!3m4!1s0x8644b5bca6155263:0x58440949e7ca87d9!8m2!3d30.2707039!4d-97.7297075",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.2707039,
@@ -3454,7 +3463,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Sparky+Park/@30.299132,-97.7343164,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b5878b52d47b:0x858bc36f1a6a8fdd!8m2!3d30.2991274!4d-97.7321224",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.2991274,
@@ -3484,7 +3493,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Trailhead+Park/@30.4384372,-97.823013,17z/data=!3m1!4b1!4m5!3m4!1s0x865b32fb9e86717d:0x8b6e094bad819e18!8m2!3d30.4384326!4d-97.820819",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.4384326,
@@ -3514,7 +3523,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Lewis+Mountain+Ranch+Neighborhood+Park/@30.2073193,-97.9151422,17z/data=!3m1!4b1!4m5!3m4!1s0x865b49281ae6cf03:0x4d1a53b42e6038b6!8m2!3d30.2073147!4d-97.9129482",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1034",
     lat: 30.2073147,
@@ -3552,7 +3561,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Meadows+at+Trinity+Crossing+Park/@30.2911911,-97.6485102,17z/data=!4m5!3m4!1s0x8644b7ce4b49dd11:0xf5b11d062994ad9d!8m2!3d30.2914644!4d-97.6469277",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.2914644,
@@ -3582,7 +3591,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Marble+Creek+Greenbelt/@30.160532,-97.7381014,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b3ac6a8ce4d5:0x2d1c3609d2459fb5!8m2!3d30.1605274!4d-97.7359074",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.1605274,
@@ -3612,7 +3621,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Lamar+Senior+Activity+Center/@30.2972587,-97.7507563,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b57def1443ff:0x28339d1e88bacb68!8m2!3d30.2972541!4d-97.7485623",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.2972541,
@@ -3642,7 +3651,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Scofield+Farms+Neighborhood+Park/@30.415644,-97.6833272,17z/data=!3m1!4b1!4m5!3m4!1s0x8644ce9686fe3587:0xb68257a1ec90abf5!8m2!3d30.4156394!4d-97.6811332",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.4156394,
@@ -3672,7 +3681,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Sendera+Mesa+Neighborhood+Park/@30.2029615,-97.8605637,17z/data=!3m1!4b1!4m5!3m4!1s0x865b4bf655955241:0x24aa381ddca2620c!8m2!3d30.2029569!4d-97.8583697",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1034",
     lat: 30.2029569,
@@ -3710,7 +3719,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Shinoak+Valley+Greenbelt/@30.3472226,-97.7673819,17z/data=!3m1!4b1!4m5!3m4!1s0x8644cb21bb8d584d:0x63269188bfb2ff30!8m2!3d30.347218!4d-97.7651879",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.347218,
@@ -3740,7 +3749,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Battle+Bend+Neighborhood+Park/@30.2138414,-97.7700109,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b4a39db27d1d:0x9953387200578f9!8m2!3d30.2138368!4d-97.7678169",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1034",
     lat: 30.2138368,
@@ -3778,7 +3787,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Gaines+Creek+Greenbelt/@30.2319831,-97.8229632,14.76z/data=!4m8!1m2!2m1!1sGaines+Greenbelt!3m4!1s0x865b4b05232841f5:0x8e1f012b0d50bda0!8m2!3d30.2390541!4d-97.8197994",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Closed",
     time: "1034",
     lat: 30.23905409999999,
@@ -3816,7 +3825,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Adams-Hemphill+Park/@30.2946511,-97.7409543,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b5804cb4c00b:0x8ccd35cb71862192!8m2!3d30.2946465!4d-97.7387603",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.2946465,
@@ -3846,7 +3855,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Bailey+Park/@30.3022284,-97.7493363,17z/data=!3m1!4b1!4m5!3m4!1s0x8644ca816297e627:0x8d195703372d0fdc!8m2!3d30.3022238!4d-97.7471423",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.3022238,
@@ -3876,7 +3885,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Bartholomew+District+Park/@30.3034511,-97.6983529,17z/data=!3m1!4b1!4m5!3m4!1s0x8644c9fe467b6e4b:0x6ea436fec1433ebb!8m2!3d30.3034465!4d-97.6961589",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.3034465,
@@ -3906,7 +3915,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Barton+Creek+Greenbelt/@30.2433041,-97.8034517,15.59z/data=!4m5!3m4!1s0x865b4ad6b1f4b669:0xb200ad9d975a19ed!8m2!3d30.2437!4d-97.8007831",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.24369999999999,
@@ -3936,7 +3945,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Dick+Nichols+District+Park/@30.2136711,-97.8650575,17z/data=!3m1!4b1!4m5!3m4!1s0x865b4bef96c700f3:0xb1135d99ff1f49d4!8m2!3d30.2136665!4d-97.8628635",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1034",
     lat: 30.2136665,
@@ -3974,7 +3983,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Circle+C+Ranch+Metropolitan+Park+on+Slaughter+Creek/@30.1991001,-97.8891866,17z/data=!3m1!4b1!4m5!3m4!1s0x865b4ea8f923d6ed:0x9e6e2835275b2af4!8m2!3d30.1990955!4d-97.8869926",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.19909549999999,
@@ -4004,7 +4013,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Auditorium+Shores+at+Town+Lake+Metropolitan+Park/@30.2627213,-97.7537243,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b505427ff849:0x571b464a04766230!8m2!3d30.2627167!4d-97.7515303",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.26271670000001,
@@ -4034,7 +4043,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Austin+High+Tennis+Center/@30.2747016,-97.771707,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b54750a804c5:0x9e6e6f7bc844b3f0!8m2!3d30.274697!4d-97.769513",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1034",
     lat: 30.274697,
@@ -4072,7 +4081,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Forest+North+Park/@30.4665794,-97.8540941,12z/data=!4m8!1m2!2m1!1sForest+North+Neighborhood+Park!3m4!1s0x8644cd4d3f20d20b:0x7cf8a3701b802072!8m2!3d30.4665794!4d-97.7840563",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.46657939999999,
@@ -4102,7 +4111,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Gaines+Creek+Neighborhood+Park/@30.2273757,-97.8356962,14z/data=!4m8!1m2!2m1!1sGaines+Creek+Neighborhood+Park!3m4!1s0x865b4b5b09813223:0x9c7740a40b59f28f!8m2!3d30.2122202!4d-97.8015317",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.2122202,
@@ -4132,7 +4141,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Austin's+Colony+Neighborhood+Park/@30.2276334,-97.9586593,11z/data=!4m8!1m2!2m1!1sAustin's+Colony+Neighborhood+Park!3m4!1s0x8644b9eda9d7c237:0xe89bea37ee0d0cac!8m2!3d30.2297171!4d-97.5924511",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.22971710000001,
@@ -4162,7 +4171,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Latta+Branch+Greenbelt/@30.2276334,-97.9586593,11z/data=!4m5!3m4!1s0x865b4be3b73d105f:0x24a3b02145cb4970!8m2!3d30.2164015!4d-97.8646874",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.2164015,
@@ -4192,7 +4201,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/3755+S+Capital+of+Texas+Hwy,+Austin,+TX+78704/@30.2431714,-97.8022332,17z/data=!4m5!3m4!1s0x865b4b2422b94247:0x21bc03e7da138b0f!8m2!3d30.2431668!4d-97.8000445",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.24369999999999,
@@ -4222,7 +4231,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Great+Hills+Park/@30.4119747,-97.7608417,18z/data=!4m8!1m2!2m1!1sGreat+Hills+Neighborhood+Park!3m4!1s0x8644cc93bc259bed:0x8e23591ca64255c6!8m2!3d30.4132077!4d-97.7624447",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.4132077,
@@ -4252,7 +4261,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Hancock+Golf+Course/@30.2990436,-97.7267933,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b58a1042c33f:0xca543fb4e29025e1!8m2!3d30.299039!4d-97.7246046",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.299039,
@@ -4282,7 +4291,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Hielscher+Tract+Greenbelt/@30.1957829,-97.8981618,17z/data=!3m1!4b1!4m5!3m4!1s0x865b4ecb9ef50627:0x548fca3c7a6db541!8m2!3d30.1957783!4d-97.8959731",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.1957783,
@@ -4311,7 +4320,7 @@ locations = [
     int_tel: "",
     email: "",
     web: "",
-    web_formatted: "",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.2286572,
@@ -4320,7 +4329,7 @@ locations = [
     open_hours: [],
     marker: {
       url:
-        "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png",
+        "https://i.imgur.com/Sq7ZWl4.png",
       scaledSize: { width: 25, height: 42, f: "px", b: "px" },
       origin: { x: 0, y: 0 },
       anchor: { x: 12, y: 42 }
@@ -4348,7 +4357,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Kealing+School+Park/@30.2690566,-97.7259167,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b5b90dd33bef:0x5a152162b579555f!8m2!3d30.269052!4d-97.723728",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.269052,
@@ -4378,7 +4387,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Longview+Neighborhood+Park/@30.2255874,-97.8050632,13z/data=!4m8!1m2!2m1!1sLongview+Neighborhood+Park!3m4!1s0x865b4b7fd1b90601:0x7fc75b0dff293cdd!8m2!3d30.2024718!4d-97.8262574",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.2024718,
@@ -4408,7 +4417,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Mayfield+Park+and+Nature+Preserve/@30.3129782,-98.3319227,9z/data=!4m5!3m4!1s0x8644cabbb73d7e23:0xe94c125ee31f1d00!8m2!3d30.3129736!4d-97.77162",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.3129736,
@@ -4438,7 +4447,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/North+Oaks+Neighborhood+Park/@30.3795212,-97.6737439,17z/data=!3m1!4b1!4m5!3m4!1s0x8644c93964fb7d7f:0x7fa5835cbdeeeb1c!8m2!3d30.3795166!4d-97.6715552",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.3795166,
@@ -4468,7 +4477,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/North+Star+Greenbelt/@30.3940664,-97.6995676,17z/data=!3m1!4b1!4m5!3m4!1s0x8644cc072e56a935:0x24694322f4afc55f!8m2!3d30.3940618!4d-97.6973789",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1049",
     lat: 30.39406180000001,
@@ -4506,7 +4515,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Northwest+Balcones+Neighborhood+Park/@30.4263355,-97.8040437,17z/data=!3m1!4b1!4m5!3m4!1s0x865b3321a333a137:0x60539851d19774ce!8m2!3d30.4263309!4d-97.801855",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.4263309,
@@ -4536,7 +4545,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Northwest+Recreation+Center/@30.3338194,-97.7541297,17z/data=!3m1!4b1!4m5!3m4!1s0x8644cafac41db2dd:0xa90e39ee5469078b!8m2!3d30.3338148!4d-97.751941",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.3338148,
@@ -4566,7 +4575,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Norwood+Tract+in+Town+Lake+Metropolitan+Park/@30.2500168,-97.739958,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b4545c69e0df:0xbe48a98eec553de1!8m2!3d30.2500122!4d-97.7377693",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.24925,
@@ -4596,7 +4605,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Onion+Creek+Metropolitan+Park/@30.1618053,-97.7587987,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b31c53303ca9:0x5f73380e50e31139!8m2!3d30.1618007!4d-97.75661",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.1618007,
@@ -4626,7 +4635,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Onion+Creek+Soccer+Complex/@30.1771112,-97.742501,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b3a713d1604f:0xc3aa88085ae438b4!8m2!3d30.1771066!4d-97.7403123",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.1771066,
@@ -4656,7 +4665,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Patterson+Neighborhood+Park/@30.2961288,-97.7116135,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b5f744cfe6f1:0x86bff18d0241a930!8m2!3d30.2961242!4d-97.7094248",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.2961242,
@@ -4686,7 +4695,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Poinciana+Park,+Fort+Lauderdale,+FL/@26.0955336,-80.1498718,15z/data=!3m1!4b1!4m5!3m4!1s0x88d90062f4003b63:0x619645ec92db5cc4!8m2!3d26.1016488!4d-80.1400671",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.2007911,
@@ -4716,7 +4725,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Quail+Creek+Park/@30.3691633,-97.7029606,17z/data=!3m1!4b1!4m5!3m4!1s0x8644cbdfcd4d02c9:0x3862bfd61c0ccaf1!8m2!3d30.3691587!4d-97.7007719",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.3691587,
@@ -4746,7 +4755,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Ramsey+Park/@30.3132766,-97.7457263,17z/data=!3m1!4b1!4m5!3m4!1s0x8644ca89b2c8dc71:0x4783463bede3a6f0!8m2!3d30.313272!4d-97.7435376",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.313272,
@@ -4776,7 +4785,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Ron+Rigsby+Pocket+Park/@30.3643329,-97.7074566,17z/data=!3m1!4b1!4m5!3m4!1s0x8644cbdc747b4187:0x3b9e6cf488323661!8m2!3d30.3643283!4d-97.7052679",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.3643283,
@@ -4806,7 +4815,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Silk+Oak+Park/@30.1883387,-97.8423284,18z/data=!4m8!1m2!2m1!1sSilk+Oak+Neighborhood+Park!3m4!1s0x865b4c6578a63ec3:0x70ae812c9612204c!8m2!3d30.1871925!4d-97.8390051",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.1871925,
@@ -4836,7 +4845,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/2205+S+Congress+Ave,+Austin,+TX+78704/@30.2411486,-97.7548468,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b4e55492d177:0xa13825e22dbc142!8m2!3d30.241144!4d-97.7526581",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1049",
     lat: 30.2415379,
@@ -4874,7 +4883,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/St.+Edward's+Park/@30.3187546,-97.839853,12z/data=!4m8!1m2!2m1!1sSt.+Edwards+Greenbelt!3m4!1s0x865b334a2ede3b7b:0xf8522f6013ff171d!8m2!3d30.4054917!4d-97.7912552",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.4054917,
@@ -4904,7 +4913,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Stephenson+Nature+Preserve+And+Outdoor+Education+Center/@30.2065206,-97.8267465,17z/data=!3m1!4b1!4m5!3m4!1s0x865b4b7fa93a1185:0xb1d5362927dc000b!8m2!3d30.206516!4d-97.8245578",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.206516,
@@ -4934,7 +4943,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/West+Austin+Neighborhood+Park/@30.2769875,-97.7596477,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b56c9a2cc885:0xb8338b01c23156bf!8m2!3d30.2769829!4d-97.757459",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.2769829,
@@ -4964,7 +4973,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Yett+Creek+Neighborhood+Park/@30.4290138,-97.7350324,17z/data=!3m1!4b1!4m5!3m4!1s0x8644cc5233c6e2d7:0x786a10f0e7415047!8m2!3d30.4290092!4d-97.7328437",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1049",
     lat: 30.42900919999999,
@@ -5002,7 +5011,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Barrington+School+Park/@30.3619241,-97.6982105,17z/data=!3m1!4b1!4m5!3m4!1s0x8644c962f89eebf9:0xc78a3c13b9028eb3!8m2!3d30.3619195!4d-97.6960218",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1047",
     lat: 30.3619195,
@@ -5040,7 +5049,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Canyon+Vista+Pool/@30.4283766,-97.786637,17z/data=!3m1!4b1!4m5!3m4!1s0x865b332ccb3536d3:0xa91c63f942c30d39!8m2!3d30.428372!4d-97.7844483",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Closed",
     time: "1047",
     lat: 30.428372,
@@ -5078,7 +5087,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Dove+Springs+District+Park/@30.1858765,-97.739785,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b39e5271ec07:0x246539feb7902117!8m2!3d30.1858719!4d-97.7375963",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1047",
     lat: 30.1858719,
@@ -5116,7 +5125,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Crestland+Triangle/@30.3415406,-97.7174675,17z/data=!3m1!4b1!4m5!3m4!1s0x8644ca3411e2047f:0x37a848ae2eb4e38!8m2!3d30.341536!4d-97.7152788",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.341536,
@@ -5146,7 +5155,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Central+Maintenance+Complex+at+Town+Lake+Metropolitan+Park/@30.2434699,-97.7222072,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b4481d52d5cb:0xea0ac4d88f1d235!8m2!3d30.2434653!4d-97.7200185",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.2434653,
@@ -5176,7 +5185,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Chestnut+Pocket+Park/@30.2769947,-97.719073,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b5c1d5026433:0x7011ac63da3f8d2c!8m2!3d30.2769901!4d-97.7168843",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1047",
     lat: 30.2769901,
@@ -5214,7 +5223,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Dougherty+Arts+Center/@30.2609029,-97.7582469,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b51bb244815d:0x26158a6b239ec656!8m2!3d30.2608983!4d-97.7560582",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1047",
     lat: 30.26089829999999,
@@ -5651,7 +5660,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Rosewood+Neighborhood+Park/@30.2710618,-97.7170673,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b5c3fefab8ed:0x3760d35ed246e117!8m2!3d30.2710572!4d-97.7148786",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1047",
     lat: 30.2710572,
@@ -5689,7 +5698,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Doss+School+Park/@30.3562582,-97.7657645,17z/data=!3m1!4b1!4m5!3m4!1s0x8644cb3d5e32df3d:0x2b2f18978c23f290!8m2!3d30.3562536!4d-97.7635758",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1047",
     lat: 30.35625360000001,
@@ -5727,7 +5736,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Roy+Kizer+Golf+Course/@30.1852238,-97.7344391,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b3a2bf300831:0x3e3ee6e8dab08a27!8m2!3d30.1852192!4d-97.7322504",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1047",
     lat: 30.18521920000001,
@@ -5765,7 +5774,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Symphony+Square/@30.2712971,-97.7374646,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b5a3f1e655b5:0xed8ce11c022afd73!8m2!3d30.2712925!4d-97.7352759",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1047",
     lat: 30.2712925,
@@ -5803,7 +5812,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Lucy+Read+School+Park/@30.3527057,-97.7386666,17z/data=!4m8!1m2!2m1!1sLucy+Read+School+Park!3m4!1s0x8644cbaecca943d5:0x5aeca8d7ca2a66d!8m2!3d30.35275!4d-97.7360687",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.35275000000001,
@@ -5815,7 +5824,7 @@ locations = [
       desc: true,
       email: true,
       enable: true,
-      int_tel: true,
+      int_tel: false,
       open: true,
       open_hours: true,
       photo: true,
@@ -5833,7 +5842,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Joslin+Neighborhood+Park/@30.2286618,-97.7941721,17z/data=!3m1!4b1!4m5!3m4!1s0x865b4b36402cbc5f:0x11216df8ff717774!8m2!3d30.2286572!4d-97.7919781",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1217",
     lat: 30.2286572,
@@ -5853,7 +5862,7 @@ locations = [
       desc: true,
       email: true,
       enable: true,
-      int_tel: true,
+      int_tel: false,
       open: true,
       open_hours: true,
       photo: true,
@@ -5871,7 +5880,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/T.A.+Brown+School+Park/@30.343949,-97.7113693,17.84z/data=!4m5!3m4!1s0x8644ca2d7dd27885:0x40a574c24875e673!8m2!3d30.3443489!4d-97.7085764",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.3447116,
@@ -5883,7 +5892,7 @@ locations = [
       desc: true,
       email: true,
       enable: true,
-      int_tel: true,
+      int_tel: false,
       open: true,
       open_hours: true,
       photo: true,
@@ -5901,7 +5910,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Oswaldo+A.B.+Cantu%2FPan+Am+Neighborhood+Park/@30.2584925,-97.7233921,18z/data=!4m8!1m2!2m1!1sOswaldo+A.B.+Cantu%2FPan-American+Recreation+Center!3m4!1s0x8644b5b43c947515:0x4316552d7b0ede16!8m2!3d30.2589794!4d-97.7236998",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.25897940000001,
@@ -5913,7 +5922,7 @@ locations = [
       desc: true,
       email: true,
       enable: true,
-      int_tel: true,
+      int_tel: false,
       open: true,
       open_hours: true,
       photo: true,
@@ -5931,7 +5940,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Legend+Oaks+Neighborhood+Park/@30.2228,-97.8761726,17z/data=!3m1!4b1!4m5!3m4!1s0x865b49600ecdafe5:0x7d9fb05cf30ada78!8m2!3d30.2227954!4d-97.8739786",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.2227954,
@@ -5943,7 +5952,7 @@ locations = [
       desc: true,
       email: true,
       enable: true,
-      int_tel: true,
+      int_tel: false,
       open: true,
       open_hours: true,
       photo: true,
@@ -5961,7 +5970,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Montopolis+Neighborhood+Park/@30.2321495,-97.7020551,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b41f89333f59:0x8070e0597c9337ce!8m2!3d30.2321449!4d-97.6998611",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1217",
     lat: 30.23214490000001,
@@ -5981,7 +5990,7 @@ locations = [
       desc: true,
       email: true,
       enable: true,
-      int_tel: true,
+      int_tel: false,
       open: true,
       open_hours: true,
       photo: true,
@@ -5999,7 +6008,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/North+Acres+Neighborhood+Park/@30.347469,-97.6887124,17z/data=!3m1!4b1!4m5!3m4!1s0x8644c99d505a7e53:0xbdfb3450a4468a30!8m2!3d30.3474644!4d-97.6865184",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1217",
     lat: 30.3474644,
@@ -6019,7 +6028,7 @@ locations = [
       desc: true,
       email: true,
       enable: true,
-      int_tel: true,
+      int_tel: false,
       open: true,
       open_hours: true,
       photo: true,
@@ -6037,7 +6046,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Margaret+Hoffman+Oak+Park,+S+1st+St,+Austin,+TX+78701/@30.2642849,-97.7473282,18.13z/data=!4m5!3m4!1s0x8644b505f8949145:0x6c5acd0d9523362f!8m2!3d30.2640463!4d-97.7475269",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.2640463,
@@ -6049,7 +6058,7 @@ locations = [
       desc: true,
       email: true,
       enable: true,
-      int_tel: true,
+      int_tel: false,
       open: true,
       open_hours: true,
       photo: true,
@@ -6067,7 +6076,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Little+Walnut+Creek+District+Park/@30.2989806,-97.6692131,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b62373f06c69:0xc6a14639f6ddc393!8m2!3d30.298976!4d-97.6670191",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.298976,
@@ -6079,7 +6088,7 @@ locations = [
       desc: true,
       email: true,
       enable: true,
-      int_tel: true,
+      int_tel: false,
       open: true,
       open_hours: true,
       photo: true,
@@ -6097,7 +6106,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Mary+Dawson+Park/@30.2590443,-97.7913742,13z/data=!4m8!1m2!2m1!1sMary+Dawson+Pocket+Park!3m4!1s0x8644b51b945a4ee7:0xe2e4408cb9f39a1f!8m2!3d30.2590443!4d-97.7563553",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.2590443,
@@ -6109,7 +6118,7 @@ locations = [
       desc: true,
       email: true,
       enable: true,
-      int_tel: true,
+      int_tel: false,
       open: true,
       open_hours: true,
       photo: true,
@@ -6127,7 +6136,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Deer+Park+at+Maple+Run+Preserve/@30.2039018,-97.864491,17z/data=!3m1!4b1!4m5!3m4!1s0x865b4bf9fd2b375d:0x860c295a48c094d5!8m2!3d30.2038972!4d-97.862297",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1217",
     lat: 30.2038972,
@@ -6147,7 +6156,7 @@ locations = [
       desc: true,
       email: true,
       enable: true,
-      int_tel: true,
+      int_tel: false,
       open: true,
       open_hours: true,
       photo: true,
@@ -6165,7 +6174,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Oakhill+Neighborhood+Park/@30.2362252,-97.866636,15z/data=!4m8!1m2!2m1!1sOakhill+Neighborhood+Park!3m4!1s0x865b4bb312539385:0xd327cfa8b2177c98!8m2!3d30.2450316!4d-97.8433591",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1217",
     lat: 30.2450316,
@@ -6185,7 +6194,7 @@ locations = [
       desc: true,
       email: true,
       enable: true,
-      int_tel: true,
+      int_tel: false,
       open: true,
       open_hours: true,
       photo: true,
@@ -6203,7 +6212,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Tom+Lasseter+South+Lamar+Neighborhood+Park/@30.2413306,-97.781236,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b4d19301b1f9:0x68818ea5a52e39b4!8m2!3d30.241326!4d-97.779042",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Closed",
     time: "1217",
     lat: 30.241326,
@@ -6223,7 +6232,7 @@ locations = [
       desc: true,
       email: true,
       enable: true,
-      int_tel: true,
+      int_tel: false,
       open: true,
       open_hours: true,
       photo: true,
@@ -6241,7 +6250,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Seider+Springs+Greenbelt/@30.3053408,-97.7502161,17z/data=!3m1!4b1!4m5!3m4!1s0x8644ca843dd6a37f:0x6c5b9d5644ac8cc4!8m2!3d30.3053362!4d-97.7480221",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1217",
     lat: 30.3053362,
@@ -6261,7 +6270,7 @@ locations = [
       desc: true,
       email: true,
       enable: true,
-      int_tel: true,
+      int_tel: false,
       open: true,
       open_hours: true,
       photo: true,
@@ -6279,7 +6288,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Shipe+Park/@30.3074286,-97.729529,17z/data=!3m1!4b1!4m5!3m4!1s0x8644ca71108cabeb:0xe4b30fb54fee8ead!8m2!3d30.307424!4d-97.727335",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.307424,
@@ -6291,7 +6300,7 @@ locations = [
       desc: true,
       email: true,
       enable: true,
-      int_tel: true,
+      int_tel: false,
       open: true,
       open_hours: true,
       photo: true,
@@ -6309,7 +6318,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Waterloo+Neighborhood+Park/@30.2737428,-97.7381971,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b5a22eaaaaab:0xeaa2e679a227207e!8m2!3d30.2737382!4d-97.7360031",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.2737382,
@@ -6321,7 +6330,7 @@ locations = [
       desc: true,
       email: true,
       enable: true,
-      int_tel: true,
+      int_tel: false,
       open: true,
       open_hours: true,
       photo: true,
@@ -6339,7 +6348,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Georgian+Acres+Park/@30.3469004,-97.7008581,17z/data=!4m8!1m2!2m1!1sGeorgian+Acres+Neighborhood+Park!3m4!1s0x8644ca2aae9e1aed:0xcd45f89055167b15!8m2!3d30.3469004!4d-97.6986694",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.3469004,
@@ -6351,7 +6360,7 @@ locations = [
       desc: true,
       email: true,
       enable: true,
-      int_tel: true,
+      int_tel: false,
       open: true,
       open_hours: true,
       photo: true,
@@ -6369,7 +6378,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Perry+Park/@30.3317581,-97.7632186,17z/data=!3m1!4b1!4m5!3m4!1s0x8644cae86498165d:0x74d1fa28ef2899f0!8m2!3d30.3317535!4d-97.7610246",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.3317535,
@@ -6381,7 +6390,7 @@ locations = [
       desc: true,
       email: true,
       enable: true,
-      int_tel: true,
+      int_tel: false,
       open: true,
       open_hours: true,
       photo: true,
@@ -6399,7 +6408,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Mary+Frances+Baylor+Clarksville+Park/@30.2818637,-97.7665298,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b5426cb43611:0x561f58122d842b7e!8m2!3d30.2818591!4d-97.7643358",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.2818591,
@@ -6411,7 +6420,7 @@ locations = [
       desc: true,
       email: true,
       enable: true,
-      int_tel: true,
+      int_tel: false,
       open: true,
       open_hours: true,
       photo: true,
@@ -6429,7 +6438,7 @@ locations = [
     email: "",
     web:
       "https://www.google.com/maps/place/Govalle+Park/@30.2599846,-97.6926178,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b67c5b8fb989:0x247049bb1600eabf!8m2!3d30.25998!4d-97.6904238",
-    web_formatted: "google.com",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.25998,
@@ -6441,7 +6450,7 @@ locations = [
       desc: true,
       email: true,
       enable: true,
-      int_tel: true,
+      int_tel: false,
       open: true,
       open_hours: true,
       photo: true,
