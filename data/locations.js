@@ -641,36 +641,6 @@ var locations = [
     }
   },
   {
-    title: "Umlauf Sculpture Garden",
-    address: "Austin, TX 78704, USA",
-    desc: "",
-    tel: "",
-    int_tel: "",
-    email: "",
-    web: "https://www.google.com/maps/place/Umlauf+Sculpture+Garden+%26+Museum/@30.263182,-97.7666545,125m/data=!3m1!1e3!4m5!3m4!1s0x8644b53d2b8f5383:0x394cc98e538db72b!8m2!3d30.2631148!4d-97.7666196",
-    web_formatted: "Open in Google Maps",
-    open: "",
-    time: "",
-    lat: 30.2632806,
-    lng: -97.7658156,
-    vicinity: "Austin",
-    open_hours: "",
-    marker: "https://i.imgur.com/Q657jYI.png",
-    iw: {
-      address: true,
-      desc: true,
-      email: true,
-      enable: true,
-      int_tel: false,
-      open: true,
-      open_hours: true,
-      photo: true,
-      tel: true,
-      title: true,
-      web: true
-    }
-  },
-  {
     title: "Umlauf Sculpture Garden & Museum",
     address: "605 Robert E Lee Rd, Austin, TX 78704, USA",
     desc: "",
@@ -1330,44 +1300,6 @@ var locations = [
       { day: "Friday", hours: "7am9pm" },
       { day: "Saturday", hours: "7am9pm" },
       { day: "Sunday", hours: "7am9pm" }
-    ],
-    marker: "https://i.imgur.com/Sq7ZWl4.png",
-    iw: {
-      address: true,
-      desc: true,
-      email: true,
-      enable: true,
-      int_tel: false,
-      open: true,
-      open_hours: true,
-      photo: true,
-      tel: true,
-      title: true,
-      web: true
-    }
-  },
-  {
-    title: "Lakeshore at Town Lake Metropolitan Park",
-    address: "2525 S Lakeshore Blvd, Austin, TX 78741, USA",
-    desc: "",
-    tel: "(512) 974-9500",
-    int_tel: "+1 512-974-9500",
-    email: "",
-    web: "https://www.google.com/maps/place/Lakeshore+at+Town+Lake+Metropolitan+Park/@30.2431502,-97.7204933,502m/data=!3m1!1e3!4m5!3m4!1s0x8644b44802b3ab2d:0x9fd70f8d782ed89d!8m2!3d30.2434653!4d-97.7200185",
-    web_formatted: "Open in Google Maps",
-    open: "Open",
-    time: "1001",
-    lat: 30.2434653,
-    lng: -97.72001849999998,
-    vicinity: "2525 South Lakeshore Boulevard, Austin",
-    open_hours: [
-      { day: "Monday", hours: "8am5pm" },
-      { day: "Tuesday", hours: "8am5pm" },
-      { day: "Wednesday", hours: "8am5pm" },
-      { day: "Thursday", hours: "8am5pm" },
-      { day: "Friday", hours: "8am5pm" },
-      { day: "Saturday", hours: "Closed" },
-      { day: "Sunday", hours: "Closed" }
     ],
     marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
@@ -2124,44 +2056,6 @@ var locations = [
       { day: "Friday", hours: "5am–10pm", $$hashKey: "object:3608" },
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:3609" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:3610" }
-    ],
-    iw: {
-      address: true,
-      desc: true,
-      email: true,
-      enable: true,
-      int_tel: false,
-      open: true,
-      open_hours: true,
-      photo: true,
-      tel: true,
-      title: true,
-      web: true
-    }
-  },
-  {
-    title: "Zilker Metropolitan Park",
-    address: "2100 Barton Springs Rd, Austin, TX 78746, USA",
-    desc: "",
-    tel: "(512) 974-6700",
-    int_tel: "+1 512-974-6700",
-    email: "",
-    web:
-      "https://www.google.com/maps/place/Zilker+Metropolitan+Park/@30.2669624,-97.775048,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b53a1df2e44f:0x62182a199b2e5fad!8m2!3d30.2669624!4d-97.7728593",
-    web_formatted: "Open in Google Maps",
-    open: "Open",
-    time: "1014",
-    lat: 30.2669624,
-    lng: -97.7728593,
-    vicinity: "2100 Barton Springs Road, Austin",
-    open_hours: [
-      { day: "Monday", hours: "5am–10pm", $$hashKey: "object:3883" },
-      { day: "Tuesday", hours: "5am–10pm", $$hashKey: "object:3884" },
-      { day: "Wednesday", hours: "5am–10pm", $$hashKey: "object:3885" },
-      { day: "Thursday", hours: "5am–10pm", $$hashKey: "object:3886" },
-      { day: "Friday", hours: "5am–10pm", $$hashKey: "object:3887" },
-      { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:3888" },
-      { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:3889" }
     ],
     iw: {
       address: true,
@@ -5211,6 +5105,7 @@ var locations = [
     lng: -97.72001849999998,
     vicinity: "2525 South Lakeshore Boulevard, Austin",
     open_hours: "",
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,

@@ -62,7 +62,7 @@
       <!--<form class="form-inline justify-content-end", id="locsearch">
         <input class="form-control" type="text" placeholder="Search">
       </form>-->
-      <button type="button" onclick="initLocate()" class="btn btn-outline-info"><img src="https://www.iconsfind.com/wp-content/uploads/2013/11/Maps-and-Geolocation-Define-location.ico" width="20"/></button>
+      <button type="button" onclick="initLocate()" class="btn btn-outline-info"><img src="icons/LocateIcon.ico" width="20"/></button>
     </ul>
   </div>
 </nav>
@@ -82,15 +82,19 @@
 
   var locationlist = []
 
+  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    icon_scale = 32
+  } else {
+    icon_scale = 44
+  };
+
   function bindInfoWindow(marker, map, location) {
     google.maps.event.addListener(marker, "click", function() {
       function close(location) {
         location.ib.close();
         location.infoWindowVisible = false;
         location.ib = null;
-        //if (locationlist.length >= 1) {
-          locationlist.shift();
-        //}
+        locationlist.shift();
       }
 
       if (location.infoWindowVisible === true) {
@@ -225,9 +229,9 @@
         var myOptions = {
           alignBottom: true,
           content: boxText,
-          disableAutoPan: true,
+          disableAutoPan: false,
           maxWidth: 0,
-          pixelOffset: new google.maps.Size(-140, -40),
+          pixelOffset: new google.maps.Size(-140, -icon_scale),
           zIndex: null,
           boxStyle: {
             opacity: 1,
@@ -243,7 +247,7 @@
         location.ib = new InfoBox(myOptions);
         location.ib.open(map, marker);
         location.infoWindowVisible = true;
-        map.setCenter({lat: location.lat, lng: location.lng})
+        //map.setCenter({lat: location.lat, lng: location.lng})
 
       // WORKS
       locationlist.push(location)
@@ -271,12 +275,6 @@
 
     var mapElement = document.getElementById("map");
     var map = new google.maps.Map(mapElement, mapOptions);
-
-    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-      icon_scale = 32
-    } else {
-      icon_scale = 42
-    };
 
     for (i = 0; i < locations.length; i++) {
       // vv Icon scaling
@@ -312,58 +310,7 @@
   }
 
   function initLocate() {
-    var mapOptions = {
-      center: new google.maps.LatLng(30.26827752877251, -97.74217643718337),
-      zoom: 13,
-      gestureHandling: "auto",
-      fullscreenControl: false,
-      zoomControl: false,
-      disableDoubleClickZoom: true,
-      mapTypeControl: false,
-      scaleControl: false,
-      scrollwheel: true,
-      streetViewControl: false,
-      draggable: true,
-      clickableIcons: false,
-      mapTypeId: google.maps.MapTypeId.ROADMAP
-    };
-
-    var mapElement = document.getElementById("map");
-    var map = new google.maps.Map(mapElement, mapOptions);
-
-    for (i = 0; i < locations.length; i++) {
-      // vv Icon scaling
-      var icon = {
-        url: locations[i].marker, // url
-        scaledSize: new google.maps.Size(43, 43)
-      }; // scaled size
-      marker = new google.maps.Marker({
-        icon: icon,
-        // ^^ Icon scaling
-        position: new google.maps.LatLng(locations[i].lat, locations[i].lng),
-        map: map,
-        title: locations[i].title,
-        address: locations[i].address,
-        desc: locations[i].desc,
-        tel: locations[i].tel,
-        int_tel: locations[i].int_tel,
-        vicinity: locations[i].vicinity,
-        open: locations[i].open,
-        open_hours: locations[i].open_hours,
-        photo: locations[i].photo,
-        time: locations[i].time,
-        email: locations[i].email,
-        web: locations[i].web,
-        iw: locations[i].iw
-      });
-      markersArray.push(marker);
-
-      if (locations[i].iw.enable === true) {
-        bindInfoWindow(marker, map, locations[i]);
-      };
-    };
-    // GEOLOCATION START
-
+    init();
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(function(position) {
         var pos = {
