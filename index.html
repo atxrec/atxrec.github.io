@@ -455,7 +455,7 @@ var locations = [
                 switch (part) {
                   case "email":
                     return (
-                      '<div class="iw-details"><i class="material-icons" style="color:#4285f4;"><img src="' +
+                      '<div class="iw-details"><i class="material-icons" style="color:#4285f4;"><img src="icons/' +
                       icon +
                       '.svg"/></i><span><a href="mailto:' +
                       location.email +
@@ -466,7 +466,7 @@ var locations = [
                     break;
                   case "web":
                     return (
-                      '<div class="iw-details"><i class="material-icons" style="color:#4285f4;"><img src="' +
+                      '<div class="iw-details"><i class="material-icons" style="color:#4285f4;"><img src="icons/' +
                       icon +
                       '.svg"/></i><span><a href="' +
                       location.web +
@@ -477,7 +477,7 @@ var locations = [
                     break;
                   case "desc":
                     return (
-                      '<label class="iw-desc" for="cb_details"><input type="checkbox" id="cb_details"/><h3 class="iw-x-details">Details</h3><i class="material-icons toggle-open-details"><img src="' +
+                      '<label class="iw-desc" for="cb_details"><input type="checkbox" id="cb_details"/><h3 class="iw-x-details">Details</h3><i class="material-icons toggle-open-details"><img src="icons/' +
                       icon +
                       '.svg"/></i><p class="iw-x-details">' +
                       location.desc +
@@ -486,7 +486,7 @@ var locations = [
                     break;
                   default:
                     return (
-                      '<div class="iw-details"><i class="material-icons"><img src="' +
+                      '<div class="iw-details"><i class="material-icons"><img src="icons/' +
                       icon +
                       '.svg"/></i><span>' +
                       location[part] +
@@ -512,12 +512,12 @@ var locations = [
                       location.open_hours[0].day +
                       "</strong><strong>" +
                       location.open_hours[0].hours +
-                      '</strong><i class="material-icons toggle-open-hours"><img src="keyboard_arrow_down.svg"/></i><ul>' +
+                      '</strong><i class="material-icons toggle-open-hours"><img src="icons/keyboard_arrow_down.svg"/></i><ul>' +
                       items +
                       "</ul></label></li>";
                   }
                   return (
-                    '<div class="iw-list"><i class="material-icons first-material-icons" style="color:#4285f4;"><img src="' +
+                    '<div class="iw-list"><i class="material-icons first-material-icons" style="color:#4285f4;"><img src="icons/' +
                     icon +
                     '.svg"/></i><ul>' +
                     first +
