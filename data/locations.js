@@ -7,7 +7,275 @@
 // Field: https://i.imgur.com/5n8TP5Y.png
 // Rec Center: https://i.imgur.com/SMUpvya.png
 
-locations = [
+var locations = [
+  {
+    title: "Austin Recreation Center",
+    address: "1301 Shoal Creek Blvd, Austin, TX 78701, USA",
+    desc: "",
+    tel: "(512) 978-2370",
+    int_tel: "+1 512-978-2370",
+    email: "",
+    web:
+      "https://www.google.com/maps/place/Austin+Recreation+Center/@30.2637929,-97.743978,14.25z/data=!4m8!1m2!2m1!1srec+center!3m4!1s0x0:0xe32a739490c0b793!8m2!3d30.2783038!4d-97.7490467",
+    web_formatted: "Open in Google Maps",
+    open: "Open",
+    time: "1357",
+    lat: 30.2783037,
+    lng: -97.7490472,
+    vicinity: "1301 Shoal Creek Boulevard, Austin",
+    open_hours: [
+      { day: "Monday", hours: "7:30am–10:30pm", $$hashKey: "object:1908" },
+      { day: "Tuesday", hours: "7:30am–10:30pm", $$hashKey: "object:1909" },
+      { day: "Wednesday", hours: "7:30am–10:30pm", $$hashKey: "object:1910" },
+      { day: "Thursday", hours: "7:30am–10:30pm", $$hashKey: "object:1911" },
+      { day: "Friday", hours: "7:30am–9pm", $$hashKey: "object:1912" },
+      { day: "Saturday", hours: "8:30am–3:30pm", $$hashKey: "object:1913" },
+      { day: "Sunday", hours: "Closed", $$hashKey: "object:1914" }
+    ],
+    marker: "https://i.imgur.com/SMUpvya.png",
+    iw: {
+      address: true,
+      desc: true,
+      email: true,
+      enable: true,
+      int_tel: false,
+      open: true,
+      open_hours: true,
+      photo: true,
+      tel: false,
+      title: true,
+      web: true
+    }
+  },
+
+  {
+    title: "Bullock Texas State History Museum",
+    address: "1800 Congress Ave, Austin, TX 78701, USA",
+    desc: "",
+    tel: "(512) 936-8746",
+    int_tel: "+1 512-936-8746",
+    email: "",
+    web:
+      "https://www.google.com/maps/place/Bullock+Texas+State+History+Museum/@30.2786863,-97.7412046,17z/data=!4m8!1m2!2m1!1smuseum!3m4!1s0x0:0xd301bae0460e95a2!8m2!3d30.2803647!4d-97.7391741",
+    web_formatted: "Open in Google Maps",
+    open: "Open",
+    time: "1353",
+    lat: 30.2803648,
+    lng: -97.73917360000002,
+    vicinity: "1800 Congress Avenue, Austin",
+    open_hours: [
+      { day: "Monday", hours: "9am–5pm", $$hashKey: "object:1516" },
+      { day: "Tuesday", hours: "9am–5pm", $$hashKey: "object:1517" },
+      { day: "Wednesday", hours: "9am–5pm", $$hashKey: "object:1518" },
+      { day: "Thursday", hours: "9am–5pm", $$hashKey: "object:1519" },
+      { day: "Friday", hours: "9am–5pm", $$hashKey: "object:1520" },
+      { day: "Saturday", hours: "9am–5pm", $$hashKey: "object:1521" },
+      { day: "Sunday", hours: "12–5pm", $$hashKey: "object:1522" }
+    ],
+    marker: "https://i.imgur.com/Q657jYI.png",
+    iw: {
+      address: true,
+      desc: true,
+      email: true,
+      enable: true,
+      int_tel: false,
+      open: true,
+      open_hours: true,
+      photo: true,
+      tel: false,
+      title: true,
+      web: true
+    }
+  },
+  {
+    title: "Butler Park",
+    address: "1000 Barton Springs Rd, Austin, TX 78704, USA",
+    desc:
+      "Winding park with city vistas, a night-lit fountain, a pond, walking paths & other features.",
+    tel: "(512) 974-6700",
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
+    email: "",
+    web:
+      "https://www.google.com/maps/place/Butler+Park/@30.2615294,-97.7546749,18.25z/data=!4m5!3m4!1s0x8644b51b0fce85b3:0x7ee2d130cb0014de!8m2!3d30.2613863!4d-97.754175",
+    web_formatted: "Open in Google Maps",
+    open: "Open",
+    time: "1829",
+    lat: 30.2613863,
+    lng: -97.75417499999998,
+    vicinity: "1000 Barton Springs Road, Austin",
+    open_hours: [
+      { day: "Monday", hours: "5am–10pm", $$hashKey: "object:6387" },
+      { day: "Tuesday", hours: "5am–10pm", $$hashKey: "object:6388" },
+      { day: "Wednesday", hours: "5am–10pm", $$hashKey: "object:6389" },
+      { day: "Thursday", hours: "5am–10pm", $$hashKey: "object:6390" },
+      { day: "Friday", hours: "5am–10pm", $$hashKey: "object:6391" },
+      { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:6392" },
+      { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:6393" }
+    ],
+    iw: {
+      address: true,
+      desc: true,
+      email: true,
+      enable: true,
+      int_tel: false,
+      open: true,
+      open_hours: true,
+      photo: true,
+      tel: false,
+      title: true,
+      web: true
+    }
+  },
+  {
+    title: "Zilker Metropolitan Park",
+    address: "2100 Barton Springs Rd, Austin, TX 78746, United States",
+    desc:
+      "Zilker Metropolitan Park is a recreational area in south Austin, Texas at the juncture of Barton Creek and the Colorado River that comprises over 350 acres of publicly owned land.",
+    tel: "",
+    int_tel: "",
+    email: "",
+    web:
+      "https://www.google.com/maps/place/Zilker+Metropolitan+Park/@30.2636355,-97.7728872,17z/data=!4m5!3m4!1s0x8644b53a1df2e44f:0x62182a199b2e5fad!8m2!3d30.2669624!4d-97.7728593",
+    web_formatted: "Open in Google Maps",
+    open: "",
+    time: "",
+    lat: 30.2669624,
+    lng: -97.7728593,
+    vicinity: "2100 Barton Springs Rd, Austin, TX 78746, United States",
+    open_hours: [
+      { day: "Monday", hours: "5am–10pm", $$hashKey: "object:6387" },
+      { day: "Tuesday", hours: "5am–10pm", $$hashKey: "object:6388" },
+      { day: "Wednesday", hours: "5am–10pm", $$hashKey: "object:6389" },
+      { day: "Thursday", hours: "5am–10pm", $$hashKey: "object:6390" },
+      { day: "Friday", hours: "5am–10pm", $$hashKey: "object:6391" },
+      { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:6392" },
+      { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:6393" }
+    ],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
+    iw: {
+      address: true,
+      desc: true,
+      email: true,
+      enable: true,
+      int_tel: true,
+      open: true,
+      open_hours: true,
+      photo: true,
+      tel: true,
+      title: true,
+      web: true
+    }
+  },
+  {
+    title: "Barton Springs Pool",
+    address: "2201 Barton Springs Rd, Austin, TX 78746, USA",
+    desc:
+      "Barton Springs Pool is a recreational outdoor swimming pool that is filled entirely with water from nearby natural springs. It is located on the grounds of Zilker Park in Austin, Texas.",
+    tel: "(512) 867-3080",
+    int_tel: "+1 512-867-3080",
+    email: "",
+    web:
+      "https://www.google.com/maps/place/Barton+Springs+Pool/@30.2636355,-97.7728872,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b53c9ca39041:0x1e4f612ca40e5d37!8m2!3d30.2636355!4d-97.7706985",
+    web_formatted: "Open in Google Maps",
+    open: "Closed",
+    time: "2337",
+    lat: 30.2636355,
+    lng: -97.77069849999998,
+    vicinity: "2201 Barton Springs Road, Austin",
+    open_hours: [
+      { day: "Monday", hours: "5am–10pm", $$hashKey: "object:2243" },
+      { day: "Tuesday", hours: "5am–10pm", $$hashKey: "object:2244" },
+      { day: "Wednesday", hours: "5am–10pm", $$hashKey: "object:2245" },
+      { day: "Thursday", hours: "5–9am,7–10pm", $$hashKey: "object:2246" },
+      { day: "Friday", hours: "5am–10pm", $$hashKey: "object:2247" },
+      { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:2248" },
+      { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:2249" }
+    ],
+    marker: "https://i.imgur.com/hWD3v5O.png",
+    iw: {
+      address: true,
+      desc: true,
+      email: true,
+      enable: true,
+      int_tel: false,
+      open: true,
+      open_hours: true,
+      photo: true,
+      tel: false,
+      title: true,
+      web: true
+    }
+  },
+  {
+    title: "Metz Splash Pad",
+    address: "2407 Canterbury St, Austin, TX 78702, USA",
+    desc: "",
+    tel: "(512) 974-9331",
+    int_tel: "+1 512-974-9331",
+    email: "",
+    web:
+      "https://www.google.com/maps/place/Metz+Splash+Pad/@30.2522184,-97.7188242,18.34z/data=!4m8!1m2!2m1!1ssearch!3m4!1s0x8644b4350e0506ab:0x6ab78b33458e273d!8m2!3d30.2522166!4d-97.7182153",
+    web_formatted: "Open in Google Maps",
+    open: "",
+    time: "",
+    lat: 30.2522166,
+    lng: -97.7182153,
+    vicinity: "2407 Canterbury Street, Austin",
+    open_hours: "",
+    marker: "https://i.imgur.com/tO61iV6.png",
+    iw: {
+      address: true,
+      desc: true,
+      email: true,
+      enable: true,
+      int_tel: false,
+      open: true,
+      open_hours: true,
+      photo: true,
+      tel: false,
+      title: true,
+      web: true
+    }
+  },
+  {
+    title: "Liz Carpenter Splash Pad",
+    address: "1000 Barton Springs Rd, Austin, TX 78704, USA",
+    desc: "",
+    tel: "(512) 974-9331",
+    int_tel: "+1 512-974-9331",
+    email: "",
+    web:
+      "https://www.google.com/maps/place/Liz+Carpenter+Splash+Pad/@30.2625952,-97.7544181,19z/data=!4m5!3m4!1s0x0:0xa3036308cdb8fc8b!8m2!3d30.262138!4d-97.7543977",
+    web_formatted: "Open in Google Maps",
+    open: "Open",
+    time: "1342",
+    lat: 30.262138,
+    lng: -97.75439799999998,
+    vicinity: "1000 Barton Springs Road, Austin",
+    open_hours: [
+      { day: "Monday", hours: "12am–9:45pm", $$hashKey: "object:542" },
+      { day: "Tuesday", hours: "8am–9:45pm", $$hashKey: "object:543" },
+      { day: "Wednesday", hours: "8am–9:45pm", $$hashKey: "object:544" },
+      { day: "Thursday", hours: "8am–9:45pm", $$hashKey: "object:545" },
+      { day: "Friday", hours: "8am–9:45pm", $$hashKey: "object:546" },
+      { day: "Saturday", hours: "8am–9:45pm", $$hashKey: "object:547" },
+      { day: "Sunday", hours: "8am–9:45pm", $$hashKey: "object:548" }
+    ],
+    marker: "https://i.imgur.com/tO61iV6.png",
+    iw: {
+      address: true,
+      desc: true,
+      email: true,
+      enable: true,
+      int_tel: false,
+      open: true,
+      open_hours: true,
+      photo: true,
+      tel: false,
+      title: true,
+      web: true
+    }
+  },
   {
     title: "Springwoods Neighborhood Park",
     address: "9117 Anderson Mill Rd, Austin, TX 78729, USA",
@@ -15,7 +283,7 @@ locations = [
     tel: "(512) 974-6797",
     int_tel: "+1 512-974-6797",
     email: "",
-    web: "",
+    web: "https://www.google.com/maps/place/Springwoods+Neighborhood+Park/@30.4506415,-97.7825494,17z/data=!3m1!4b1!4m5!3m4!1s0x8644cd33f1677323:0xa3ba787c40adfe27!8m2!3d30.4506415!4d-97.7803607",
     web_formatted: "Open in Google Maps",
     open: "",
     time: "1001",
@@ -31,13 +299,7 @@ locations = [
       { day: "Saturday", hours: "open24hours" },
       { day: "Sunday", hours: "open24hours" }
     ],
-    marker: {
-      url:
-        "https://i.imgur.com/Sq7ZWl4.png",
-      scaledSize: { width: 25, height: 42, f: "px", b: "px" },
-      origin: { x: 0, y: 0 },
-      anchor: { x: 12, y: 42 }
-    },
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -59,7 +321,7 @@ locations = [
     tel: "(512) 974-6700",
     int_tel: "+1 512-974-6700",
     email: "",
-    web: "",
+    web: "https://www.google.com/maps/place/Republic+Square/@30.2679131,-97.749461,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b50ecd930de9:0xb25c373b166e40a7!8m2!3d30.2679131!4d-97.7472723",
     web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
@@ -75,13 +337,7 @@ locations = [
       { day: "Saturday", hours: "5am10pm" },
       { day: "Sunday", hours: "5am10pm" }
     ],
-    marker: {
-      url:
-        "https://i.imgur.com/Sq7ZWl4.png",
-      scaledSize: { width: 25, height: 42, f: "px", b: "px" },
-      origin: { x: 0, y: 0 },
-      anchor: { x: 12, y: 42 }
-    },
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -103,7 +359,7 @@ locations = [
     tel: "(512) 974-6700",
     int_tel: "+1 512-974-6700",
     email: "",
-    web: "",
+    web: "https://www.google.com/maps/place/Longhorn+Shores+at+Town+Lake+Metropolitan+Park/@30.2470744,-97.7170433,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b527e65d1ebf:0x9ac0a0b290555cd4!8m2!3d30.2470744!4d-97.7148546",
     web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
@@ -119,13 +375,7 @@ locations = [
       { day: "Saturday", hours: "5am10pm" },
       { day: "Sunday", hours: "5am10pm" }
     ],
-    marker: {
-      url:
-        "https://i.imgur.com/Sq7ZWl4.png",
-      scaledSize: { width: 25, height: 42, f: "px", b: "px" },
-      origin: { x: 0, y: 0 },
-      anchor: { x: 12, y: 42 }
-    },
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -147,7 +397,7 @@ locations = [
     tel: "(512) 974-6700",
     int_tel: "+1 512-974-6700",
     email: "",
-    web: "",
+    web: "https://www.google.com/maps/place/South+Austin+Neighborhood+Park/@30.2470732,-97.7323642,14z/data=!4m8!1m2!2m1!1sSouth+Austin+Neighborhood+Park!3m4!1s0x8644b4dc9f62c943:0x985fa8d361564f90!8m2!3d30.241392!4d-97.768622",
     web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
@@ -163,13 +413,7 @@ locations = [
       { day: "Saturday", hours: "5am10pm" },
       { day: "Sunday", hours: "5am10pm" }
     ],
-    marker: {
-      url:
-        "https://i.imgur.com/Sq7ZWl4.png",
-      scaledSize: { width: 25, height: 42, f: "px", b: "px" },
-      origin: { x: 0, y: 0 },
-      anchor: { x: 12, y: 42 }
-    },
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -186,12 +430,12 @@ locations = [
   },
   {
     title: "Odom School Park",
-    address: "Sahara Ave, Austin, TX 78745, USA",
+    address: "1001 Sahara Ave, Austin, TX 78745, USA",
     desc: "",
-    tel: "",
+    tel: "(512) 974-6700",
     int_tel: "",
     email: "",
-    web: "",
+    web: "https://www.google.com/maps/place/Odom+School+Park/@30.2056977,-97.789124,18z/data=!4m13!1m7!3m6!1s0x865b4b559923963f:0x78a3e181deaa8395!2sOdom+School+Park,+Sahara+Ave,+Austin,+TX+78745!3b1!8m2!3d30.2054576!4d-97.7881976!3m4!1s0x0:0x1421911fcb45f569!8m2!3d30.2062653!4d-97.788498",
     web_formatted: "Open in Google Maps",
     open: "",
     time: "",
@@ -199,13 +443,7 @@ locations = [
     lng: -97.78819759999999,
     vicinity: "Austin",
     open_hours: "",
-    marker: {
-      url:
-        "https://i.imgur.com/Sq7ZWl4.png",
-      scaledSize: { width: 25, height: 42, f: "px", b: "px" },
-      origin: { x: 0, y: 0 },
-      anchor: { x: 12, y: 42 }
-    },
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -227,7 +465,7 @@ locations = [
     tel: "(512) 974-9331",
     int_tel: "+1 512-974-9331",
     email: "",
-    web: "",
+    web: "https://www.google.com/maps/place/Kennemer+Pool/@30.3601434,-97.70803,17z/data=!3m1!4b1!4m5!3m4!1s0x8644cbdaf8c842d1:0x9203be6acd489f0e!8m2!3d30.3601434!4d-97.7058413",
     web_formatted: "Open in Google Maps",
     open: "Closed",
     time: "1001",
@@ -243,13 +481,7 @@ locations = [
       { day: "Saturday", hours: "18pm" },
       { day: "Sunday", hours: "18pm" }
     ],
-    marker: {
-      url:
-        "https://i.imgur.com/Sq7ZWl4.png",
-      scaledSize: { width: 25, height: 42, f: "px", b: "px" },
-      origin: { x: 0, y: 0 },
-      anchor: { x: 12, y: 42 }
-    },
+    marker: "https://i.imgur.com/hWD3v5O.png",
     iw: {
       address: true,
       desc: true,
@@ -271,7 +503,7 @@ locations = [
     tel: "",
     int_tel: "",
     email: "",
-    web: "",
+    web: "https://www.google.com/maps/place/Westcreek+Pocket+Park,+Brush+Country+Rd,+Austin,+TX+78749/@30.2299802,-97.84427,18z/data=!4m5!3m4!1s0x865b4bbb8a83c0d7:0x942ff0244bc3aea2!8m2!3d30.2299262!4d-97.8433206",
     web_formatted: "Open in Google Maps",
     open: "",
     time: "",
@@ -279,13 +511,7 @@ locations = [
     lng: -97.84332060000002,
     vicinity: "Austin",
     open_hours: "",
-    marker: {
-      url:
-        "https://i.imgur.com/Sq7ZWl4.png",
-      scaledSize: { width: 25, height: 42, f: "px", b: "px" },
-      origin: { x: 0, y: 0 },
-      anchor: { x: 12, y: 42 }
-    },
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -307,7 +533,7 @@ locations = [
     tel: "(512) 478-6268",
     int_tel: "+1 512-478-6268",
     email: "",
-    web: "",
+    web: "https://www.google.com/maps/place/Caswell+Tennis+Center/@30.2878295,-97.7540306,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b56556d09661:0x3bf1b696c08d2ca3!8m2!3d30.2878295!4d-97.7518419",
     web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
@@ -323,13 +549,7 @@ locations = [
       { day: "Saturday", hours: "8:30am6pm" },
       { day: "Sunday", hours: "8:30am6pm" }
     ],
-    marker: {
-      url:
-        "https://i.imgur.com/Sq7ZWl4.png",
-      scaledSize: { width: 25, height: 42, f: "px", b: "px" },
-      origin: { x: 0, y: 0 },
-      anchor: { x: 12, y: 42 }
-    },
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -351,7 +571,7 @@ locations = [
     tel: "(512) 974-6700",
     int_tel: "+1 512-974-6700",
     email: "",
-    web: "",
+    web: "https://www.google.com/maps/place/Beverly+S.+Sheffield+Northwest+District+Park/@30.3488089,-97.743342,17z/data=!3m1!4b1!4m5!3m4!1s0x8644cb009ae96ae5:0x5686e3920528f529!8m2!3d30.3488089!4d-97.7411533",
     web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
@@ -367,13 +587,7 @@ locations = [
       { day: "Saturday", hours: "8am10pm" },
       { day: "Sunday", hours: "8am10pm" }
     ],
-    marker: {
-      url:
-        "https://i.imgur.com/Sq7ZWl4.png",
-      scaledSize: { width: 25, height: 42, f: "px", b: "px" },
-      origin: { x: 0, y: 0 },
-      anchor: { x: 12, y: 42 }
-    },
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -395,7 +609,7 @@ locations = [
     tel: "(512) 974-6700",
     int_tel: "+1 512-974-6700",
     email: "",
-    web: "",
+    web: "https://www.google.com/maps/place/Downs-Mabson+Fields/@30.2759639,-97.7103099,251m/data=!3m1!1e3!4m5!3m4!1s0x8644b5c2c9d31375:0x568d0e4bdd1272c2!8m2!3d30.2760612!4d-97.7094248",
     web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
@@ -411,49 +625,7 @@ locations = [
       { day: "Saturday", hours: "5am10pm" },
       { day: "Sunday", hours: "5am10pm" }
     ],
-    marker: {
-      url:
-        "https://i.imgur.com/Sq7ZWl4.png",
-      scaledSize: { width: 25, height: 42, f: "px", b: "px" },
-      origin: { x: 0, y: 0 },
-      anchor: { x: 12, y: 42 }
-    },
-    iw: {
-      address: true,
-      desc: true,
-      email: true,
-      enable: true,
-      int_tel: false,
-      open: true,
-      open_hours: true,
-      photo: true,
-      tel: true,
-      title: true,
-      web: true
-    }
-  },
-  {
-    title: "Bolm Road District Park",
-    address: "6700 Bolm Rd, Austin, TX 78725, USA",
-    desc: "",
-    tel: "",
-    int_tel: "",
-    email: "",
-    web: "",
-    web_formatted: "Open in Google Maps",
-    open: "",
-    time: "",
-    lat: 30.2534036,
-    lng: -97.67812809999998,
-    vicinity: "Austin",
-    open_hours: "",
-    marker: {
-      url:
-        "https://i.imgur.com/Sq7ZWl4.png",
-      scaledSize: { width: 25, height: 42, f: "px", b: "px" },
-      origin: { x: 0, y: 0 },
-      anchor: { x: 12, y: 42 }
-    },
+    marker: "https://i.imgur.com/5n8TP5Y.png",
     iw: {
       address: true,
       desc: true,
@@ -475,7 +647,7 @@ locations = [
     tel: "",
     int_tel: "",
     email: "",
-    web: "",
+    web: "https://www.google.com/maps/place/Umlauf+Sculpture+Garden+%26+Museum/@30.263182,-97.7666545,125m/data=!3m1!1e3!4m5!3m4!1s0x8644b53d2b8f5383:0x394cc98e538db72b!8m2!3d30.2631148!4d-97.7666196",
     web_formatted: "Open in Google Maps",
     open: "",
     time: "",
@@ -483,13 +655,7 @@ locations = [
     lng: -97.7658156,
     vicinity: "Austin",
     open_hours: "",
-    marker: {
-      url:
-        "https://i.imgur.com/Sq7ZWl4.png",
-      scaledSize: { width: 25, height: 42, f: "px", b: "px" },
-      origin: { x: 0, y: 0 },
-      anchor: { x: 12, y: 42 }
-    },
+    marker: "https://i.imgur.com/Q657jYI.png",
     iw: {
       address: true,
       desc: true,
@@ -511,7 +677,7 @@ locations = [
     tel: "(512) 445-5582",
     int_tel: "+1 512-445-5582",
     email: "",
-    web: "",
+    web: "https://www.google.com/maps/place/Umlauf+Sculpture+Garden+%26+Museum/@30.2631101,-97.7667765,125m/data=!3m1!1e3!4m5!3m4!1s0x8644b53d2b8f5383:0x394cc98e538db72b!8m2!3d30.2631148!4d-97.7666196",
     web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
@@ -527,13 +693,7 @@ locations = [
       { day: "Saturday", hours: "124pm" },
       { day: "Sunday", hours: "124pm" }
     ],
-    marker: {
-      url:
-        "https://i.imgur.com/Sq7ZWl4.png",
-      scaledSize: { width: 25, height: 42, f: "px", b: "px" },
-      origin: { x: 0, y: 0 },
-      anchor: { x: 12, y: 42 }
-    },
+    marker: "https://i.imgur.com/Q657jYI.png",
     iw: {
       address: true,
       desc: true,
@@ -555,7 +715,7 @@ locations = [
     tel: "(800) 926-2282",
     int_tel: "+1 800-926-2282",
     email: "",
-    web: "",
+    web: "https://www.google.com/maps/place/Wooldridge+School+Park/@30.3645513,-97.7094857,251m/data=!3m1!1e3!4m5!3m4!1s0x8644cbdcb1735f9d:0xf2e1e62ef2a8625a!8m2!3d30.3647596!4d-97.7085764",
     web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
@@ -571,13 +731,7 @@ locations = [
       { day: "Saturday", hours: "5am10pm" },
       { day: "Sunday", hours: "5am10pm" }
     ],
-    marker: {
-      url:
-        "https://i.imgur.com/Sq7ZWl4.png",
-      scaledSize: { width: 25, height: 42, f: "px", b: "px" },
-      origin: { x: 0, y: 0 },
-      anchor: { x: 12, y: 42 }
-    },
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -599,7 +753,7 @@ locations = [
     tel: "(512) 974-6700",
     int_tel: "+1 512-974-6700",
     email: "",
-    web: "",
+    web: "https://www.google.com/maps/place/Wooldridge+Square/@30.2723613,-97.7459193,125m/data=!3m1!1e3!4m5!3m4!1s0x8644b50ba22ffa9d:0xead53292042363af!8m2!3d30.2724204!4d-97.7455304",
     web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
@@ -615,13 +769,7 @@ locations = [
       { day: "Saturday", hours: "5am10pm" },
       { day: "Sunday", hours: "5am10pm" }
     ],
-    marker: {
-      url:
-        "https://i.imgur.com/Sq7ZWl4.png",
-      scaledSize: { width: 25, height: 42, f: "px", b: "px" },
-      origin: { x: 0, y: 0 },
-      anchor: { x: 12, y: 42 }
-    },
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -643,7 +791,7 @@ locations = [
     tel: "(512) 974-6700",
     int_tel: "+1 512-974-6700",
     email: "",
-    web: "",
+    web: "https://www.google.com/maps/place/Kendra+Page+Neighborhood+Park/@30.1815027,-97.7664187,1004m/data=!3m2!1e3!4b1!4m5!3m4!1s0x8644b33fe9b1eb4f:0x68648f691ec61bac!8m2!3d30.1815027!4d-97.76423",
     web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
@@ -659,13 +807,7 @@ locations = [
       { day: "Saturday", hours: "5am10pm" },
       { day: "Sunday", hours: "5am10pm" }
     ],
-    marker: {
-      url:
-        "https://i.imgur.com/Sq7ZWl4.png",
-      scaledSize: { width: 25, height: 42, f: "px", b: "px" },
-      origin: { x: 0, y: 0 },
-      anchor: { x: 12, y: 42 }
-    },
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -687,7 +829,7 @@ locations = [
     tel: "(512) 974-6700",
     int_tel: "+1 512-974-6700",
     email: "",
-    web: "",
+    web: "https://www.google.com/maps/place/Williamson+Creek+West+Greenbelt/@30.226253,-97.8421105,251m/data=!3m1!1e3!4m5!3m4!1s0x865b4bbd0fe84063:0x21d7d49c706a8032!8m2!3d30.2261435!4d-97.841676",
     web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
@@ -703,13 +845,7 @@ locations = [
       { day: "Saturday", hours: "5am10pm" },
       { day: "Sunday", hours: "5am10pm" }
     ],
-    marker: {
-      url:
-        "https://i.imgur.com/Sq7ZWl4.png",
-      scaledSize: { width: 25, height: 42, f: "px", b: "px" },
-      origin: { x: 0, y: 0 },
-      anchor: { x: 12, y: 42 }
-    },
+    marker: "https://i.imgur.com/K7MTLyv.png",
     iw: {
       address: true,
       desc: true,
@@ -731,7 +867,7 @@ locations = [
     tel: "(512) 974-6700",
     int_tel: "+1 512-974-6700",
     email: "",
-    web: "",
+    web: "https://www.google.com/maps/place/Yates+Pocket+Park/@30.2363756,-97.7007306,251m/data=!3m1!1e3!4m5!3m4!1s0x8644b4211ef9227b:0xa3c7c9133a98b748!8m2!3d30.2365598!4d-97.7001781",
     web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
@@ -747,13 +883,7 @@ locations = [
       { day: "Saturday", hours: "5am10pm" },
       { day: "Sunday", hours: "5am10pm" }
     ],
-    marker: {
-      url:
-        "https://i.imgur.com/Sq7ZWl4.png",
-      scaledSize: { width: 25, height: 42, f: "px", b: "px" },
-      origin: { x: 0, y: 0 },
-      anchor: { x: 12, y: 42 }
-    },
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -775,7 +905,7 @@ locations = [
     tel: "(512) 974-6700",
     int_tel: "+1 512-974-6700",
     email: "",
-    web: "",
+    web: "https://www.google.com/maps/place/Payton+Gin+Pocket+Park/@30.357681,-97.7009945,125m/data=!3m1!1e3!4m5!3m4!1s0x8644cbd790df1ae1:0xa1095af53aa9f947!8m2!3d30.3577007!4d-97.7007719",
     web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
@@ -791,13 +921,7 @@ locations = [
       { day: "Saturday", hours: "5am10pm" },
       { day: "Sunday", hours: "5am10pm" }
     ],
-    marker: {
-      url:
-        "https://i.imgur.com/Sq7ZWl4.png",
-      scaledSize: { width: 25, height: 42, f: "px", b: "px" },
-      origin: { x: 0, y: 0 },
-      anchor: { x: 12, y: 42 }
-    },
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -819,7 +943,7 @@ locations = [
     tel: "(512) 974-6700",
     int_tel: "+1 512-974-6700",
     email: "",
-    web: "",
+    web: "https://www.google.com/maps/place/Ortega+School+Park/@30.2694568,-97.6838905,251m/data=!3m1!1e3!4m5!3m4!1s0x8644b66f72871759:0xd3a67b9c6f06e12a!8m2!3d30.2695263!4d-97.6834694",
     web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
@@ -835,13 +959,7 @@ locations = [
       { day: "Saturday", hours: "5am10pm" },
       { day: "Sunday", hours: "5am10pm" }
     ],
-    marker: {
-      url:
-        "https://i.imgur.com/Sq7ZWl4.png",
-      scaledSize: { width: 25, height: 42, f: "px", b: "px" },
-      origin: { x: 0, y: 0 },
-      anchor: { x: 12, y: 42 }
-    },
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -863,7 +981,7 @@ locations = [
     tel: "(512) 974-6700",
     int_tel: "+1 512-974-6700",
     email: "",
-    web: "",
+    web: "https://www.google.com/maps/place/J.J.+Seabrook+Greenbelt/@30.2850752,-97.7009047,125m/data=!3m1!1e3!4m5!3m4!1s0x8644b5e22c0c2739:0xe2bf707260d43429!8m2!3d30.2849907!4d-97.7007719",
     web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
@@ -879,13 +997,7 @@ locations = [
       { day: "Saturday", hours: "5am10pm" },
       { day: "Sunday", hours: "5am10pm" }
     ],
-    marker: {
-      url:
-        "https://i.imgur.com/Sq7ZWl4.png",
-      scaledSize: { width: 25, height: 42, f: "px", b: "px" },
-      origin: { x: 0, y: 0 },
-      anchor: { x: 12, y: 42 }
-    },
+    marker: "https://i.imgur.com/K7MTLyv.png",
     iw: {
       address: true,
       desc: true,
@@ -907,7 +1019,7 @@ locations = [
     tel: "(512) 974-6700",
     int_tel: "+1 512-974-6700",
     email: "",
-    web: "",
+    web: "https://www.google.com/maps/place/Lakeline+Neighborhood+Park/@30.4752582,-97.812109,501m/data=!3m1!1e3!4m8!1m2!2m1!1sLakeline+Neighborhood+Park!3m4!1s0x865b329d06957f03:0xe2917acd2a6aa763!8m2!3d30.4761621!4d-97.8082381",
     web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
@@ -923,13 +1035,7 @@ locations = [
       { day: "Saturday", hours: "5am10pm" },
       { day: "Sunday", hours: "5am10pm" }
     ],
-    marker: {
-      url:
-        "https://i.imgur.com/Sq7ZWl4.png",
-      scaledSize: { width: 25, height: 42, f: "px", b: "px" },
-      origin: { x: 0, y: 0 },
-      anchor: { x: 12, y: 42 }
-    },
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -951,7 +1057,7 @@ locations = [
     tel: "(512) 974-4926",
     int_tel: "+1 512-974-4926",
     email: "",
-    web: "",
+    web: "https://www.google.com/maps/place/George+Washington+Carver+Museum/@30.2700376,-97.7261948,1004m/data=!3m2!1e3!4b1!4m5!3m4!1s0x8644b4e8af347b4b:0x706ae40b8038434c!8m2!3d30.2700376!4d-97.7240061",
     web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
@@ -967,13 +1073,7 @@ locations = [
       { day: "Saturday", hours: "10am4pm" },
       { day: "Sunday", hours: "Closed" }
     ],
-    marker: {
-      url:
-        "https://i.imgur.com/Sq7ZWl4.png",
-      scaledSize: { width: 25, height: 42, f: "px", b: "px" },
-      origin: { x: 0, y: 0 },
-      anchor: { x: 12, y: 42 }
-    },
+    marker: "https://i.imgur.com/Q657jYI.png",
     iw: {
       address: true,
       desc: true,
@@ -995,7 +1095,7 @@ locations = [
     tel: "(512) 974-6797",
     int_tel: "+1 512-974-6797",
     email: "",
-    web: "",
+    web: "https://www.google.com/maps/place/Stillhouse+Hollow+Nature+Preserve/@30.3703931,-97.7645971,1003m/data=!3m1!1e3!4m5!3m4!1s0x8644cb6a09eeac0d:0x5c37e05357fa8f2b!8m2!3d30.3709786!4d-97.7637415",
     web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
@@ -1011,13 +1111,7 @@ locations = [
       { day: "Saturday", hours: "5am10pm" },
       { day: "Sunday", hours: "5am10pm" }
     ],
-    marker: {
-      url:
-        "https://i.imgur.com/Sq7ZWl4.png",
-      scaledSize: { width: 25, height: 42, f: "px", b: "px" },
-      origin: { x: 0, y: 0 },
-      anchor: { x: 12, y: 42 }
-    },
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -1039,7 +1133,7 @@ locations = [
     tel: "",
     int_tel: "",
     email: "",
-    web: "",
+    web: "https://www.google.com/maps/place/Highland+Neighborhood+Park+and+Reznicek+Field/@30.3360315,-97.7139701,251m/data=!3m1!1e3!4m5!3m4!1s0x8644ca30bbbb695d:0xe7bd4a9bab6c0c2e!8m2!3d30.3359725!4d-97.7141082",
     web_formatted: "Open in Google Maps",
     open: "",
     time: "",
@@ -1047,13 +1141,7 @@ locations = [
     lng: -97.7135781,
     vicinity: "401 West Saint Johns Avenue, Austin",
     open_hours: "",
-    marker: {
-      url:
-        "https://i.imgur.com/Sq7ZWl4.png",
-      scaledSize: { width: 25, height: 42, f: "px", b: "px" },
-      origin: { x: 0, y: 0 },
-      anchor: { x: 12, y: 42 }
-    },
+    marker: "https://i.imgur.com/5n8TP5Y.png",
     iw: {
       address: true,
       desc: true,
@@ -1075,7 +1163,7 @@ locations = [
     tel: "(512) 974-6700",
     int_tel: "+1 512-974-6700",
     email: "",
-    web: "",
+    web: "https://www.google.com/maps/place/Springdale+Neighborhood+Park/@30.2773429,-97.6846509,251m/data=!3m1!1e3!4m5!3m4!1s0x8644b66ce67954b7:0x632f8cc2e19d42e!8m2!3d30.2776371!4d-97.6841272",
     web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
@@ -1091,13 +1179,7 @@ locations = [
       { day: "Saturday", hours: "5am10pm" },
       { day: "Sunday", hours: "5am10pm" }
     ],
-    marker: {
-      url:
-        "https://i.imgur.com/Sq7ZWl4.png",
-      scaledSize: { width: 25, height: 42, f: "px", b: "px" },
-      origin: { x: 0, y: 0 },
-      anchor: { x: 12, y: 42 }
-    },
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -1119,7 +1201,7 @@ locations = [
     tel: "(512) 339-0016",
     int_tel: "+1 512-339-0016",
     email: "",
-    web: "",
+    web: "https://www.google.com/maps/place/Gus+Garcia+Recreation+Center+Community+Garden/@30.3517869,-97.6848101,1003m/data=!3m2!1e3!4b1!4m5!3m4!1s0x8644c971406668c7:0x27aa82ed0af78e53!8m2!3d30.3517869!4d-97.6826214",
     web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
@@ -1135,13 +1217,7 @@ locations = [
       { day: "Saturday", hours: "10am4pm" },
       { day: "Sunday", hours: "15pm" }
     ],
-    marker: {
-      url:
-        "https://i.imgur.com/Sq7ZWl4.png",
-      scaledSize: { width: 25, height: 42, f: "px", b: "px" },
-      origin: { x: 0, y: 0 },
-      anchor: { x: 12, y: 42 }
-    },
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -1163,7 +1239,7 @@ locations = [
     tel: "(512) 974-6700",
     int_tel: "+1 512-974-6700",
     email: "",
-    web: "",
+    web: "https://www.google.com/maps/place/Haskell+House/@30.2821289,-97.7617221,63m/data=!3m1!1e3!4m12!1m6!3m5!1s0x8644b569be83e55d:0xdb870edd8f7a519!2sHaskell+House!8m2!3d30.2820917!4d-97.761746!3m4!1s0x8644b569be83e55d:0xdb870edd8f7a519!8m2!3d30.2820917!4d-97.761746",
     web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
@@ -1179,13 +1255,7 @@ locations = [
       { day: "Saturday", hours: "5am10pm" },
       { day: "Sunday", hours: "5am10pm" }
     ],
-    marker: {
-      url:
-        "https://i.imgur.com/Sq7ZWl4.png",
-      scaledSize: { width: 25, height: 42, f: "px", b: "px" },
-      origin: { x: 0, y: 0 },
-      anchor: { x: 12, y: 42 }
-    },
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -1207,7 +1277,7 @@ locations = [
     tel: "(512) 974-6700",
     int_tel: "+1 512-974-6700",
     email: "",
-    web: "",
+    web: "https://www.google.com/maps/place/Givens+District+Park/@30.1966571,-97.8500972,1004m/data=!3m2!1e3!4b1!4m5!3m4!1s0x865b4c74f4f18a97:0xe557967d5bcae5c!8m2!3d30.1966571!4d-97.8479085",
     web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
@@ -1223,13 +1293,7 @@ locations = [
       { day: "Saturday", hours: "5am10pm" },
       { day: "Sunday", hours: "5am10pm" }
     ],
-    marker: {
-      url:
-        "https://i.imgur.com/Sq7ZWl4.png",
-      scaledSize: { width: 25, height: 42, f: "px", b: "px" },
-      origin: { x: 0, y: 0 },
-      anchor: { x: 12, y: 42 }
-    },
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -1251,7 +1315,7 @@ locations = [
     tel: "(512) 974-9461",
     int_tel: "+1 512-974-9461",
     email: "",
-    web: "",
+    web: "https://www.google.com/maps/place/Goat+Cave+Karst+Nature+Preserve/@30.1985326,-97.8482592,502m/data=!3m2!1e3!4b1!4m5!3m4!1s0x865b4c75bc504cdf:0xd64479bc49531aa!8m2!3d30.1985326!4d-97.8471649",
     web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
@@ -1267,13 +1331,7 @@ locations = [
       { day: "Saturday", hours: "7am9pm" },
       { day: "Sunday", hours: "7am9pm" }
     ],
-    marker: {
-      url:
-        "https://i.imgur.com/Sq7ZWl4.png",
-      scaledSize: { width: 25, height: 42, f: "px", b: "px" },
-      origin: { x: 0, y: 0 },
-      anchor: { x: 12, y: 42 }
-    },
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -1295,7 +1353,7 @@ locations = [
     tel: "(512) 974-9500",
     int_tel: "+1 512-974-9500",
     email: "",
-    web: "",
+    web: "https://www.google.com/maps/place/Lakeshore+at+Town+Lake+Metropolitan+Park/@30.2431502,-97.7204933,502m/data=!3m1!1e3!4m5!3m4!1s0x8644b44802b3ab2d:0x9fd70f8d782ed89d!8m2!3d30.2434653!4d-97.7200185",
     web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
@@ -1311,13 +1369,7 @@ locations = [
       { day: "Saturday", hours: "Closed" },
       { day: "Sunday", hours: "Closed" }
     ],
-    marker: {
-      url:
-        "https://i.imgur.com/Sq7ZWl4.png",
-      scaledSize: { width: 25, height: 42, f: "px", b: "px" },
-      origin: { x: 0, y: 0 },
-      anchor: { x: 12, y: 42 }
-    },
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -1339,7 +1391,7 @@ locations = [
     tel: "(512) 974-6700",
     int_tel: "+1 512-974-6700",
     email: "",
-    web: "",
+    web: "https://www.google.com/maps/place/Sanchez+School+Park/@30.2573403,-97.7358948,251m/data=!3m1!1e3!4m5!3m4!1s0x8644b5ac58448ced:0x31b8e02fce1cd98a!8m2!3d30.2580377!4d-97.7351679",
     web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
@@ -1355,13 +1407,7 @@ locations = [
       { day: "Saturday", hours: "5am10pm" },
       { day: "Sunday", hours: "5am10pm" }
     ],
-    marker: {
-      url:
-        "https://i.imgur.com/Sq7ZWl4.png",
-      scaledSize: { width: 25, height: 42, f: "px", b: "px" },
-      origin: { x: 0, y: 0 },
-      anchor: { x: 12, y: 42 }
-    },
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -1383,7 +1429,7 @@ locations = [
     tel: "",
     int_tel: "",
     email: "",
-    web: "",
+    web: "https://www.google.com/maps/place/Meadowview+Triangle/@30.3397606,-97.711525,63m/data=!3m1!1e3!4m5!3m4!1s0x8644ca319955d993:0xa9246d5d834edd61!8m2!3d30.3396177!4d-97.7113761",
     web_formatted: "Open in Google Maps",
     open: "",
     time: "",
@@ -1391,13 +1437,7 @@ locations = [
     lng: -97.7113761,
     vicinity: "7501 Meadowview Lane, Austin",
     open_hours: "",
-    marker: {
-      url:
-        "https://i.imgur.com/Sq7ZWl4.png",
-      scaledSize: { width: 25, height: 42, f: "px", b: "px" },
-      origin: { x: 0, y: 0 },
-      anchor: { x: 12, y: 42 }
-    },
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -1419,7 +1459,7 @@ locations = [
     tel: "(512) 974-6700",
     int_tel: "+1 512-974-6700",
     email: "",
-    web: "",
+    web: "https://www.google.com/maps/place/Holly+Shores+at+Town+Lake+Metropolitan+Park/@30.2512717,-97.7154008,502m/data=!3m1!1e3!4m5!3m4!1s0x8644b433816727b3:0x41956ec15ca23e64!8m2!3d30.2514455!4d-97.7141992",
     web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
@@ -1435,13 +1475,7 @@ locations = [
       { day: "Saturday", hours: "5am10pm" },
       { day: "Sunday", hours: "5am10pm" }
     ],
-    marker: {
-      url:
-        "https://i.imgur.com/Sq7ZWl4.png",
-      scaledSize: { width: 25, height: 42, f: "px", b: "px" },
-      origin: { x: 0, y: 0 },
-      anchor: { x: 12, y: 42 }
-    },
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -1463,7 +1497,7 @@ locations = [
     tel: "(512) 974-6700",
     int_tel: "+1 512-974-6700",
     email: "",
-    web: "",
+    web: "https://www.google.com/maps/place/Ladybird+Lake-Lamar+Beach+Metro+Park/@30.2678951,-97.758478,251m/data=!3m1!1e3!4m5!3m4!1s0x8644b53e26e88639:0xee70307118da097b!8m2!3d30.2676623!4d-97.7584114",
     web_formatted: "Open in Google Maps",
     open: "Closed",
     time: "1001",
@@ -1479,13 +1513,7 @@ locations = [
       { day: "Saturday", hours: "5am1am" },
       { day: "Sunday", hours: "5am12am" }
     ],
-    marker: {
-      url:
-        "https://i.imgur.com/Sq7ZWl4.png",
-      scaledSize: { width: 25, height: 42, f: "px", b: "px" },
-      origin: { x: 0, y: 0 },
-      anchor: { x: 12, y: 42 }
-    },
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -1507,7 +1535,7 @@ locations = [
     tel: "(512) 974-6700",
     int_tel: "+1 512-974-6700",
     email: "",
-    web: "",
+    web: "https://www.google.com/maps/place/Hubert+C.+Schroeter+Neighborhood+Park/@30.4132985,-97.739954,1002m/data=!3m2!1e3!4b1!4m5!3m4!1s0x8644cc6098c264bf:0x39922752235e70a7!8m2!3d30.4132985!4d-97.7377653",
     web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
@@ -1523,13 +1551,7 @@ locations = [
       { day: "Saturday", hours: "5am10pm" },
       { day: "Sunday", hours: "5am10pm" }
     ],
-    marker: {
-      url:
-        "https://i.imgur.com/Sq7ZWl4.png",
-      scaledSize: { width: 25, height: 42, f: "px", b: "px" },
-      origin: { x: 0, y: 0 },
-      anchor: { x: 12, y: 42 }
-    },
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -1551,7 +1573,7 @@ locations = [
     tel: "(512) 974-1300",
     int_tel: "+1 512-974-1300",
     email: "",
-    web: "",
+    web: "https://www.google.com/maps/place/Old+Bakery+and+Emporium/@30.2721488,-97.7418544,125m/data=!3m1!1e3!4m5!3m4!1s0x8644b5a09c2eac5f:0x861cbefab06a39d4!8m2!3d30.2721222!4d-97.7416291",
     web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
@@ -1567,13 +1589,7 @@ locations = [
       { day: "Saturday", hours: "9am4pm" },
       { day: "Sunday", hours: "Closed" }
     ],
-    marker: {
-      url:
-        "https://i.imgur.com/Sq7ZWl4.png",
-      scaledSize: { width: 25, height: 42, f: "px", b: "px" },
-      origin: { x: 0, y: 0 },
-      anchor: { x: 12, y: 42 }
-    },
+    marker: "https://i.imgur.com/4JjAp9F.png",
     iw: {
       address: true,
       desc: true,
@@ -1595,7 +1611,7 @@ locations = [
     tel: "(512) 974-6700",
     int_tel: "+1 512-974-6700",
     email: "",
-    web: "",
+    web: "https://www.google.com/maps/place/Reed+Neighborhood+Park/@30.3046231,-97.7707716,251m/data=!3m1!1e3!4m5!3m4!1s0x8644caa415f9362b:0xecfea0f39094bb0c!8m2!3d30.304663!4d-97.7704678",
     web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
@@ -1611,13 +1627,7 @@ locations = [
       { day: "Saturday", hours: "5am10pm" },
       { day: "Sunday", hours: "5am10pm" }
     ],
-    marker: {
-      url:
-        "https://i.imgur.com/Sq7ZWl4.png",
-      scaledSize: { width: 25, height: 42, f: "px", b: "px" },
-      origin: { x: 0, y: 0 },
-      anchor: { x: 12, y: 42 }
-    },
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -1639,7 +1649,7 @@ locations = [
     tel: "(512) 974-1625",
     int_tel: "+1 512-974-1625",
     email: "",
-    web: "",
+    web: "https://www.google.com/maps/place/Elisabet+Ney+Museum/@30.3065784,-97.7264836,125m/data=!3m1!1e3!4m5!3m4!1s0x8644ca7169fcb7db:0x6b6491ea7e03f350!8m2!3d30.306649!4d-97.7262415",
     web_formatted: "Open in Google Maps",
     open: "Closed",
     time: "1001",
@@ -1655,13 +1665,7 @@ locations = [
       { day: "Saturday", hours: "125pm" },
       { day: "Sunday", hours: "125pm" }
     ],
-    marker: {
-      url:
-        "https://i.imgur.com/Sq7ZWl4.png",
-      scaledSize: { width: 25, height: 42, f: "px", b: "px" },
-      origin: { x: 0, y: 0 },
-      anchor: { x: 12, y: 42 }
-    },
+    marker: "https://i.imgur.com/Q657jYI.png",
     iw: {
       address: true,
       desc: true,
@@ -1683,7 +1687,7 @@ locations = [
     tel: "(512) 974-6700",
     int_tel: "+1 512-974-6700",
     email: "",
-    web: "",
+    web: "https://www.google.com/maps/place/Williams+School+Park/@30.1813666,-97.794633,1004m/data=!3m2!1e3!4b1!4m5!3m4!1s0x865b4cb6370a6233:0x1388ac5cbba23a08!8m2!3d30.1813666!4d-97.7924443",
     web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1001",
@@ -1699,13 +1703,7 @@ locations = [
       { day: "Saturday", hours: "5am10pm" },
       { day: "Sunday", hours: "5am10pm" }
     ],
-    marker: {
-      url:
-        "https://i.imgur.com/Sq7ZWl4.png",
-      scaledSize: { width: 25, height: 42, f: "px", b: "px" },
-      origin: { x: 0, y: 0 },
-      anchor: { x: 12, y: 42 }
-    },
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -1782,6 +1780,7 @@ locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:1044" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:1045" }
     ],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -1858,6 +1857,7 @@ locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:1654" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:1655" }
     ],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -1972,6 +1972,7 @@ locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:2384" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:2385" }
     ],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -2179,11 +2180,11 @@ locations = [
   {
     title: "Walnut Creek Metropolitan Park",
     address: "12138 N Lamar Blvd, Austin, TX 78753, USA",
-    desc: "",
+    desc: "This large public park known for its system of hiking & biking trails also has a playground & pool.",
     tel: "(512) 974-6700",
     int_tel: "+1 512-974-6700",
     email: "",
-    web: "",
+    web: "https://www.google.com/maps/place/Walnut+Creek+Metropolitan+Park/@30.401067,-97.6860596,251m/data=!3m1!1e3!4m5!3m4!1s0x8644ceb17a6314e5:0xd0093862c3e4a1d2!8m2!3d30.4011179!4d-97.6859764",
     web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1014",
@@ -2199,13 +2200,7 @@ locations = [
       { day: "Saturday", hours: "5am–10pm" },
       { day: "Sunday", hours: "5am–10pm" }
     ],
-    marker: {
-      url:
-        "https://i.imgur.com/Sq7ZWl4.png",
-      scaledSize: { width: 25, height: 42, f: "px", b: "px" },
-      origin: { x: 0, y: 0 },
-      anchor: { x: 12, y: 42 }
-    },
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -2388,6 +2383,7 @@ locations = [
     lng: -97.6732935,
     vicinity: "3901 Tannehill Lane, Austin",
     open_hours: "",
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -2502,6 +2498,7 @@ locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:5862" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:5863" }
     ],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -2684,6 +2681,7 @@ locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:7230" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:7231" }
     ],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -2798,6 +2796,7 @@ locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:8111" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:8112" }
     ],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -2836,6 +2835,7 @@ locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:8427" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:8428" }
     ],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -2912,6 +2912,7 @@ locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:9322" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:9323" }
     ],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -2942,6 +2943,7 @@ locations = [
     lng: -97.69636109999999,
     vicinity: "Austin, TX 78758, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -2972,6 +2974,7 @@ locations = [
     lng: -97.69216210000002,
     vicinity: "901 Vasquez St, Austin, TX 78741, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -3002,6 +3005,7 @@ locations = [
     lng: -97.74043599999999,
     vicinity: "3427 Parker Ln, Austin, TX 78741, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -3062,6 +3066,7 @@ locations = [
     lng: -97.75788340000003,
     vicinity: "1524 Palma Plaza, Austin, TX 78703, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -3100,6 +3105,7 @@ locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:3524" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:3525" }
     ],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -3130,6 +3136,7 @@ locations = [
     lng: -97.80054100000001,
     vicinity: "10003 S 1st St, Austin, TX 78748, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -3160,6 +3167,7 @@ locations = [
     lng: -97.76493010000002,
     vicinity: "2006 S 6th St, Austin, TX 78704, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -3228,6 +3236,7 @@ locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:4671" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:4672" }
     ],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -3266,6 +3275,7 @@ locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:4915" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:4916" }
     ],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -3334,6 +3344,7 @@ locations = [
     lng: -97.6756714,
     vicinity: "200 N IH 35, Austin, TX 78701, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -3372,6 +3383,7 @@ locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:6044" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:6045" }
     ],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -3440,6 +3452,7 @@ locations = [
     lng: -97.72970750000002,
     vicinity: "1174 Curve St, Austin, TX 78702, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -3470,6 +3483,7 @@ locations = [
     lng: -97.73212239999998,
     vicinity: "3701 Grooms St, Austin, TX 78705, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -3500,6 +3514,7 @@ locations = [
     lng: -97.82081900000003,
     vicinity: "10984 Boulder Ln, Austin, TX 78726, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -3538,6 +3553,7 @@ locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:7437" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:7438" }
     ],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -3568,6 +3584,7 @@ locations = [
     lng: -97.64692769999999,
     vicinity: "5900 Sendero Hills Pkwy, Austin, TX 78724, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -3598,6 +3615,7 @@ locations = [
     lng: -97.73590739999997,
     vicinity: "6605 E William Cannon Dr, Austin, TX 78744, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -3628,6 +3646,7 @@ locations = [
     lng: -97.7485623,
     vicinity: "2874 Shoal Crest Ave, Austin, TX 78705, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -3658,6 +3677,7 @@ locations = [
     lng: -97.68113319999998,
     vicinity: "12901 Scofield Farms Dr, Austin, TX 78727, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -3696,6 +3716,7 @@ locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:8818" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:8819" }
     ],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -3764,6 +3785,7 @@ locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:9666" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:9667" }
     ],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -3832,6 +3854,7 @@ locations = [
     lng: -97.73876030000002,
     vicinity: "201 W 30th St, Austin, TX 78705, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -3862,6 +3885,7 @@ locations = [
     lng: -97.74714230000001,
     vicinity: "1101 W 33rd St, Austin, TX 78705, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -3892,6 +3916,7 @@ locations = [
     lng: -97.6961589,
     vicinity: "5201 Berkman Dr, Austin, TX 78723, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -3922,6 +3947,7 @@ locations = [
     lng: -97.80078309999999,
     vicinity: "3755 S Capital of Texas Hwy, Austin, TX 78704, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -3990,6 +4016,7 @@ locations = [
     lng: -97.88699259999999,
     vicinity: "6301 W Slaughter Ln, Austin, TX 78739, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -4020,6 +4047,7 @@ locations = [
     lng: -97.75153030000001,
     vicinity: "900 W Riverside Dr, Austin, TX 78704, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -4088,6 +4116,7 @@ locations = [
     lng: -97.78405629999997,
     vicinity: "13320 Lyndhurst St, Austin, TX 78729, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -4118,6 +4147,7 @@ locations = [
     lng: -97.8015317,
     vicinity: "6001 Manchaca Rd, Austin, TX 78745, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -4148,6 +4178,7 @@ locations = [
     lng: -97.5924511,
     vicinity: "14501 Lippincott St, Austin, TX 78725, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -4178,6 +4209,7 @@ locations = [
     lng: -97.86468739999998,
     vicinity: "7910 Beckett Rd, Austin, TX 78749, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -4208,6 +4240,7 @@ locations = [
     lng: -97.80078309999999,
     vicinity: "3755 S Capital of Texas Hwy, Austin, TX 78704, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -4238,6 +4271,7 @@ locations = [
     lng: -97.7624447,
     vicinity: "10801 Sierra Oaks, Austin, TX 78759, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -4298,6 +4332,7 @@ locations = [
     lng: -97.89597309999999,
     vicinity: "6801 La Crosse Ave, Austin, TX 78739, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -4319,7 +4354,7 @@ locations = [
     tel: "",
     int_tel: "",
     email: "",
-    web: "",
+    web: "https://www.google.com/maps/place/Joslin+Neighborhood+Park/@30.2286572,-97.7941668,1004m/data=!3m2!1e3!4b1!4m5!3m4!1s0x865b4b36402cbc5f:0x11216df8ff717774!8m2!3d30.2286572!4d-97.7919781",
     web_formatted: "Open in Google Maps",
     open: "",
     time: "",
@@ -4327,13 +4362,7 @@ locations = [
     lng: -97.7919781,
     vicinity: "4500 Manchaca Rd, Austin, TX 78745, United States",
     open_hours: [],
-    marker: {
-      url:
-        "https://i.imgur.com/Sq7ZWl4.png",
-      scaledSize: { width: 25, height: 42, f: "px", b: "px" },
-      origin: { x: 0, y: 0 },
-      anchor: { x: 12, y: 42 }
-    },
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -4364,6 +4393,7 @@ locations = [
     lng: -97.723728,
     vicinity: "1500 Rosewood Ave, Austin, TX 78702, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -4394,6 +4424,7 @@ locations = [
     lng: -97.82625740000003,
     vicinity: "7609 Longview Rd, Austin, TX 78745, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -4424,6 +4455,7 @@ locations = [
     lng: -97.77161999999998,
     vicinity: "3505 W 35th St, Austin, TX 78703, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -4454,6 +4486,7 @@ locations = [
     lng: -97.6715552,
     vicinity: "820 Plaza Dr, Austin, TX 78753, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -4522,6 +4555,7 @@ locations = [
     lng: -97.80185499999999,
     vicinity: "10225 Talleyran Dr, Austin, TX 78750, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -4552,6 +4586,7 @@ locations = [
     lng: -97.75194099999999,
     vicinity: "2913 Northland Dr, Austin, TX 78757, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -4582,6 +4617,7 @@ locations = [
     lng: -97.73650320000001,
     vicinity: "1009 Edgecliff Terrace, Austin, TX 78704, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -4612,6 +4648,7 @@ locations = [
     lng: -97.75661000000002,
     vicinity: "8652 Nuckols Crossing Rd, Austin, TX 78744, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -4642,6 +4679,7 @@ locations = [
     lng: -97.74031230000003,
     vicinity: "E William Cannon Dr, Austin, TX 78744, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -4672,6 +4710,7 @@ locations = [
     lng: -97.70942479999996,
     vicinity: "4200 Brookview Rd, Austin, TX 78722, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -4702,6 +4741,7 @@ locations = [
     lng: -97.7550819,
     vicinity: "Freidrich Ln, Austin, TX 78744, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -4732,6 +4772,7 @@ locations = [
     lng: -97.7007719,
     vicinity: "1101 Mearns Meadow Blvd, Austin, TX 78758, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -4762,6 +4803,7 @@ locations = [
     lng: -97.74353759999997,
     vicinity: "4301 Rosedale Ave, Austin, TX 78756, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -4792,6 +4834,7 @@ locations = [
     lng: -97.70526789999996,
     vicinity: "1110 Little Elm Park, Austin, TX 78758, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -4822,6 +4865,7 @@ locations = [
     lng: -97.83900510000001,
     vicinity: "Silk Oak Dr, Austin, TX 78748, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -4890,6 +4934,7 @@ locations = [
     lng: -97.79125520000002,
     vicinity: "7301 Spicewood Springs Rd, Austin, TX 78759, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -4920,6 +4965,7 @@ locations = [
     lng: -97.82455779999998,
     vicinity: "7501 Longview Rd, Austin, TX 78745, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -4950,6 +4996,7 @@ locations = [
     lng: -97.75745899999998,
     vicinity: "1317 W 10th St, Austin, TX 78703, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -4988,6 +5035,7 @@ locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:5737" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:5738" }
     ],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -5026,6 +5074,7 @@ locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:446" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:447" }
     ],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -5259,8 +5308,8 @@ locations = [
     tel: "(512) 974-6700",
     int_tel: "+1 512-974-6700",
     email: "",
-    web: "https://goo.gl/maps/vVsCHXgGv5J2",
-    web_formatted: "goo.gl",
+    web: "https://www.google.com/maps/place/Civitan+Neighborhood+Park/@30.2365025,-97.6940423,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b6996b61664b:0xa008962775a1d32!8m2!3d30.2365025!4d-97.6918536?shorturl=1",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1047",
     lat: 30.23650250000001,
@@ -5275,6 +5324,7 @@ locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:2407" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:2408" }
     ],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -5297,7 +5347,7 @@ locations = [
     int_tel: "+1 512-974-6700",
     email: "",
     web: "https://goo.gl/maps/rTDmFZBSpdG2",
-    web_formatted: "goo.gl",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1047",
     lat: 30.2970281,
@@ -5334,7 +5384,7 @@ locations = [
     int_tel: "+1 512-974-6700",
     email: "",
     web: "https://goo.gl/maps/wwDAw1aidr52",
-    web_formatted: "goo.gl",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1047",
     lat: 30.24676700000001,
@@ -5371,7 +5421,7 @@ locations = [
     int_tel: "+1 512-472-8546",
     email: "",
     web: "https://goo.gl/maps/HzTDsjx4B4y",
-    web_formatted: "goo.gl",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1047",
     lat: 30.2769964,
@@ -5408,7 +5458,7 @@ locations = [
     int_tel: "+1 512-974-4653",
     email: "",
     web: "https://goo.gl/maps/GQP5EkCMQGm",
-    web_formatted: "goo.gl",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1047",
     lat: 30.18525,
@@ -5445,7 +5495,7 @@ locations = [
     int_tel: "+1 512-974-6700",
     email: "",
     web: "https://goo.gl/maps/uZt6w6d9Nd32",
-    web_formatted: "goo.gl",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1047",
     lat: 30.3429727,
@@ -5460,6 +5510,7 @@ locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:3906" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:3907" }
     ],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -5482,7 +5533,7 @@ locations = [
     int_tel: "+1 512-974-6700",
     email: "",
     web: "https://goo.gl/maps/mtZSND18B3q",
-    web_formatted: "goo.gl",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1047",
     lat: 30.26210259999999,
@@ -5519,7 +5570,7 @@ locations = [
     int_tel: "+1 512-974-6700",
     email: "",
     web: "https://goo.gl/maps/ZvNGW3XzMmG2",
-    web_formatted: "goo.gl",
+    web_formatted: "Open in Google Maps",
     open: "Closed",
     time: "1047",
     lat: 30.2616879,
@@ -5534,6 +5585,7 @@ locations = [
       { day: "Saturday", hours: "1–5pm", $$hashKey: "object:4538" },
       { day: "Sunday", hours: "Closed", $$hashKey: "object:4539" }
     ],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -5556,7 +5608,7 @@ locations = [
     int_tel: "+1 512-974-6700",
     email: "",
     web: "https://goo.gl/maps/eib47XWrgJF2",
-    web_formatted: "goo.gl",
+    web_formatted: "Open in Google Maps",
     open: "",
     time: "",
     lat: 30.36494579999999,
@@ -5585,7 +5637,7 @@ locations = [
     int_tel: "+1 512-974-6700",
     email: "",
     web: "https://goo.gl/maps/ekzUKkEUtss",
-    web_formatted: "goo.gl",
+    web_formatted: "Open in Google Maps",
     open: "Open",
     time: "1047",
     lat: 30.3542211,
@@ -5600,6 +5652,7 @@ locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:5113" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:5114" }
     ],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -5675,6 +5728,7 @@ locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:5720" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:5721" }
     ],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -5713,6 +5767,7 @@ locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:5996" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:5997" }
     ],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -5819,6 +5874,7 @@ locations = [
     lng: -97.73606869999998,
     vicinity: "Pineleaf Place, Austin",
     open_hours: "",
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -5857,6 +5913,7 @@ locations = [
       { day: "Saturday", hours: "5am10pm", $$hashKey: "object:804" },
       { day: "Sunday", hours: "5am10pm", $$hashKey: "object:805" }
     ],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -5887,6 +5944,7 @@ locations = [
     lng: -97.70954130000001,
     vicinity: "520 Northway Drive, Austin",
     open_hours: "",
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -5917,6 +5975,7 @@ locations = [
     lng: -97.72369979999996,
     vicinity: "307 Chicon St, Austin, TX 78702, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -5947,6 +6006,7 @@ locations = [
     lng: -97.87397859999999,
     vicinity: "7724 Escarpment Blvd, Austin, TX 78749, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -5985,6 +6045,7 @@ locations = [
       { day: "Saturday", hours: "Closed", $$hashKey: "object:1766" },
       { day: "Sunday", hours: "Closed", $$hashKey: "object:1767" }
     ],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -6023,6 +6084,7 @@ locations = [
       { day: "Saturday", hours: "5am10pm", $$hashKey: "object:2072" },
       { day: "Sunday", hours: "5am10pm", $$hashKey: "object:2073" }
     ],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -6113,6 +6175,7 @@ locations = [
     lng: -97.7563553,
     vicinity: "650 Dawson Rd, Austin, TX 78704, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -6189,6 +6252,7 @@ locations = [
       { day: "Saturday", hours: "5am10pm", $$hashKey: "object:3214" },
       { day: "Sunday", hours: "5am10pm", $$hashKey: "object:3215" }
     ],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -6227,6 +6291,7 @@ locations = [
       { day: "Saturday", hours: "510pm", $$hashKey: "object:3520" },
       { day: "Sunday", hours: "510pm", $$hashKey: "object:3521" }
     ],
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -6295,6 +6360,7 @@ locations = [
     lng: -97.72733499999998,
     vicinity: "4400 Avenue G, Austin, TX 78751, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -6325,6 +6391,7 @@ locations = [
     lng: -97.7360031,
     vicinity: "500 E 12th St, Austin, TX 78701, United States",
     open_hours: "",
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -6355,6 +6422,7 @@ locations = [
     lng: -97.69866939999997,
     vicinity: "500 E Powell Ln, Austin, TX 78703, United States",
     open_hours: "",
+    marker: "https://i.imgur.com/umsvfED.png",
     iw: {
       address: true,
       desc: true,
@@ -6385,6 +6453,7 @@ locations = [
     lng: -97.76102459999998,
     vicinity: "Austin, TX 78731, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -6415,6 +6484,7 @@ locations = [
     lng: -97.76433580000003,
     vicinity: "1811 W 11th St, Austin, TX 78703, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
@@ -6445,6 +6515,7 @@ locations = [
     lng: -97.69042379999996,
     vicinity: "5200 Bolm Rd, Austin, TX 78721, United States",
     open_hours: [],
+    marker: "https://i.imgur.com/Sq7ZWl4.png",
     iw: {
       address: true,
       desc: true,
