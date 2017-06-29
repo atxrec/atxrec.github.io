@@ -156,7 +156,7 @@ function switchActive(id) {
     filtered_list.push(id);
   } else {
     document.getElementById(id).classList.toggle("active");
-    filtered_list.pop(id);
+    filtered_list.splice(id);
   };
   console.log(filtered_list)
   init()
