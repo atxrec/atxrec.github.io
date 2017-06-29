@@ -149,13 +149,18 @@
 
 <script>
 
+var filtered_list = [];
 function switchActive(id) {
-  document.getElementById(id).classList.toggle("active");
+  if ( document.getElementById(id).classList.contains("active") ) {
+    document.getElementById(id).classList.toggle("active");
+    filtered_list.push(id);
+  } else {
+    document.getElementById(id).classList.toggle("active");
+    filtered_list.pop(id);
+  };
+  console.log(filtered_list)
+  init()
 }
-
-</script>
-
-<script>
 
   google.maps.event.addDomListener(window, "load", init);
   var map,
@@ -357,7 +362,30 @@ function switchActive(id) {
     var mapElement = document.getElementById("map");
     var map = new google.maps.Map(mapElement, mapOptions);
 
+    // Check Filter
+    filtered_urls = [];
+    for (i = 0; i < filtered_list.length; i++) {
+      if (filtered_list[i] == "dropdown-park") {
+        filtered_urls.push("https://i.imgur.com/Sq7ZWl4.png")
+      };
+      if (filtered_list[i] == "dropdown-pool") {
+        filtered_urls.push("https://i.imgur.com/hWD3v5O.png")
+      };
+      console.log(filtered_urls)
+    };
+
     for (i = 0; i < locations.length; i++) {
+
+      var skip = false;
+      for (n = 0; n < filtered_urls.length; n++) {
+        if (locations[i].marker == filtered_urls[n]) {
+          var skip = true;
+        }
+      };
+
+      console.log(skip)
+
+      if (skip == false) {
       // vv Icon scaling
       var icon = {
         url: locations[i].marker, // url
@@ -382,6 +410,8 @@ function switchActive(id) {
         web: locations[i].web,
         iw: locations[i].iw
       });
+      }
+
       markersArray.push(marker);
 
       if (locations[i].iw.enable === true) {
