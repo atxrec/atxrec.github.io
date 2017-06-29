@@ -402,7 +402,6 @@ function switchActive(id) {
     };
 
     for (i = 0; i < locations.length; i++) {
-
       var skip = false;
       for (n = 0; n < filtered_urls.length; n++) {
         if (locations[i].marker == filtered_urls[n]) {
@@ -435,12 +434,13 @@ function switchActive(id) {
         web: locations[i].web,
         iw: locations[i].iw
       });
-      }
 
       markersArray.push(marker);
 
       if (locations[i].iw.enable === true) {
         bindInfoWindow(marker, map, locations[i]);
+      }
+
       };
     };
   }
@@ -524,13 +524,13 @@ function switchActive(id) {
         web: locations[i].web,
         iw: locations[i].iw
       });
-      }
-
       markersArray.push(marker);
 
       if (locations[i].iw.enable === true) {
         bindInfoWindow(marker, map, locations[i]);
       };
+
+      }
     };
     // GEOLOCATION START
     if (navigator.geolocation) {
