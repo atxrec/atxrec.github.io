@@ -2132,7 +2132,7 @@ var locations = [
       { day: "Saturday", hours: "5am–10pm", $$hashKey: "object:4397" },
       { day: "Sunday", hours: "5am–10pm", $$hashKey: "object:4398" }
     ],
-    marker: "https://i.imgur.com/4JjAp9F.png",
+    marker: "https://i.imgur.com/YmGq2KL.png",
     iw: {
       address: true,
       desc: true,
@@ -3859,7 +3859,7 @@ var locations = [
       { day: "Saturday", hours: "8am–8pm", $$hashKey: "object:12633" },
       { day: "Sunday", hours: "8am–8pm", $$hashKey: "object:12634" }
     ],
-    marker: "https://i.imgur.com/4JjAp9F.png",
+    marker: "https://i.imgur.com/YmGq2KL.png",
     iw: {
       address: true,
       desc: true,
