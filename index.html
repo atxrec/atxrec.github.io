@@ -90,9 +90,6 @@
       </li>
     </ul>
     <ul class="nav">
-      <!--<form class="form-inline justify-content-end", id="locsearch">
-        <input class="form-control" type="text" placeholder="Search">
-      </form>-->
       <li class="nav-item dropdown", id="dropdown">
         <li class="nav-link" href="" role="button" aria-haspopup="true" aria-expanded="true"><a href="javascript:;" class="dropdown-toggle">Filter<a></li>
 
@@ -156,8 +153,8 @@ $('li.nav-link').on('click', function (event) {
 });
 
 $('body').on('click', function (e) {
-    if (!$('li.nav-link').is(e.target) && $('li.nav-link').has(e.target).length === 0 && $('.open').has(e.target).length === 0) {
-        $('ul.nav').removeClass('showw');
+    if (!$('li.nav-link').is(e.target) && $('li.nav-link').has(e.target).length === 0 && $('.show').has(e.target).length === 0) {
+        $('ul.nav').removeClass('show');
     }
 });
 </script>
