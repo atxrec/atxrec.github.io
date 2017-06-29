@@ -1,12 +1,27 @@
-// Pool: https://i.imgur.com/hWD3v5O.png
 // Park: https://i.imgur.com/Sq7ZWl4.png
-// Splash: https://i.imgur.com/tO61iV6.png
-// Museum: https://i.imgur.com/Q657jYI.png
+// Pool: https://i.imgur.com/hWD3v5O.png
 // Playground/Neighborhood Park: https://i.imgur.com/umsvfED.png
+// Splash: https://i.imgur.com/tO61iV6.png
 // Trail/Greenbelt: https://i.imgur.com/K7MTLyv.png
 // Field: https://i.imgur.com/5n8TP5Y.png
+// Museum: https://i.imgur.com/Q657jYI.png
 // Rec Center: https://i.imgur.com/SMUpvya.png
 
 // Empty: https://i.imgur.com/4JjAp9F.png
 
 marker: "",
+
+<li class="nav-item dropdown", id="dropdown">
+  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="" role="button" aria-haspopup="true" aria-expanded="false", id="dropdown2">Filter</a>
+    <div class="dropdown-menu dropdown-menu-right", id="dropdown-menu">
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link active" href="#"><img src="https://i.imgur.com/Sq7ZWl4.png" width="24"/></a>
+        </li>
+        <li class="nav-item">
+        <button type="button" onclick="initLocate()" class="btn btn-outline-info"><img src="https://i.imgur.com/Sq7ZWl4.png" width="24"/></button></li>
+        <button type="button" onclick="initLocate()" class="btn btn-outline-info"><img src="https://i.imgur.com/Sq7ZWl4.png" width="24"/></button>
+        <button type="button" onclick="initLocate()" class="btn btn-outline-info"><img src="https://i.imgur.com/Sq7ZWl4.png" width="24"/></button>
+      </ul>
+    </div>
+</li>
