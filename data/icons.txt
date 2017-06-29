@@ -6,6 +6,7 @@
 // Field: https://i.imgur.com/YmGq2KL.png
 // Museum: https://i.imgur.com/Q657jYI.png
 // Rec Center: https://i.imgur.com/SMUpvya.png
+// Art: https://i.imgur.com/aTuN9dl.png
 
 // Empty: https://i.imgur.com/4JjAp9F.png
 
