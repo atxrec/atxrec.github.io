@@ -156,9 +156,12 @@ function switchActive(id) {
     filtered_list.push(id);
   } else {
     document.getElementById(id).classList.toggle("active");
-    filtered_list.splice(id, 1);
+    for (i = 0; i < filtered_list.length; i++) {
+      if (filtered_list[i] == id) {
+        filtered_list.splice(i, 1);
+      };
+    };
   };
-  console.log(filtered_list)
   init()
 }
 
