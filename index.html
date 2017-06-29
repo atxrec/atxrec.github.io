@@ -12,6 +12,8 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+
     <title>ATX Recreations Map</title>
 
     <link rel="icon" href="https://i.imgur.com/Sq7ZWl4.png">
@@ -22,7 +24,7 @@
     }
 
     body, html {
-      height: calc(100% - 27px);
+      height: calc(100% - 28px);
     }
 
     .navbar {
@@ -48,7 +50,7 @@
       padding: 8px;
       background: #F2F3F4;
       max-width: 184px;
-      margin-top: 7px;
+      margin-top: 0px;
     }
 
     #dropdown-item {
@@ -92,7 +94,8 @@
         <input class="form-control" type="text" placeholder="Search">
       </form>-->
       <li class="nav-item dropdown", id="dropdown">
-        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="" role="button" aria-haspopup="true" aria-expanded="false">Filter</a>
+        <li class="nav-link" href="" role="button" aria-haspopup="true" aria-expanded="true"><a href="javascript:;" class="dropdown-toggle">Filter<a></li>
+
           <div class="dropdown-menu dropdown-menu-right", id="dropdown-menu">
 
             <ul class="nav nav-pills", id="dropdown-pills-top">
@@ -148,7 +151,18 @@
 <script src="data/locations.js"></script>
 
 <script>
+$('li.nav-link').on('click', function (event) {
+    $(this).parent().toggleClass("show");
+});
 
+$('body').on('click', function (e) {
+    if (!$('li.nav-link').is(e.target) && $('li.nav-link').has(e.target).length === 0 && $('.open').has(e.target).length === 0) {
+        $('ul.nav').removeClass('showw');
+    }
+});
+</script>
+
+<script>
 var filtered_list = [];
 function switchActive(id) {
   if ( document.getElementById(id).classList.contains("active") ) {
@@ -590,7 +604,6 @@ function switchActive(id) {
 </script>
 
 
-<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 

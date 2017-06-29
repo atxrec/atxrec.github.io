@@ -11,3 +11,5 @@
 // Empty: https://i.imgur.com/4JjAp9F.png
 
 marker: "",
+
+<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="" role="button" aria-haspopup="true" aria-expanded="true">Filter</a>
