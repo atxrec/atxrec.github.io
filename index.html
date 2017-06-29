@@ -458,9 +458,52 @@ function switchActive(id) {
       clickableIcons: false,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     };
+
     var mapElement = document.getElementById("map");
     var map = new google.maps.Map(mapElement, mapOptions);
+
+    // Check Filter
+    filtered_urls = [];
+    for (i = 0; i < filtered_list.length; i++) {
+      if (filtered_list[i] == "dropdown-park") {
+        filtered_urls.push("https://i.imgur.com/Sq7ZWl4.png")
+      };
+      if (filtered_list[i] == "dropdown-pool") {
+        filtered_urls.push("https://i.imgur.com/hWD3v5O.png")
+      };
+      if (filtered_list[i] == "dropdown-playground") {
+        filtered_urls.push("https://i.imgur.com/umsvfED.png")
+      };
+      if (filtered_list[i] == "dropdown-splash") {
+        filtered_urls.push("https://i.imgur.com/tO61iV6.png")
+      };
+      if (filtered_list[i] == "dropdown-trail") {
+        filtered_urls.push("https://i.imgur.com/K7MTLyv.png")
+      };
+      if (filtered_list[i] == "dropdown-field") {
+        filtered_urls.push("https://i.imgur.com/YmGq2KL.png")
+      };
+      if (filtered_list[i] == "dropdown-museum") {
+        filtered_urls.push("https://i.imgur.com/Q657jYI.png")
+      };
+      if (filtered_list[i] == "dropdown-rec") {
+        filtered_urls.push("https://i.imgur.com/SMUpvya.png")
+      };
+      if (filtered_list[i] == "dropdown-art") {
+        filtered_urls.push("https://i.imgur.com/aTuN9dl.png")
+      };
+    };
+
     for (i = 0; i < locations.length; i++) {
+
+      var skip = false;
+      for (n = 0; n < filtered_urls.length; n++) {
+        if (locations[i].marker == filtered_urls[n]) {
+          var skip = true;
+        }
+      };
+
+      if (skip == false) {
       // vv Icon scaling
       var icon = {
         url: locations[i].marker, // url
@@ -485,7 +528,10 @@ function switchActive(id) {
         web: locations[i].web,
         iw: locations[i].iw
       });
+      }
+
       markersArray.push(marker);
+
       if (locations[i].iw.enable === true) {
         bindInfoWindow(marker, map, locations[i]);
       };
