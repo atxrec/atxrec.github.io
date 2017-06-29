@@ -616,7 +616,7 @@ var locations = [
       { day: "Saturday", hours: "5am10pm" },
       { day: "Sunday", hours: "5am10pm" }
     ],
-    marker: "https://i.imgur.com/5n8TP5Y.png",
+    marker: "https://i.imgur.com/YmGq2KL.png",
     iw: {
       address: true,
       desc: true,
@@ -1102,7 +1102,7 @@ var locations = [
     lng: -97.7135781,
     vicinity: "401 West Saint Johns Avenue, Austin",
     open_hours: [],
-    marker: "https://i.imgur.com/5n8TP5Y.png",
+    marker: "https://i.imgur.com/YmGq2KL.png",
     iw: {
       address: true,
       desc: true,
@@ -2849,7 +2849,7 @@ var locations = [
     lng: -97.69216210000002,
     vicinity: "901 Vasquez St, Austin, TX 78741, United States",
     open_hours: [],
-    marker: "https://i.imgur.com/5n8TP5Y.png",
+    marker: "https://i.imgur.com/YmGq2KL.png",
     iw: {
       address: true,
       desc: true,
