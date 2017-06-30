@@ -9,5 +9,3 @@
 // Art: https://i.imgur.com/aTuN9dl.png
 
 // Empty: https://i.imgur.com/4JjAp9F.png
-
-marker: "",
