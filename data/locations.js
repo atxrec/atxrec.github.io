@@ -4424,7 +4424,7 @@ var locations = [
     lng: -97.74031230000003,
     vicinity: "E William Cannon Dr, Austin, TX 78744, United States",
     open_hours: [],
-    marker: "https://i.imgur.com/Sq7ZWl4.png",
+    marker: "https://i.imgur.com/YmGq2KL.png",
     iw: {
       address: true,
       desc: true,
@@ -6853,7 +6853,7 @@ var locations = [
     lng: -97.75162069999999,
     vicinity: "4618 E William Cannon Dr, Austin, TX 78744, United States",
     open_hours: [],
-    marker: "https://i.imgur.com/Sq7ZWl4.png",
+    marker: "https://i.imgur.com/K7MTLyv.pngg",
     iw: {
       address: true,
       desc: true,
