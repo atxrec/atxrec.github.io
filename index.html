@@ -135,6 +135,10 @@
               </li>
             </ul>
 
+            <ul class="nav justify-content-center", id="dropdown-pills">
+              <button type="button" onclick="resetFilter()" class="btn btn-danger">Reset</button>
+            </ul>
+
             <!--<div class="dropdown-divider"></div>
 
             <ul class="nav">
@@ -173,7 +177,8 @@ $('body').on('click', function (e) {
 
 <script>
 var filtered_urls = [];
-var first_run = true
+var first_run = true;
+filter_ids = ["dropdown-park", "dropdown-pool", "dropdown-playground", "dropdown-splash", "dropdown-trail", "dropdown-field", "dropdown-museum", "dropdown-rec", "dropdown-art"];
 
 function switchActive(id) {
   first_run = false
@@ -225,6 +230,17 @@ function switchActive(id) {
         filtered_urls.push("https://i.imgur.com/aTuN9dl.png")
       };
     };
+  init()
+}
+
+function resetFilter() {
+  for (i = 0; i < filter_ids.length; i++) {
+    if (document.getElementById(filter_ids[i]).classList.contains("active") ) {
+      document.getElementById(filter_ids[i]).classList.toggle("active");
+    }
+  }
+  filtered_urls = [];
+  first_run = true;
   init()
 }
 
