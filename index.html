@@ -513,7 +513,7 @@ function init() {
     mapZoom = map.getZoom();
   }));
 
-  google.maps.event.addListener(map, 'dragend', (function saveMapCenter() {
+  google.maps.event.addListener(map, 'center_changed', (function saveMapCenter() {
     mapCenter = map.getCenter();
   }));
 
@@ -622,7 +622,7 @@ function initLocate() {
     mapZoom = map.getZoom();
   }));
 
-  google.maps.event.addListener(map, 'dragend', (function saveMapCenter() {
+  google.maps.event.addListener(map, 'center_changed', (function saveMapCenter() {
     mapCenter = map.getCenter();
   }));
 
