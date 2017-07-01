@@ -103,37 +103,37 @@
 
             <ul class="nav nav-pills", id="dropdown-pills-top">
               <li class="nav-item" id="dropdown-item">
-                <a class="nav-link active" onclick="switchActive('dropdown-park')" id="dropdown-park"><img src="https://i.imgur.com/Sq7ZWl4.png" width="24"/></a>
+                <a class="nav-link" onclick="switchActive('dropdown-park')" id="dropdown-park"><img src="https://i.imgur.com/Sq7ZWl4.png" width="24"/></a>
               </li>
               <li class="nav-item" id="dropdown-item">
-                <a class="nav-link active" onclick="switchActive('dropdown-pool')" id="dropdown-pool"><img src="https://i.imgur.com/hWD3v5O.png" width="24"/></a>
+                <a class="nav-link" onclick="switchActive('dropdown-pool')" id="dropdown-pool"><img src="https://i.imgur.com/hWD3v5O.png" width="24"/></a>
               </li>
               <li class="nav-item" id="dropdown-item">
-                <a class="nav-link active" onclick="switchActive('dropdown-playground')" id="dropdown-playground"><img src="https://i.imgur.com/umsvfED.png" width="24"/></a>
-              </li>
-            </ul>
-
-            <ul class="nav nav-pills", id="dropdown-pills">
-              <li class="nav-item" id="dropdown-item">
-                <a class="nav-link active" onclick="switchActive('dropdown-splash')" id="dropdown-splash"><img src="https://i.imgur.com/tO61iV6.png" width="24"/></a>
-              </li>
-              <li class="nav-item" id="dropdown-item">
-                <a class="nav-link active" onclick="switchActive('dropdown-trail')" id="dropdown-trail"><img src="https://i.imgur.com/K7MTLyv.png" width="24"/></a>
-              </li>
-              <li class="nav-item" id="dropdown-item">
-                <a class="nav-link active" onclick="switchActive('dropdown-field')" id="dropdown-field"><img src="https://i.imgur.com/YmGq2KL.png" width="24"/></a>
+                <a class="nav-link" onclick="switchActive('dropdown-playground')" id="dropdown-playground"><img src="https://i.imgur.com/umsvfED.png" width="24"/></a>
               </li>
             </ul>
 
             <ul class="nav nav-pills", id="dropdown-pills">
               <li class="nav-item" id="dropdown-item">
-                <a class="nav-link active" onclick="switchActive('dropdown-museum')" id="dropdown-museum"><img src="https://i.imgur.com/Q657jYI.png" width="24"/></a>
+                <a class="nav-link" onclick="switchActive('dropdown-splash')" id="dropdown-splash"><img src="https://i.imgur.com/tO61iV6.png" width="24"/></a>
               </li>
               <li class="nav-item" id="dropdown-item">
-                <a class="nav-link active" onclick="switchActive('dropdown-rec')" id="dropdown-rec"><img src="https://i.imgur.com/SMUpvya.png" width="24"/></a>
+                <a class="nav-link" onclick="switchActive('dropdown-trail')" id="dropdown-trail"><img src="https://i.imgur.com/K7MTLyv.png" width="24"/></a>
               </li>
               <li class="nav-item" id="dropdown-item">
-                <a class="nav-link active" onclick="switchActive('dropdown-art')" id="dropdown-art"><img src="https://i.imgur.com/aTuN9dl.png" width="24"/></a>
+                <a class="nav-link" onclick="switchActive('dropdown-field')" id="dropdown-field"><img src="https://i.imgur.com/YmGq2KL.png" width="24"/></a>
+              </li>
+            </ul>
+
+            <ul class="nav nav-pills", id="dropdown-pills">
+              <li class="nav-item" id="dropdown-item">
+                <a class="nav-link" onclick="switchActive('dropdown-museum')" id="dropdown-museum"><img src="https://i.imgur.com/Q657jYI.png" width="24"/></a>
+              </li>
+              <li class="nav-item" id="dropdown-item">
+                <a class="nav-link" onclick="switchActive('dropdown-rec')" id="dropdown-rec"><img src="https://i.imgur.com/SMUpvya.png" width="24"/></a>
+              </li>
+              <li class="nav-item" id="dropdown-item">
+                <a class="nav-link" onclick="switchActive('dropdown-art')" id="dropdown-art"><img src="https://i.imgur.com/aTuN9dl.png" width="24"/></a>
               </li>
             </ul>
 
@@ -174,19 +174,58 @@ $('body').on('click', function (e) {
 </script>
 
 <script>
-var filtered_list = [];
+var filtered_urls = [];
+var first_run = true
 function switchActive(id) {
+  first_run = false
   if ( document.getElementById(id).classList.contains("active") ) {
     document.getElementById(id).classList.toggle("active");
-    filtered_list.push(id);
-  } else {
-    document.getElementById(id).classList.toggle("active");
-    for (i = 0; i < filtered_list.length; i++) {
-      if (filtered_list[i] == id) {
-        filtered_list.splice(i, 1);
+    if (id == "dropdown-park") {
+      id_url = ("https://i.imgur.com/Sq7ZWl4.png")
+    } else if (id == "dropdown-pool") {
+      id_url = ("https://i.imgur.com/hWD3v5O.png")
+    } else if (id == "dropdown-playground") {
+      id_url = ("https://i.imgur.com/umsvfED.png")
+    } else if (id == "dropdown-splash") {
+      id_url = ("https://i.imgur.com/tO61iV6.png")
+    } else if (id == "dropdown-trail") {
+      id_url = ("https://i.imgur.com/K7MTLyv.png")
+    } else if (id == "dropdown-field") {
+      id_url = ("https://i.imgur.com/YmGq2KL.png")
+    } else if (id == "dropdown-museum") {
+      id_url = ("https://i.imgur.com/Q657jYI.png")
+    } else if (id == "dropdown-rec") {
+      id_url = ("https://i.imgur.com/SMUpvya.png")
+    } else if (id == "dropdown-art") {
+      id_url = ("https://i.imgur.com/aTuN9dl.png")
+    };
+    for (i = 0; i < filtered_urls.length; i++) {
+      if (filtered_urls[i] == id_url) {
+        filtered_urls.splice(i, 1);
       };
     };
-  };
+    } else {
+      document.getElementById(id).classList.toggle("active");
+      if (id == "dropdown-park") {
+        filtered_urls.push("https://i.imgur.com/Sq7ZWl4.png")
+      } else if (id == "dropdown-pool") {
+        filtered_urls.push("https://i.imgur.com/hWD3v5O.png")
+      } else if (id == "dropdown-playground") {
+        filtered_urls.push("https://i.imgur.com/umsvfED.png")
+      } else if (id == "dropdown-splash") {
+        filtered_urls.push("https://i.imgur.com/tO61iV6.png")
+      } else if (id == "dropdown-trail") {
+        filtered_urls.push("https://i.imgur.com/K7MTLyv.png")
+      } else if (id == "dropdown-field") {
+        filtered_urls.push("https://i.imgur.com/YmGq2KL.png")
+      } else if (id == "dropdown-museum") {
+        filtered_urls.push("https://i.imgur.com/Q657jYI.png")
+      } else if (id == "dropdown-rec") {
+        filtered_urls.push("https://i.imgur.com/SMUpvya.png")
+      } else if (id == "dropdown-art") {
+        filtered_urls.push("https://i.imgur.com/aTuN9dl.png")
+      };
+    };
   init()
 }
 
@@ -390,69 +429,80 @@ function switchActive(id) {
     var mapElement = document.getElementById("map");
     var map = new google.maps.Map(mapElement, mapOptions);
 
-    // Check Filter
-    filtered_urls = [];
-    for (i = 0; i < filtered_list.length; i++) {
-      if (filtered_list[i] == "dropdown-park") {
-        filtered_urls.push("https://i.imgur.com/Sq7ZWl4.png")
-      } else if (filtered_list[i] == "dropdown-pool") {
-        filtered_urls.push("https://i.imgur.com/hWD3v5O.png")
-      } else if (filtered_list[i] == "dropdown-playground") {
-        filtered_urls.push("https://i.imgur.com/umsvfED.png")
-      } else if (filtered_list[i] == "dropdown-splash") {
-        filtered_urls.push("https://i.imgur.com/tO61iV6.png")
-      } else if (filtered_list[i] == "dropdown-trail") {
-        filtered_urls.push("https://i.imgur.com/K7MTLyv.png")
-      } else if (filtered_list[i] == "dropdown-field") {
-        filtered_urls.push("https://i.imgur.com/YmGq2KL.png")
-      } else if (filtered_list[i] == "dropdown-museum") {
-        filtered_urls.push("https://i.imgur.com/Q657jYI.png")
-      } else if (filtered_list[i] == "dropdown-rec") {
-        filtered_urls.push("https://i.imgur.com/SMUpvya.png")
-      } else if (filtered_list[i] == "dropdown-art") {
-        filtered_urls.push("https://i.imgur.com/aTuN9dl.png")
-      };
-    };
+    if (first_run == true) {
+      for (i = 0; i < locations.length; i++) {
+        var icon = {
+          url: locations[i].marker, // url
+          scaledSize: new google.maps.Size(icon_scale, icon_scale)
+        }; // scaled size
+        marker = new google.maps.Marker({
+          icon: icon,
+          // ^^ Icon scaling
+          position: new google.maps.LatLng(locations[i].lat, locations[i].lng),
+          map: map,
+          title: locations[i].title,
+          address: locations[i].address,
+          desc: locations[i].desc,
+          tel: locations[i].tel,
+          int_tel: locations[i].int_tel,
+          vicinity: locations[i].vicinity,
+          open: locations[i].open,
+          open_hours: locations[i].open_hours,
+          photo: locations[i].photo,
+          time: locations[i].time,
+          email: locations[i].email,
+          web: locations[i].web,
+          iw: locations[i].iw
+        });
 
+        markersArray.push(marker);
+
+        if (locations[i].iw.enable === true) {
+          bindInfoWindow(marker, map, locations[i]);
+        }
+      }
+    }
+
+    // Check Filter
     for (i = 0; i < locations.length; i++) {
-      var skip = false;
+      var displayed = false;
       for (n = 0; n < filtered_urls.length; n++) {
         if (locations[i].marker == filtered_urls[n]) {
-          var skip = true;
+          var displayed = true;
         }
       };
 
-      if (skip == false) {
+      if (displayed == true) {
       // vv Icon scaling
-      var icon = {
-        url: locations[i].marker, // url
-        scaledSize: new google.maps.Size(icon_scale, icon_scale)
-      }; // scaled size
-      marker = new google.maps.Marker({
-        icon: icon,
-        // ^^ Icon scaling
-        position: new google.maps.LatLng(locations[i].lat, locations[i].lng),
-        map: map,
-        title: locations[i].title,
-        address: locations[i].address,
-        desc: locations[i].desc,
-        tel: locations[i].tel,
-        int_tel: locations[i].int_tel,
-        vicinity: locations[i].vicinity,
-        open: locations[i].open,
-        open_hours: locations[i].open_hours,
-        photo: locations[i].photo,
-        time: locations[i].time,
-        email: locations[i].email,
-        web: locations[i].web,
-        iw: locations[i].iw
-      });
+        var icon = {
+          url: locations[i].marker, // url
+          scaledSize: new google.maps.Size(icon_scale, icon_scale)
+        }; // scaled size
+        marker = new google.maps.Marker({
+          icon: icon,
+          // ^^ Icon scaling
+          position: new google.maps.LatLng(locations[i].lat, locations[i].lng),
+          map: map,
+          title: locations[i].title,
+          address: locations[i].address,
+          desc: locations[i].desc,
+          tel: locations[i].tel,
+          int_tel: locations[i].int_tel,
+          vicinity: locations[i].vicinity,
+          open: locations[i].open,
+          open_hours: locations[i].open_hours,
+          photo: locations[i].photo,
+          time: locations[i].time,
+          email: locations[i].email,
+          web: locations[i].web,
+          iw: locations[i].iw
+        });
 
-      markersArray.push(marker);
+        markersArray.push(marker);
 
-      if (locations[i].iw.enable === true) {
-        bindInfoWindow(marker, map, locations[i]);
-      }
+        if (locations[i].iw.enable === true) {
+          bindInfoWindow(marker, map, locations[i]);
+        }
 
       };
     };
@@ -479,71 +529,82 @@ function switchActive(id) {
     var mapElement = document.getElementById("map");
     var map = new google.maps.Map(mapElement, mapOptions);
 
+    if (first_run == true) {
+      for (i = 0; i < locations.length; i++) {
+        var icon = {
+          url: locations[i].marker, // url
+          scaledSize: new google.maps.Size(icon_scale, icon_scale)
+        }; // scaled size
+        marker = new google.maps.Marker({
+          icon: icon,
+          // ^^ Icon scaling
+          position: new google.maps.LatLng(locations[i].lat, locations[i].lng),
+          map: map,
+          title: locations[i].title,
+          address: locations[i].address,
+          desc: locations[i].desc,
+          tel: locations[i].tel,
+          int_tel: locations[i].int_tel,
+          vicinity: locations[i].vicinity,
+          open: locations[i].open,
+          open_hours: locations[i].open_hours,
+          photo: locations[i].photo,
+          time: locations[i].time,
+          email: locations[i].email,
+          web: locations[i].web,
+          iw: locations[i].iw
+        });
+
+        markersArray.push(marker);
+
+        if (locations[i].iw.enable === true) {
+          bindInfoWindow(marker, map, locations[i]);
+        }
+      }
+    }
+
     // Check Filter
-    filtered_urls = [];
-    for (i = 0; i < filtered_list.length; i++) {
-      if (filtered_list[i] == "dropdown-park") {
-        filtered_urls.push("https://i.imgur.com/Sq7ZWl4.png")
-      } else if (filtered_list[i] == "dropdown-pool") {
-        filtered_urls.push("https://i.imgur.com/hWD3v5O.png")
-      } else if (filtered_list[i] == "dropdown-playground") {
-        filtered_urls.push("https://i.imgur.com/umsvfED.png")
-      } else if (filtered_list[i] == "dropdown-splash") {
-        filtered_urls.push("https://i.imgur.com/tO61iV6.png")
-      } else if (filtered_list[i] == "dropdown-trail") {
-        filtered_urls.push("https://i.imgur.com/K7MTLyv.png")
-      } else if (filtered_list[i] == "dropdown-field") {
-        filtered_urls.push("https://i.imgur.com/YmGq2KL.png")
-      } else if (filtered_list[i] == "dropdown-museum") {
-        filtered_urls.push("https://i.imgur.com/Q657jYI.png")
-      } else if (filtered_list[i] == "dropdown-rec") {
-        filtered_urls.push("https://i.imgur.com/SMUpvya.png")
-      } else if (filtered_list[i] == "dropdown-art") {
-        filtered_urls.push("https://i.imgur.com/aTuN9dl.png")
-      };
-    };
-
     for (i = 0; i < locations.length; i++) {
-
-      var skip = false;
+      var displayed = false;
       for (n = 0; n < filtered_urls.length; n++) {
         if (locations[i].marker == filtered_urls[n]) {
-          var skip = true;
+          var displayed = true;
         }
       };
 
-      if (skip == false) {
+      if (displayed == true) {
       // vv Icon scaling
-      var icon = {
-        url: locations[i].marker, // url
-        scaledSize: new google.maps.Size(icon_scale, icon_scale)
-      }; // scaled size
-      marker = new google.maps.Marker({
-        icon: icon,
-        // ^^ Icon scaling
-        position: new google.maps.LatLng(locations[i].lat, locations[i].lng),
-        map: map,
-        title: locations[i].title,
-        address: locations[i].address,
-        desc: locations[i].desc,
-        tel: locations[i].tel,
-        int_tel: locations[i].int_tel,
-        vicinity: locations[i].vicinity,
-        open: locations[i].open,
-        open_hours: locations[i].open_hours,
-        photo: locations[i].photo,
-        time: locations[i].time,
-        email: locations[i].email,
-        web: locations[i].web,
-        iw: locations[i].iw
-      });
-      markersArray.push(marker);
+        var icon = {
+          url: locations[i].marker, // url
+          scaledSize: new google.maps.Size(icon_scale, icon_scale)
+        }; // scaled size
+        marker = new google.maps.Marker({
+          icon: icon,
+          // ^^ Icon scaling
+          position: new google.maps.LatLng(locations[i].lat, locations[i].lng),
+          map: map,
+          title: locations[i].title,
+          address: locations[i].address,
+          desc: locations[i].desc,
+          tel: locations[i].tel,
+          int_tel: locations[i].int_tel,
+          vicinity: locations[i].vicinity,
+          open: locations[i].open,
+          open_hours: locations[i].open_hours,
+          photo: locations[i].photo,
+          time: locations[i].time,
+          email: locations[i].email,
+          web: locations[i].web,
+          iw: locations[i].iw
+        });
 
-      if (locations[i].iw.enable === true) {
-        bindInfoWindow(marker, map, locations[i]);
+        markersArray.push(marker);
+
+        if (locations[i].iw.enable === true) {
+          bindInfoWindow(marker, map, locations[i]);
+        }
+
       };
-
-      }
     };
     // GEOLOCATION START
     if (navigator.geolocation) {
