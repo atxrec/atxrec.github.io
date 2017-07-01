@@ -654,7 +654,7 @@ var locations = [
       { day: "Saturday", hours: "124pm" },
       { day: "Sunday", hours: "124pm" }
     ],
-    marker: "https://i.imgur.com/Q657jYI.png",
+    marker: "https://i.imgur.com/aTuN9dl.png",
     iw: {
       address: true,
       desc: true,
