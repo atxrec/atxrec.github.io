@@ -1,3 +1,15 @@
+// Park: https://i.imgur.com/Sq7ZWl4.png
+// Pool: https://i.imgur.com/hWD3v5O.png
+// Playground/Neighborhood Park: https://i.imgur.com/umsvfED.png
+// Splash: https://i.imgur.com/tO61iV6.png
+// Trail/Greenbelt: https://i.imgur.com/K7MTLyv.png
+// Field: https://i.imgur.com/YmGq2KL.png
+// Museum: https://i.imgur.com/Q657jYI.png
+// Rec Center: https://i.imgur.com/SMUpvya.png
+// Art: https://i.imgur.com/aTuN9dl.png
+
+// Empty: https://i.imgur.com/4JjAp9F.png
+
 var locations = [
   {
     title: "Austin Recreation Center",
