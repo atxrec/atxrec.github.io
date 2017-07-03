@@ -9,13 +9,3 @@
 // Art: https://i.imgur.com/aTuN9dl.png
 
 // Empty: https://i.imgur.com/4JjAp9F.png
-
-function saveMapCenter() {
-  var mapCenter = map.getCenter();
-  console.log("saved state center: " + mapCenter);
-}
-
-function saveMapZoom() {
-  var mapZoom = map.getZoom();
-  console.log("saved state zoom: " + mapZoom);
-}
