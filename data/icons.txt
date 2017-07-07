@@ -1,12 +1,12 @@
-// Park: https://i.imgur.com/Sq7ZWl4.png
-// Pool: https://i.imgur.com/hWD3v5O.png
-// Playground/Neighborhood Park: https://i.imgur.com/umsvfED.png
-// Splash: https://i.imgur.com/tO61iV6.png
-// Trail/Greenbelt: https://i.imgur.com/K7MTLyv.png
-// Field: https://i.imgur.com/YmGq2KL.png
+// Park: http://i.imgur.com/rlK9UJg.png
+// Pool: http://i.imgur.com/CbXYj63.png
+// Playground/Neighborhood Park: http://i.imgur.com/WWfcLcn.png
+// Splash: http://i.imgur.com/uB7Gv6f.png
+// Trail/Greenbelt: http://i.imgur.com/ofYXEpw.png
+// Field: http://i.imgur.com/4AriQLu.png
 // Museum: https://i.imgur.com/Q657jYI.png
-// Rec Center: https://i.imgur.com/SMUpvya.png
-// Art: https://i.imgur.com/aTuN9dl.png
+// Rec Center: http://i.imgur.com/wpgUl4h.png
+// Art: http://i.imgur.com/OWovbJ2.png
 
 // Empty: https://i.imgur.com/4JjAp9F.png
 
